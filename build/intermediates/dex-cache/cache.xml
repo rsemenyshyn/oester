@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="fc3d7b4fe465fdfe3775898efb16bd0bf636e742">
+        sha1="46211493a901b474a0825805d970b4ef52f446f3">
         <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4f25b126e3fcecad480d03f66d3eee7dcd35d2ae/classes.dex" />
     </item>
     <item
@@ -151,7 +151,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="2aeec375529a5fdadd0fe941000974e45e87b617">
+        sha1="3e6e06a69a6e9f69377c8c37f322464081ac9567">
         <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d95fce8bdd78bfc9506415e76299ca83585dadd/classes.dex" />
     </item>
 

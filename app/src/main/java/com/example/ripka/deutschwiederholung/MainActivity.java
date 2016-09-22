@@ -63,6 +63,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnNext = (Button)findViewById(R.id.app_btn_next);
         btnNext.setVisibility(View.INVISIBLE);
+
+        RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
+        radioGroup.clearCheck();
     }
     public void onCheckedChanged(View view) {
         TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
