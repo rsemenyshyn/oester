@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Deutsch Wiederholung</string>
+    <string name="app_descr"><b>Simple app for repetition of German A1 level!</b></string>
+    <string name="app_message">Result of test here</string>
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_next">Next</string>
+
+    <string name="ger_nominativ">Der/Die/Das</string>
+    <string name="ger_akusativ">Einen/Eine/Ein</string>
+    <string name="ger_dativ">Dem/Der/Dem/Den</string>
+    <string name="ger_none">Kein</string>
+    <string name="ger_word">SuperDifficultGermanWord</string>
+    <string name="ger_translate">Translate</string>
 </resources>

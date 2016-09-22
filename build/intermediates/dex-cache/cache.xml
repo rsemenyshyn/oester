@@ -30,15 +30,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_dc929248f4b855be9e2bf4530d7fb8f51868e4f9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -52,26 +43,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="73c21343c0742310d031fee71aaf032d0ead95b4">
+        sha1="88874e1fb14bb839175428f5a14d394cf21437fe">
         <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4f25b126e3fcecad480d03f66d3eee7dcd35d2ae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_3b5d79b1c3527cea982244cef032bf3d3769a94c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ripka/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_50b8a18b61c64b84268ca9e4f9e685a71aaefba2/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -81,24 +54,6 @@
         revision="24.0.2"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_93fa03287ca22caa9493149349618f073949a699/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_26896c1f1cbcf702580c0e0947f66321304a5c20/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_b4ed7b6447292f7ac998da419a5638d261bbbdb8/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -129,6 +84,60 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a6f8546ea2940685b32d9e4558c7a75fea4caad1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_dc929248f4b855be9e2bf4530d7fb8f51868e4f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_3b5d79b1c3527cea982244cef032bf3d3769a94c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ripka/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_50b8a18b61c64b84268ca9e4f9e685a71aaefba2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_26896c1f1cbcf702580c0e0947f66321304a5c20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_b4ed7b6447292f7ac998da419a5638d261bbbdb8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -142,17 +151,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="9ea24c6125b4ed876e33e8c756435f1e71be2fa8">
+        sha1="cbdd52d53724fa0e9c8b4a1a31d7d7ba2411d57b">
         <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d95fce8bdd78bfc9506415e76299ca83585dadd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a6f8546ea2940685b32d9e4558c7a75fea4caad1/classes.dex" />
     </item>
 
 </items>
