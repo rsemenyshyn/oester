@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">Deutsch Wiederholung</string>
-    <string name="app_descr"><b>Einfache App für die Wiederholung (A1 Wörter)</b></string>
+    <string name="app_descr"><b>Einfache App für die Wiederholung</b></string>
     <string name="app_message">Result of test here</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 
     <string name="btn_ok">OK</string>
     <string name="btn_next">Nächster</string>
