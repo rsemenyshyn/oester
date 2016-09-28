@@ -14,6 +14,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import android.view.Window;
+import android.view.WindowManager;
+import android.view.animation.AlphaAnimation;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
@@ -30,183 +33,41 @@ import ripka.deutschwiederholung.models.WordsParser;
 
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
-public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
-
-    protected WordsParser tests;
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-            Snackbar.make(view, "E-mail sending functionality here", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show();
-            }
-        });
+        //Remove title bar
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
+        //Remove notification bar
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+        //set content view AFTER ABOVE sequence (to avoid crash)
+        this.setContentView(R.layout.activity_start);
 
-        ViewFlipper vf = (ViewFlipper)findViewById(R.id.vf);
-        vf.setDisplayedChild(0);
+        setContentView(R.layout.activity_start);
     }
     @Override
     protected void onResume() {
         super.onResume();
-        tests = new WordsParser(this);
-        setNextTest();
+        AlphaAnimation fadeIn = new AlphaAnimation(0.0f , 1.0f ) ;
+        AlphaAnimation fadeOut = new AlphaAnimation(0.0f , 1.0f ) ;
+        TextView textView = (TextView) findViewById(R.id.loadText);
+        textView.startAnimation(fadeIn);
+        textView.startAnimation(fadeOut);
+        fadeIn.setDuration(2000);
+        fadeIn.setFillAfter(true);
+        fadeOut.setDuration(2000);
+        fadeOut.setFillAfter(true);
+        fadeOut.setStartOffset(1000+fadeIn.getStartOffset());
     }
 
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.nav_nouns_all) {
-            // Handle the camera action
-        } else if (id == R.id.nav_nouns_a1) {
-            Intent intent = new Intent(this, NounsActivity.class);
-            TextView textView = (TextView) findViewById(R.id.message);
-            String message = textView.getText().toString();
-            intent.putExtra(EXTRA_MESSAGE, message);
-            startActivity(intent);
-        } else if (id == R.id.nav_nouns_b1) {
-
-        } else if (id == R.id.nav_verbs_all) {
-
-        } else if (id == R.id.nav_verbs_a1) {
-
-        } else if (id == R.id.nav_verbs_b1) {
-
-        }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
-
-    /* -------------- CONTROLLS ------------*/
-    public void checkTest(View view) {
-        checkCurrTest();
-
-        Button btnCheck = (Button)findViewById(R.id.app_btn_go);
-        btnCheck.setVisibility(View.INVISIBLE);
-
-        Button btnNext = (Button)findViewById(R.id.app_btn_next);
-        btnNext.setVisibility(View.VISIBLE);
-
-        TextView txtMessage = (TextView) findViewById(R.id.message);
-        txtMessage.setVisibility(View.VISIBLE);
-    }
-    public void nextTest(View view) {
-        setNextTest();
-
-        TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
-        txtWordTranslation.setVisibility(View.INVISIBLE);
-
-        TextView txtMessage = (TextView) findViewById(R.id.message);
-        txtMessage.setVisibility(View.INVISIBLE);
-
-        Button btnCheck = (Button)findViewById(R.id.app_btn_go);
-        btnCheck.setVisibility(View.VISIBLE);
-
-        Button btnNext = (Button)findViewById(R.id.app_btn_next);
-        btnNext.setVisibility(View.INVISIBLE);
-
-        RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
-        radioGroup.clearCheck();
-    }
-    public void onCheckedChanged(View view) {
-        TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
-        if ( ((CheckBox)view).isChecked() ) {
-            txtWordTranslation.setVisibility(View.VISIBLE);
-        } else {
-            txtWordTranslation.setVisibility(View.INVISIBLE);
-        }
-    }
-
-    /* ------------------- LOGIC ----------------*/
-    protected void setNextTest(){
-        Test test = TestGen.generateNextTest( tests.getWords() );
-
-        RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
-        int count = radioGroup.getChildCount();
-        for (int i=0;i<count;i++) {
-            View o = radioGroup.getChildAt(i);
-            if (o instanceof RadioButton) {
-                RadioButton option = (RadioButton)o;
-                String strRadio = (i < test.getOptions().size() ) ? test.getOptions().get(i) : "";
-                option.setText( strRadio );
-                option.setTextColor( TestOptions.getOptionColor(strRadio) );
-            }
-        }
-
-        TextView txtWordCurrent = (TextView) findViewById(R.id.word_of_test);
-        TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
-
-        txtWordCurrent.setText( test.getWord() );
-        txtWordTranslation.setText( test.getTranslation() );
-    }
-    protected void checkCurrTest(){
-        RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
-        int radioButtonID = radioGroup.getCheckedRadioButtonId();
-        View radioButton = radioGroup.findViewById(radioButtonID);
-        int idx = radioGroup.indexOfChild(radioButton);
-
-        TestResult res = TestGen.checkTest(idx);
-        TextView txtMessage = (TextView) findViewById(R.id.message);
-        txtMessage.setText( res.message );
-
-        if (res.isPassed) {
-            txtMessage.setBackgroundColor( this.getResources().getColor(R.color.colorSuccess) );
-        } else {
-            txtMessage.setBackgroundColor( this.getResources().getColor(R.color.colorError) );
-        }
+    public void btnStart(View view) {
+        view.setEnabled(false);
+        Intent intent = new Intent(this, NounsActivity.class);
+        startActivity(intent);
     }
 }

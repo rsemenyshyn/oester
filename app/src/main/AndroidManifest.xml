@@ -28,8 +28,19 @@
             android:label="@string/title_activity_login" />
         <activity
             android:name=".NounsActivity"
+            android:label="@string/title_activity_nouns_all"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".NounsA1Activity"
             android:label="@string/title_activity_nouns_a1"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".NounsB1Activity"
+            android:label="@string/title_activity_nouns_b1"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".VerbsActivity"
+            android:label="@string/title_activity_verbs_all"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
-
 </manifest>

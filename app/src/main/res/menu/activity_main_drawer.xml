@@ -4,22 +4,26 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_nouns_all"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/ic_poll_black_24dp"
             android:title="Alle nomen" />
         <item
             android:id="@+id/nav_verbs_all"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/ic_poll_black_24dp"
             android:title="Alle verben" />
+        <item
+            android:id="@+id/nav_nouns_custom"
+            android:icon="@drawable/ic_star_border_black_24dp"
+            android:title="Zusätzlich" />
     </group>
     <item android:title="Stufe A1">
         <menu>
             <item
                 android:id="@+id/nav_nouns_a1"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_sentiment_neutral_black_24dp"
                 android:title="Nomen" />
             <item
                 android:id="@+id/nav_verbs_a1"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_sentiment_neutral_black_24dp"
                 android:title="Verben" />
         </menu>
     </item>
@@ -27,11 +31,11 @@
         <menu>
             <item
                 android:id="@+id/nav_nouns_b1"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_mood_black_24dp"
                 android:title="Nomen" />
             <item
                 android:id="@+id/nav_verbs_b1"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_mood_black_24dp"
                 android:title="Verben" />
         </menu>
     </item>

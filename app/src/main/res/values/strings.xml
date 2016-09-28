@@ -7,7 +7,13 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_nouns_all">Nomen</string>
+    <string name="title_activity_nouns_a1">Nomen A1</string>
+    <string name="title_activity_nouns_b1">Nomen B1</string>
+    <string name="title_activity_verbs_all">Verben</string>
 
+    <!-- Strings related to nouns content -->
     <string name="btn_ok">OK</string>
     <string name="btn_next">Nächster</string>
 
@@ -17,7 +23,6 @@
     <string name="ger_none">Kein</string>
     <string name="ger_word">SuperDifficultGermanWord</string>
     <string name="ger_translate">Übersetzen</string>
-    <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -29,5 +34,4 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
-    <string name="title_activity_nouns_a1">NounsA1Activity</string>
 </resources>

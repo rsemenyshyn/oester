@@ -4,10 +4,11 @@
     <color name="colorPrimaryDark">#78909c</color>
     <color name="colorAccent">#607d8b</color>
     <color name="colorWhite">#FFFFFF</color>
-    <color name="colorError">#cd2026</color>
-    <color name="colorSuccess">#18a948</color>
+    <color name="colorError">#f2dede</color>
+    <color name="colorSuccess">#dff0d8</color>
     <color name="colorFemale">#e0494d</color>
     <color name="colorMale">#1770cc</color>
     <color name="colorNeutral">#18a948</color>
     <color name="colorPlural">#e3c539</color>
+    <color name="colorMessageText">#333333</color>
 </resources>
