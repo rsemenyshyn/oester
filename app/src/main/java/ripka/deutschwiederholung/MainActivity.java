@@ -1,6 +1,6 @@
 package ripka.deutschwiederholung;
 
-import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -19,6 +19,7 @@ import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.ViewFlipper;
 
 
 import ripka.deutschwiederholung.models.Test;
@@ -27,10 +28,11 @@ import ripka.deutschwiederholung.models.TestOptions;
 import ripka.deutschwiederholung.models.TestResult;
 import ripka.deutschwiederholung.models.WordsParser;
 
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    static private Context context;
     protected WordsParser tests;
 
     @Override
@@ -58,9 +60,13 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        context = this;
-        tests = new WordsParser();
-
+        ViewFlipper vf = (ViewFlipper)findViewById(R.id.vf);
+        vf.setDisplayedChild(0);
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        tests = new WordsParser(this);
         setNextTest();
     }
 
@@ -102,28 +108,27 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_nouns_all) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_nouns_a1) {
+            Intent intent = new Intent(this, NounsActivity.class);
+            TextView textView = (TextView) findViewById(R.id.message);
+            String message = textView.getText().toString();
+            intent.putExtra(EXTRA_MESSAGE, message);
+            startActivity(intent);
+        } else if (id == R.id.nav_nouns_b1) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_verbs_all) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_verbs_a1) {
 
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_verbs_b1) {
 
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-
-
-    static public Context getMainActivityContext() {
-        return context;
     }
 
     /* -------------- CONTROLLS ------------*/

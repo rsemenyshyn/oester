@@ -10,6 +10,7 @@ import java.util.Map;
 
 import ripka.deutschwiederholung.MainActivity;
 import ripka.deutschwiederholung.R;
+import ripka.deutschwiederholung.RipkaApp;
 
 /**
  * Created by ripka on 9/25/16.
@@ -26,7 +27,7 @@ public class TestOptions {
 
     static private Map<String, Integer> Colors;
     static {
-        Resources res = MainActivity.getMainActivityContext().getResources();
+        Resources res = RipkaApp.getAppContext().getResources();
         Colors = new HashMap<String, Integer>();
         Colors.put("der", res.getColor(R.color.colorMale));
         Colors.put("die", res.getColor(R.color.colorFemale));

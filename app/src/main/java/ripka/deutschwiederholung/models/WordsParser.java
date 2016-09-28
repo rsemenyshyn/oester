@@ -23,8 +23,7 @@ import java.util.List;
 public class WordsParser {
     protected List<List<String>> words;
 
-    public WordsParser () {
-        Context context = MainActivity.getMainActivityContext();
+    public WordsParser (Context context) {
         words = LoadWords(context);
     }
 
