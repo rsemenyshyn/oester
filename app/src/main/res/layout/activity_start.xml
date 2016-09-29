@@ -13,8 +13,9 @@
 
     <TextView
         android:id="@+id/loadText"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="match_parent"
+        android:layout_weight=".70"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
         android:textSize="35dp"

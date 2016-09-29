@@ -38,8 +38,8 @@ public class VerbsActivity extends NavActivity {
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
+    protected void onStart() {
+        super.onStart();
 
         List<Integer> filesToParse = new ArrayList<>(
                 Arrays.asList(R.raw.nouns_a1)

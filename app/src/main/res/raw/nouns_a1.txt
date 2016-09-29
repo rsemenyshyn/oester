@@ -2,17 +2,17 @@ die	(Ehe)Frau	Man
 die(pl)	(Ehe)Frauen	Man (pl)
 der	(Ehe)Mann	Woman
 die(pl)	(Ehe)Männer	Woman (pl)
-der 	Abend	Evening
+der	Abend	Evening
 die(pl)	Abende	Evening (pl)
 der	Abfall	Waste
 die(pl)	Abfälle	Waste (pl)
-die 	Adresse	Adress
+die	Adresse	Adress
 die(pl)	Adressen	Adress (pl)
-das 	Alter	Age
+das	Alter	Age
 die(pl)	Alter	Age (pl)
 die	Altstadt	Old city
 die(pl)	Altstädte	Old city (pl)
-die 	Ampel	Traffic light
+die	Ampel	Traffic light
 die(pl)	Ampeln	Traffic light (pl)
 die	Angst	Scare
 die(pl)	Ängste	Scare (pl)
@@ -24,15 +24,15 @@ die	Antwort	Answer
 die(pl)	Antworten	Answer (pl)
 die	Anzeige	Advert
 die(pl)	Anzeigen	Advert (pl)
-der 	Apfel	Apple
+der	Apfel	Apple
 die(pl)	Äpfel	Apple (pl)
 die	Apotheke	Pharmacy
 die(pl)	Apotheken	Pharmacy (pl)
-die 	Arbeit	Job
+die	Arbeit	Job
 die(pl)	Arbeiten	Job (pl)
-der 	Arbeitgeber	Employer
+der	Arbeitgeber	Employer
 die(pl)	Arbeitgeber	Employer (pl)
-der 	Arbeitsplatz	Workplace
+der	Arbeitsplatz	Workplace
 die(pl)	Arbeitsplätzer	Workplace (pl)
 das	Arbeitszimmer	Workroom
 die(pl)	Arbeitszimmer	Workroom (pl)
@@ -46,18 +46,18 @@ der	Aufzug	Elevator
 die(pl)	Aufzüge	Elevator (pl)
 das	Auge	Eye
 die(pl)	Augen	Eye (pl)
-die 	Ausbildung	Intership(training)
+die	Ausbildung	Intership(training)
 die(pl)	Ausbildungen	Intership(training) (pl)
-der 	Ausflug	Excursion
+der	Ausflug	Excursion
 die(pl)	Ausflüge	Excursion (pl)
 das	Ausland	Foreign countries
 der	Ausländer	Foreigner
 die(pl)	Ausländer	Foreigner (pl)
-die 	Ausstellung	Exhibition
+die	Ausstellung	Exhibition
 die(pl)	Ausstellungen	Exhibition (pl)
-das 	Auto	Auto
+das	Auto	Auto
 die(pl)	Autos	Auto (pl)
-das 	Baby	Baby
+das	Baby	Baby
 die(pl)	Babys	Baby (pl)
 die	Bäckerei	bakery
 die(pl)	Bäckereien	bakery (pl)
@@ -65,15 +65,15 @@ das	Bad	bathroom
 der	Bademantel	bathrobe
 die(pl)	Bademäntel	bathrobe (pl)
 die(pl)	Bäder	bathroom (pl)
-der 	Bahnhof	railway station
+der	Bahnhof	railway station
 die(pl)	Bahnhöfe	railway station (pl)
-der 	Bahnsteig	platform
+der	Bahnsteig	platform
 die(pl)	Bahnsteige	platform (pl)
 der	Balkon	balcony
 die(pl)	Balkone	balcony (pl)
-die 	Bank	bank
+die	Bank	bank
 die(pl)	Banken	bank (pl)
-die 	Bar	bar
+die	Bar	bar
 die(pl)	Bars	bar (pl)
 der	Bart	beard
 die(pl)	Bärte	beard (pl)
@@ -89,19 +89,19 @@ der	Bekannte	known
 die(pl)	Bekannten	known (pl)
 der	Berg	mountain
 die(pl)	Berge	mountain (pl)
-der 	Beruf	profession
+der	Beruf	profession
 die(pl)	Berufe	profession (pl)
-das 	Bett	bed
+das	Bett	bed
 die(pl)	Betten	bed (pl)
 die	Bibliothek	library
 die(pl)	Bibliotheken	library (pl)
-das 	Bier	beer
+das	Bier	beer
 die(pl)	Biere	beer (pl)
-das 	Bild	image
+das	Bild	image
 die(pl)	Bilder	image (pl)
-der 	Bildschirm	screen
+der	Bildschirm	screen
 die(pl)	Bildschirme	screen (pl)
-der 	Bleistift	pencil
+der	Bleistift	pencil
 die(pl)	Bleistifte	pencil (pl)
 der	Blick	view
 die(pl)	Blicke	view (pl)
@@ -111,44 +111,44 @@ die	Bluse	blouse
 die(pl)	Blusen	blouse (pl)
 der	Boden	ground
 die(pl)	Böden	ground (pl)
-der 	Braten	fry
+der	Braten	fry
 die(pl)	Braten	fry (pl)
 der	Brief	letter
 die(pl)	Briefe	letter (pl)
-die 	Briefmarke	postal mark
+die	Briefmarke	postal mark
 die(pl)	Briefmarken	postal mark (pl)
-die 	Brille	glasses
+die	Brille	glasses
 die(pl)	Brillen	glasses (pl)
-das 	Brot	bread
-das 	Brötchen	bun
+das	Brot	bread
+das	Brötchen	bun
 die(pl)	Brötchen	bun (pl)
 die(pl)	Brote	bread (pl)
-die 	Brücke	bridge
+die	Brücke	bridge
 die(pl)	Brücken	bridge (pl)
 der	Bruder	brother
 die(pl)	Brüder	brother (pl)
 die	Brust	chest
 die(pl)	Brüste	chest (pl)
-das 	Buch	book
+das	Buch	book
 die(pl)	Bücher	book (pl)
-das 	Büro	office
+das	Büro	office
 die(pl)	Büros	office (pl)
-der 	Bus	bus
-die(pl)	Busse	bus (pl)
-die 	Butter	butter
-das 	Cafe´	coffee shop
-die(pl)	Cafes	coffee shop (pl)
+der	Bus	bus
+die(pl)	Busse	bus(pl)
+die	Butter	butter
+das	Cafe´	coffee shop
+die(pl)	Cafes	coffee shop(pl)
 die	Chance	chance
 die(pl)	Chancen	chance (pl)
-der 	Chef	boss
+der	Chef	boss
 die(pl)	Chefs	boss (pl)
-der 	Computer	computer
+der	Computer	computer
 die(pl)	Computer	computer (pl)
-die 	Couch	coutch
+die	Couch	coutch
 die(pl)	Couchen	coutch (pl)
 das	Dach	roof
 die(pl)	Dächer	roof (pl)
-die 	Disko	disco
+die	Disko	disco
 die(pl)	Diskos	disco (pl)
 der	Doktor	doctor
 die(pl)	Doktoren	doctor (pl)
@@ -156,38 +156,38 @@ der	Dom	cathedral
 die(pl)	Dome	cathedral (pl)
 der	Drucker	printer
 die(pl)	Drucker	printer (pl)
-der 	Durst	thirst
+der	Durst	thirst
 die	Dusche	shower
 die(pl)	Duschen	shower (pl)
-die 	E-Mail	e-mail
+die	E-Mail	e-mail
 die(pl)	E-Mails	e-mail (pl)
-das 	Ei	egg
+das	Ei	egg
 die(pl)	Eier	egg (pl)
-die 	Einladung	invitation
+die	Einladung	invitation
 die(pl)	Einladungen	invitation (pl)
-das 	Eis	ice cream
+das	Eis	ice cream
 die(pl)	Eltern	parents
-der 	Enkel	grandson
-die 	Enkelin	granddaughter
+der	Enkel	grandson
+die	Enkelin	granddaughter
 die(pl)	Enkelin	grandson (pl)
 die(pl)	Enkelinnen	granddaughter (pl)
-die 	Entschuldigung	sorry
+die	Entschuldigung	sorry
 die(pl)	Entschuldigungen	sorry (pl)
 das	Erdgeschoss	ground floor
 die(pl)	Erdgeschosse	ground floor (pl)
-das 	Essen	eat
+das	Essen	eat
 die(pl)	Essen	eat (pl)
 die	Fabrik	factory
 die(pl)	Fabriken	factory (pl)
 der	Fahrer	driver
 die(pl)	Fahrer	driver (pl)
-das 	Fahrrad	bicycle
+das	Fahrrad	bicycle
 die(pl)	Fahrräder	bicycle (pl)
 die	Familie	family
 die(pl)	Familien	family (pl)
-der 	Familienstand	marital status
+der	Familienstand	marital status
 die(pl)	Familienstand	marital status (pl)
-das 	Fax	fax
+das	Fax	fax
 die(pl)	Faxe	fax (pl)
 die	Feier	celebration
 die(pl)	Feiern	celebration (pl)
@@ -195,25 +195,25 @@ das	Fenster	window
 die(pl)	Fenster	window (pl)
 der	Fernseher	TV
 die(pl)	Fernseher	TV (pl)
-das 	Fest	holyday
+das	Fest	holyday
 die(pl)	Feste	holyday (pl)
 das	Feuerzeug	lighter
 die(pl)	Feuerzeuge	lighter (pl)
 das	Fieber	fever
-der 	Film	film
+der	Film	film
 die(pl)	Filme	film (pl)
 der	Finger	finger
 die(pl)	Finger	finger (pl)
-die 	Firma	company
+die	Firma	company
 die(pl)	Firmen	company (pl)
-der 	Fisch	fish
+der	Fisch	fish
 die(pl)	Fische	fish (pl)
-die 	Flasche	bottle
+die	Flasche	bottle
 die(pl)	Flaschen	bottle (pl)
-das 	Fleisch	meat
-der 	Flughafen	airport
+das	Fleisch	meat
+der	Flughafen	airport
 die(pl)	Flughäfen	airport (pl)
-das 	Flugzeug	airplane
+das	Flugzeug	airplane
 die(pl)	Flugzeuge	airplane (pl)
 der	Flur	corridor
 die(pl)	Flure	corridor (pl)
@@ -221,17 +221,17 @@ der	Fluss	river
 die(pl)	Flüsse	river (pl)
 der	Föhn	hairdryer
 die(pl)	Föhn(e/s)	hairdryer (pl)
-die 	Form	form
+die	Form	form
 die(pl)	Formen	form (pl)
-das 	Formular	form
+das	Formular	form
 die(pl)	Formulare	form (pl)
-das 	Foto	photo
-der 	Fotoapparat	camera
+das	Foto	photo
+der	Fotoapparat	camera
 die(pl)	Fotoapparate	camera (pl)
 die(pl)	Fotos	photo (pl)
 die	Frage	question
 die(pl)	Fragen	question (pl)
-die 	Freizeit	leisure
+die	Freizeit	leisure
 die(pl)	Freizeit	leisure (pl)
 die	Fremdsprache	foreign language
 die(pl)	Fremdsprachen	foreign language (pl)
@@ -239,9 +239,9 @@ die	Friseurin	hairdresser
 die(pl)	Friseurinnen	hairdresser (pl)
 das	Frühjahr	spring/last year
 die(pl)	Frühjahre	spring/last year (pl)
-der 	Frühling	spring
+der	Frühling	spring
 die(pl)	Frühlinge	spring (pl)
-das 	Frühstück	breakfast
+das	Frühstück	breakfast
 die(pl)	Frühstücke	breakfast (pl)
 der	Führerschein	driving license
 die(pl)	Führerscheine	driving license (pl)
@@ -254,18 +254,18 @@ die(pl)	Gärten	garden (pl)
 der	Gast	quest
 die(pl)	Gäste	quest (pl)
 die(pl)	Geburtsdaten	birth date (pl)
-das 	Geburtsdatum	birth date
+das	Geburtsdatum	birth date
 das	Geld	money
 die	Geldbörse	Purse
 die(pl)	Geldbörsen	Purse (pl)
-das 	Gepäck	Luggage
+das	Gepäck	Luggage
 das	Geschäft	business
 die(pl)	Geschäfte	business (pl)
-das 	Geschenk	gift
+das	Geschenk	gift
 die(pl)	Geschenke	gift (pl)
 das	Geschirr	dishes
 die	Geschwister	brothers and sisters
-das 	Gespräch	conversation
+das	Gespräch	conversation
 die(pl)	Gespräche	conversation (pl)
 das	Getränk	drink
 die(pl)	Getränke	drink (pl)
@@ -273,7 +273,7 @@ das	Gewitter	thunderstorm
 die(pl)	Gewitter	thunderstorm (pl)
 das	Glas	Glass
 die(pl)	Gläser	Glass (pl)
-das 	Gleis	rail
+das	Gleis	rail
 die(pl)	Gleise	rail (pl)
 das	Glück	happiness
 der	Glückwunsch	congratulation
@@ -287,7 +287,7 @@ die	Großmutter/Oma	Grandmother / grandma
 die(pl)	Großmütter/Omas	Grandmother / grandma (pl)
 der	Großvater/Opa	Grandfather/grandfa
 die(pl)	Großväter/Opas	Grandfather/grandfa (pl)
-der 	Gruß	greeting
+der	Gruß	greeting
 die(pl)	Grüße	greeting (pl)
 der	Gürtel	belt
 die(pl)	Gürtel	belt (pl)
@@ -297,16 +297,16 @@ der	Hafen	port
 die(pl)	Häfen	port (pl)
 der	Hals	neck
 die(pl)	Halse	neck (pl)
-der 	Halt	Stop
+der	Halt	Stop
 die(pl)	Halt(e/s)	Stop (pl)
-die 	Haltestelle	stop for transport
+die	Haltestelle	stop for transport
 die(pl)	Haltestellen	stop for transport (pl)
 das	Handtuch	towel
 die(pl)	Handtücher/Handtüche	towel (pl)
-das 	Handy	mobile phone
+das	Handy	mobile phone
 die(pl)	Handys	mobile phone (pl)
 das	Haus	House
-die 	Hausaufgabe	homework
+die	Hausaufgabe	homework
 die(pl)	Hausaufgaben	homework (pl)
 die(pl)	Häuser	House (pl)
 die	Hausfrau	housewife
@@ -316,22 +316,22 @@ die	Heizung	heating
 die(pl)	Heizungen	heating (pl)
 das	Hemd	shirt
 die(pl)	Hemden	shirt (pl)
-der 	Herbst	autumn
+der	Herbst	autumn
 die(pl)	Herbste	autumn (pl)
 die	Himmelsrichtung	direction
 die(pl)	Himmelsrichtungen	direction (pl)
-das 	Hobby	Hobby
+das	Hobby	Hobby
 die(pl)	Hobbys	Hobby (pl)
-die 	Hochzeit	wedding
+die	Hochzeit	wedding
 die(pl)	Hochzeiten	wedding (pl)
-das 	Holz	Wood
+das	Holz	Wood
 die	Hose	trousers
 die(pl)	Hosen	trousers (pl)
 das	Hotel	hotel
 die(pl)	Hotels	hotel (pl)
 der	Hund	dog
 die(pl)	Hunde	dog (pl)
-der 	Hunger	hunger
+der	Hunger	hunger
 der	Husten	cough
 der	Hut	cap
 die(pl)	Hüte	cap (pl)
@@ -340,41 +340,41 @@ die(pl)	Informationen	information (pl)
 der	Ingenieur	engineer
 das	Instrument	instrument
 die(pl)	Instrumente	instrument (pl)
-das 	Internet	Internet
+das	Internet	Internet
 die(pl)	Internet	Internet (pl)
 die	Internetverbindung	Internet connection
 die	Jacke	jacket
 die(pl)	Jacken	jacket (pl)
-das 	Jahr	year
+das	Jahr	year
 die(pl)	Jahre	year (pl)
-der 	Januar	January
+der	Januar	January
 die(pl)	Januare	January (pl)
 die	Journalistin	journalist
 die(pl)	Journalistinnen	journalist (pl)
 die	Jugendherberge	youth hostel
 die(pl)	Jugendherbergen	youth hostel (pl)
 die(pl)	Jugendherbergen	coffee (pl)
-der 	Kaffee	coffee
+der	Kaffee	coffee
 die(pl)	Kaffee	calendar (pl)
-der 	Kalender	calendar
+der	Kalender	calendar
 die(pl)	Kalender	carnival (pl)
-der 	Karneval	carnival
-die 	Kartoffel	potato
+der	Karneval	carnival
+die	Kartoffel	potato
 die(pl)	Kartoffeln	cheese (pl)
-der 	Käse	cheese
+der	Käse	cheese
 der	Keller	cellar
 die	Kellnerin	Waitress
 die	Kette	Chain
 die(pl)	Ketten	Chain (pl)
 der	Kilometer	kilometer
 die(pl)	Kilometer	kilometer (pl)
-das 	Kind	child
+das	Kind	child
 die(pl)	Kinder	child (pl)
 der	Kindergarten	kindergarten
 die(pl)	Kindergärten	kindergarten (pl)
 das	Kinderzimmer	nursery
 die(pl)	Kinderzimmer	nursery (pl)
-das 	Kino	cinema
+das	Kino	cinema
 die(pl)	Kinos	cinema (pl)
 die	Kirche	church
 die(pl)	Kirchen	church (pl)
@@ -383,15 +383,15 @@ die(pl)	Kleider	dress (pl)
 die	Kleidung	clothing
 die	Klimaanlage	air conditioner
 die(pl)	Klimaanlagen	air conditioner (pl)
-die 	Kneipe	pub
+die	Kneipe	pub
 die(pl)	Kneipen	pub (pl)
 das	Knie	knee
 die(pl)	Knie	knee (pl)
-der 	Koffer	suitcase
+der	Koffer	suitcase
 die(pl)	Koffer	suitcase (pl)
-der 	Kollege	colleague
+der	Kollege	colleague
 die(pl)	Kollegen	colleague (pl)
-das 	Konzert	concert
+das	Konzert	concert
 die(pl)	Konzerte	concert (pl)
 der	Kopf	head
 die(pl)	Köpfe	head (pl)
@@ -400,21 +400,21 @@ die(pl)	Krankenhäuser	hospital (pl)
 die	Kreditkarte	Credit card
 die(pl)	Kreditkarten	Credit card (pl)
 die	Küche	kitchen
-der 	Kuchen	cake
+der	Kuchen	cake
 die(pl)	Kuchen	cake (pl)
 die(pl)	Küchen	kitchen (pl)
-der 	Kugelschreiber	pen
+der	Kugelschreiber	pen
 die(pl)	Kugelschreiber	pen (pl)
-der 	Kühlschrank	fridge
+der	Kühlschrank	fridge
 die(pl)	Kühlschränke	fridge (pl)
-der 	Kunststoff	plastic
+der	Kunststoff	plastic
 der	Kurs	course
 die(pl)	Kurse	course (pl)
 der	Laden	load
 die(pl)	Läden	load (pl)
-die 	Lampe	lamp
+die	Lampe	lamp
 die(pl)	Lampen	lamp (pl)
-der 	Laptop	Laptop
+der	Laptop	Laptop
 die(pl)	Laptops	Laptop (pl)
 die	Laune	mood
 die(pl)	Launen	mood (pl)
@@ -430,9 +430,9 @@ der	Mantel	coat
 die(pl)	Mäntel	coat (pl)
 der	Markt	market
 die(pl)	Märkte	market (pl)
-das 	Material	material
+das	Material	material
 die(pl)	Materialien	material (pl)
-die 	Maus	mouse
+die	Maus	mouse
 die(pl)	Mäuse	mouse (pl)
 der	Mechatroniker	mechatronics
 die(pl)	Mechatroniker	mechatronics (pl)
@@ -441,31 +441,31 @@ die(pl)	Medikamente	drug (pl)
 die	Medizin	medicine
 das	Meer	sea
 die(pl)	Meere	sea (pl)
-die 	Menge	amount
+die	Menge	amount
 die(pl)	Mengen	amount (pl)
 der	Mensch	human
 die(pl)	Menschen	human (pl)
-das 	Metall	metal
+das	Metall	metal
 der	Meter	meter
 die(pl)	Meter	meter (pl)
 die	Miete	rental fee
 die(pl)	Mieten	rental fee (pl)
-die 	Milch	milk
-die 	Minute	minute
+die	Milch	milk
+die	Minute	minute
 die(pl)	Minuten	minute (pl)
-der 	Mittag	noon
+der	Mittag	noon
 die(pl)	Mittage	noon (pl)
 die	Mitte	center
 die(pl)	Mitten	center (pl)
-die 	Möbel	furniture
+die	Möbel	furniture
 die(pl)	Möbel	furniture (pl)
 der	Moment	moment
 die(pl)	Momente	moment (pl)
-der 	Monat	month
+der	Monat	month
 die(pl)	Monate	month (pl)
-der 	Montag	Monday
+der	Montag	Monday
 die(pl)	Montage	Monday (pl)
-der 	Morgen	tomorrow
+der	Morgen	tomorrow
 die(pl)	Morgen	tomorrow (pl)
 das	Motorrad	motorcycle
 die(pl)	Motorräder	motorcycle (pl)
@@ -473,49 +473,49 @@ der	Müll	trash
 der	Mund	mouth
 die(pl)	Münder	mouth (pl)
 die(pl)	Museen	museum (pl)
-das 	Museum	museum
+das	Museum	museum
 die	Mutter	mother
 die(pl)	Mütter	mother (pl)
 die	Mütze	Cap
 die(pl)	Mützen	Cap (pl)
 der	Nachbar	Neighboring
 die(pl)	Nachbarn	Neighboring (pl)
-der 	Nachmittag	Afternoon
+der	Nachmittag	Afternoon
 die(pl)	Nachmittage	Afternoon (pl)
-die 	Nacht	night
+die	Nacht	night
 die(pl)	Nächte	night (pl)
 die	Nähe	neighborhood
 die	Nase	nose
 die(pl)	Nasen	nose (pl)
-die 	Natur	nature
+die	Natur	nature
 der	Nebel	fog
-das 	Neujahr	New Year
+das	Neujahr	New Year
 die(pl)	Neujahre	New Year (pl)
 der	Norden	north
-das 	Notizbuch	Notebook
+das	Notizbuch	Notebook
 die(pl)	Notizbücher	Notebook (pl)
-die 	Nummer	number
+die	Nummer	number
 die(pl)	Nummern	number (pl)
-das 	Obst	fruit
+das	Obst	fruit
 das	Ohr	ear
 die(pl)	Ohren	ear (pl)
-die 	Orange	orange
+die	Orange	orange
 die(pl)	Orangen	orange (pl)
 die	Ordnung	order
-der 	Ort	place
+der	Ort	place
 die(pl)	Orte	place (pl)
 der	Osten	east
 das	Ostern	Easter
-das 	Paar	pair
+das	Paar	pair
 die(pl)	Paare	pair (pl)
-das 	Papier	paper
+das	Papier	paper
 der	Park	park
 die(pl)	Parks	park (pl)
-die 	Party	party
+die	Party	party
 die(pl)	Partys	party (pl)
-die 	Pause	pause
+die	Pause	pause
 die(pl)	Pausen	pause (pl)
-die 	Person	person
+die	Person	person
 die(pl)	Personen	person (pl)
 das	Pflaster	plaster
 die(pl)	Pflaster	plaster (pl)
@@ -523,18 +523,18 @@ das	Picknick	picnic
 die(pl)	Picknick(e/s)	picnic (pl)
 der	Plan	plan
 die(pl)	Pläne	plan (pl)
-das 	Plastik	plastic
+das	Plastik	plastic
 der	Politiker	Politician
 die(pl)	Politiker	Politician (pl)
 die	Polizei	police
 die	Post	post
-die 	Postleitzahl	zip code
+die	Postleitzahl	zip code
 die(pl)	Postleitzahlen	zip code (pl)
 die(pl)	Praxen	Practice (pl)
 die	Praxis	Practice
-das 	Problem	problem
+das	Problem	problem
 die(pl)	Probleme	problem (pl)
-das 	Produkt	product
+das	Produkt	product
 die(pl)	Produkte	product (pl)
 die	Prüfung	exam
 die(pl)	Prüfungen	exam (pl)
@@ -542,38 +542,38 @@ der	Pullover 	sweater
 die(pl)	Pullover 	sweater (pl)
 der	Quadratmeter	square meters
 die(pl)	Quadratmeter	square meters (pl)
-das 	Radio	radio
+das	Radio	radio
 die(pl)	Radios	radio (pl)
 das	Rathaus	town hall
 die(pl)	Rathäuser	town hall (pl)
-die 	Rechnung	bill
+die	Rechnung	bill
 die(pl)	Rechnungen	bill (pl)
 die	Regel	rule
 die(pl)	Regeln	rule (pl)
 der	Regen	rain
-der 	Regenschirm	umbrella
+der	Regenschirm	umbrella
 die(pl)	Regenschirme	umbrella (pl)
-der 	Reis	rice
-die 	Reise	travel
+der	Reis	rice
+die	Reise	travel
 das	Reisebüro	Travel agency
 die(pl)	Reisebüros	Travel agency (pl)
 der	Reiseführer	travel Guide
 die(pl)	Reiseführer	travel Guide (pl)
 die(pl)	Reisen	travel (pl)
-das 	Restaurant	restaurant
+das	Restaurant	restaurant
 die(pl)	Restaurants	restaurant (pl)
 das	Rezept	recipe
 die(pl)	Rezepte	recipe (pl)
-der 	Ring	ring
+der	Ring	ring
 die(pl)	Ringe	ring (pl)
 der	Rock	Rock
 die(pl)	Röcke	Rock (pl)
 der	Rücken	move back
 die(pl)	Rücken	move back (pl)
-die 	S-Bahn	S-Bahn
+die	S-Bahn	S-Bahn
 die(pl)	S-Bahnen	S-Bahn (pl)
-die 	Sahne	cream
-der 	Salat	salad
+die	Sahne	cream
+der	Salat	salad
 die(pl)	Salate	salad (pl)
 die	Salbe	ointment
 die(pl)	Salben	ointment (pl)
@@ -585,73 +585,73 @@ der	Schauspieler	actor
 die(pl)	Schauspieler	actor (pl)
 das	Schild	Shield
 die(pl)	Schilder	Shield (pl)
-der 	Schinken	ham
+der	Schinken	ham
 der	Schirm	Shield
 die(pl)	Schirme	Shield (pl)
 das	Schlafzimmer	bedroom
 die(pl)	Schlafzimmer	bedroom (pl)
 das	Schloss	castle
 die(pl)	Schlösser	castle (pl)
-der 	Schlüssel	key
+der	Schlüssel	key
 die(pl)	Schlüssel	key (pl)
 der	Schmerz	pain
 die(pl)	Schmerzen	pain (pl)
 der	Schnee	snow
 der	Schnupfen	sniff
-die 	Schokolade	chocolate
+die	Schokolade	chocolate
 die(pl)	Schokoladen	chocolate (pl)
-der 	Schrank	cabinet
+der	Schrank	cabinet
 die(pl)	Schränke	cabinet (pl)
 der	Schuh	shoe
 die(pl)	Schuhe	shoe (pl)
-die 	Schule	school
+die	Schule	school
 die(pl)	Schulen	school (pl)
 die	Schwester	sister
 die(pl)	Schwestern	sister (pl)
-das 	Schwimmbad	swimming pool
+das	Schwimmbad	swimming pool
 die(pl)	Schwimmbäder	swimming pool (pl)
 die	Seife	Soap
 die(pl)	Seifen	Soap (pl)
 die	Sekretärin	secretary
 die(pl)	Sekretärinnen	secretary (pl)
-der 	Sessel	armchair
+der	Sessel	armchair
 die(pl)	Sessel	armchair (pl)
-das 	Silvester	New Year's Eve
+das	Silvester	New Year's Eve
 die(pl)	Silvester	New Year's Eve (pl)
 die	Sitzung	meeting
 die(pl)	Sitzungen	meeting (pl)
-die 	SMS	SMS
+die	SMS	SMS
 die(pl)	SMS	SMS (pl)
 die	Socke	sock
 die(pl)	Socken	sock (pl)
-das 	Sofa	sofa
+das	Sofa	sofa
 die(pl)	Sofas	sofa (pl)
 der	Sohn	son
 die(pl)	Söhne	son (pl)
-der 	Sommer	summer
+der	Sommer	summer
 die(pl)	Sommer	summer (pl)
 die	Sonne	Sun
 die(pl)	Sonnen	Sun (pl)
-die 	Speisekarte	menu
+die	Speisekarte	menu
 die(pl)	Speisekarten	menu (pl)
 der	Spielplatz	playground
 die(pl)	Spielplätze	playground (pl)
-der 	Sport	Sports
+der	Sport	Sports
 die	Spülmaschine	dishwasher
 die(pl)	Spülmaschinen	dishwasher (pl)
 die	Stadt	City
 die(pl)	Städte	City (pl)
 der	Star	star
 die(pl)	Stars	star (pl)
-die 	Stelle	point/place
+die	Stelle	point/place
 die(pl)	Stellen	point/place (pl)
-der 	Stift	pen
+der	Stift	pen
 die(pl)	Stift	pen (pl)
 der	Stock	floor
 die(pl)	Stockwerke	floor (pl)
-die 	Straße	street
+die	Straße	street
 die(pl)	Straßen	street (pl)
-die 	Straßenbahn	Tram
+die	Straßenbahn	Tram
 die(pl)	Straßenbahnen	Tram (pl)
 das	Streichholz	match
 die(pl)	Streichhölzer	match (pl)
@@ -661,50 +661,50 @@ die	Strumpfhose	tights
 die(pl)	Strumpfhosen	tights (pl)
 der	Student	college student
 die(pl)	Studenten	college student (pl)
-der 	Stuhl	chair
+der	Stuhl	chair
 die(pl)	Stühle	chair (pl)
 die	Stunde	hour
 die(pl)	Stunden	hour (pl)
 der	Sturm	storm
 die(pl)	Stürme	storm (pl)
 der	Süden	south
-die 	Suppe	soup
+die	Suppe	soup
 die(pl)	Suppen	soup (pl)
 das	T-Shirt	T-shirt
 die(pl)	T-Shirts	T-shirt (pl)
 die	Tablette	tablet
 die(pl)	Tabletten	tablet (pl)
-der 	Tag	day
+der	Tag	day
 die(pl)	Tage	day (pl)
-die 	Tasche	bag
+die	Tasche	bag
 die(pl)	Taschen	bag (pl)
-das 	Taxi	taxi
+das	Taxi	taxi
 die(pl)	Taxis	taxi (pl)
-der 	Tee	tea
+der	Tee	tea
 die(pl)	Tees	tea (pl)
-das 	Telefon	phone
+das	Telefon	phone
 die(pl)	Telefone	phone (pl)
-die 	Telefonnummer	phone number
+die	Telefonnummer	phone number
 die(pl)	Telefonnummern	phone number (pl)
-der 	Teppich	carpet
+der	Teppich	carpet
 die(pl)	Teppiche	carpet (pl)
-der 	Termin	meeting
+der	Termin	meeting
 die(pl)	Termine	meeting (pl)
 der	Text	text
 die(pl)	Texte	text (pl)
-das 	Theater	theater
+das	Theater	theater
 die(pl)	Theater	theater (pl)
 das	Ticket	ticket
 die(pl)	Tickets	ticket (pl)
-der 	Tisch	table
+der	Tisch	table
 die(pl)	Tische	table (pl)
 die	Tochter	daughter
 die(pl)	Töchter	daughter (pl)
 die	Toilette	Toilet
 die(pl)	Toiletten	Toilet (pl)
-die 	Tomate	tomato
+die	Tomate	tomato
 die(pl)	Tomaten	tomato (pl)
-die 	Tram	tram
+die	Tram	tram
 die(pl)	Trams	tram (pl)
 der	Traum	dream
 die(pl)	Träume	dream (pl)
@@ -712,9 +712,9 @@ die	Treppe	stairway
 die(pl)	Treppen	stairway (pl)
 der	Turm	tower
 die(pl)	Türme	tower (pl)
-die 	U-Bahn	U-Bahn
+die	U-Bahn	U-Bahn
 die(pl)	U-Bahnen	U-Bahn (pl)
-die 	Uhr	Clock
+die	Uhr	Clock
 die(pl)	Uhren	Clock (pl)
 der	Urlaub	vacation
 die(pl)	Urlaube	vacation (pl)
@@ -725,15 +725,15 @@ die(pl)	Verbindungen	connection (pl)
 der	Verkäufer	Seller
 die(pl)	Verkäufer	Seller (pl)
 der	Verkehr	traffic
-das 	Verkehrsmittel	means of transport
+das	Verkehrsmittel	means of transport
 die(pl)	Verkehrsmittel	means of transport (pl)
 der	Vermieter	landlord
 die(pl)	Vermieter	landlord (pl)
 die	Verwandte	relation
 die(pl)	Verwandten	relation (pl)
-der 	Vormittag	morning
+der	Vormittag	morning
 die(pl)	Vormittage	morning (pl)
-die 	Vorsicht	caution
+die	Vorsicht	caution
 der	Wald	forest
 die(pl)	Wälder	forest (pl)
 die	Wäsche	wash
@@ -743,7 +743,7 @@ die(pl)	Wecker	alarm clock (pl)
 der	Weg	Away
 die(pl)	Wege	Away (pl)
 das	Weihnachten	Christmas
-der 	Wein	Wine
+der	Wein	Wine
 die(pl)	Weine	Wine (pl)
 die	Welt	world
 der	Westen	west
@@ -752,11 +752,11 @@ die	Wiese	meadow
 die(pl)	Wiesen	meadow (pl)
 der	Wind	wind
 die(pl)	Winde	wind (pl)
-der 	Winter	winter
+der	Winter	winter
 die(pl)	Winter	winter (pl)
-die 	Woche	week
+die	Woche	week
 die(pl)	Wochen	week (pl)
-das 	Wochenende	weekend
+das	Wochenende	weekend
 die(pl)	Wochenenden	weekend (pl)
 die	Wohnung	apartment
 die(pl)	Wohnungen	apartment (pl)
@@ -764,19 +764,19 @@ das	Wohnzimmer	living room
 die(pl)	Wohnzimmer	living room (pl)
 die	Wolke	cloud
 die(pl)	Wolken	cloud (pl)
-das 	Wort	word
+das	Wort	word
 die(pl)	Wörter	word (pl)
-das 	Wörterbuch	dictionary
+das	Wörterbuch	dictionary
 die(pl)	Wörterbücher	dictionary (pl)
 der	Wunsch	wish
 die(pl)	Wünsche	wish (pl)
-die 	Wurst	sausage
+die	Wurst	sausage
 die(pl)	Würste	sausage (pl)
 der	Zahn	tooth
 die(pl)	Zähne	tooth (pl)
-die 	Zeit	time
+die	Zeit	time
 die(pl)	Zeit	time (pl)
-die 	Zeitung	newspaper
+die	Zeitung	newspaper
 die(pl)	Zeitungen	newspaper (pl)
 das	Zelt	tent
 die(pl)	Zelte	tent (pl)
@@ -784,9 +784,9 @@ die(pl)	Zentren	center (pl)
 das	Zentrum	center
 das	Zimmer	room
 die(pl)	Zimmer	room (pl)
-die 	Zitrone	lemon
+die	Zitrone	lemon
 die(pl)	Zitronen	lemon (pl)
-der 	Zug	train
+der	Zug	train
 die(pl)	Züge	train (pl)
-die 	Zwiebel	onion
+die	Zwiebel	onion
 die(pl)	Zwiebeln	onion (pl)

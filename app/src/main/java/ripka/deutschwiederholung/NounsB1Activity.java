@@ -8,7 +8,7 @@ import android.os.Bundle;
 
 public class NounsB1Activity extends NounsActivity {
     @Override
-    protected void onResume() {
-        super.onResume();
+    protected void onStart() {
+        super.onStart();
     }
 }

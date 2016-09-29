@@ -14,8 +14,8 @@ import ripka.deutschwiederholung.models.WordsParser;
 
 public class NounsA1Activity extends NounsActivity {
     @Override
-    protected void onResume() {
-        super.onResume();
+    protected void onStart() {
+        super.onStart();
         List<Integer> filesToParse = new ArrayList<Integer>(
                 Arrays.asList(R.raw.nouns_a1)
         );

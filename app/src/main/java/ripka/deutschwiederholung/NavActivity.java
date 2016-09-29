@@ -14,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioGroup;
 import android.widget.ViewFlipper;
 
 /**
@@ -47,14 +48,10 @@ public class NavActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        Button btnCheck = (Button)findViewById(R.id.app_btn_go);
-        btnCheck.setVisibility(View.VISIBLE);
-        btnCheck.setEnabled(false);
     }
     @Override
-    protected void onResume() {
-        super.onResume();
+    protected void onStart() {
+        super.onStart();
     }
 
     @Override

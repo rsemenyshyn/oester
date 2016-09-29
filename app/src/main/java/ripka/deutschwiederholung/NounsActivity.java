@@ -40,10 +40,29 @@ public class NounsActivity extends NavActivity {
         super.onCreate(savedInstanceState);
         ViewFlipper vf = (ViewFlipper)findViewById(R.id.vf);
         vf.setDisplayedChild(0);
+
+
+        Button btnCheck = (Button)findViewById(R.id.app_btn_go);
+        btnCheck.setVisibility(View.VISIBLE);
+        btnCheck.setEnabled(false);
+
+        RadioGroup ringtone_radio_group = (RadioGroup)findViewById(R.id.radioGroup);
+        ringtone_radio_group.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
+        {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId)
+            {
+                Button btnCheck = (Button)findViewById(R.id.app_btn_go);
+                btnCheck.setEnabled(true);
+            }
+        });
+
+        TextView textView = (TextView) findViewById(R.id.bannerText);
+        textView.getBackground().setAlpha(85);
     }
     @Override
-    protected void onResume() {
-        super.onResume();
+    protected void onStart() {
+        super.onStart();
 
         List<Integer> filesToParse = new ArrayList<>(
                 Arrays.asList(R.raw.nouns_a1)
@@ -74,15 +93,20 @@ public class NounsActivity extends NavActivity {
         TextView txtMessage = (TextView) findViewById(R.id.message);
         txtMessage.setVisibility(View.INVISIBLE);
 
-        Button btnCheck = (Button)findViewById(R.id.app_btn_go);
-        btnCheck.setVisibility(View.VISIBLE);
-        btnCheck.setEnabled(false);
-
         Button btnNext = (Button)findViewById(R.id.app_btn_next);
         btnNext.setVisibility(View.INVISIBLE);
 
         RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
         radioGroup.clearCheck();
+
+        CheckBox checkBox = (CheckBox)findViewById(R.id.checkBox);
+        if(checkBox.isChecked()){
+            checkBox.toggle();
+        }
+
+        Button btnCheck = (Button)findViewById(R.id.app_btn_go);
+        btnCheck.setVisibility(View.VISIBLE);
+        btnCheck.setEnabled(false);
     }
     public void onCheckedChanged(View view) {
         TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
@@ -91,10 +115,6 @@ public class NounsActivity extends NavActivity {
         } else {
             txtWordTranslation.setVisibility(View.INVISIBLE);
         }
-    }
-    protected void radioChanged(View view) {
-        Button btnCheck = (Button)findViewById(R.id.app_btn_go);
-        btnCheck.setEnabled(true);
     }
 
     /* ------------------- LOGIC ----------------*/
