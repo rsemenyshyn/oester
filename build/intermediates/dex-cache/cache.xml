@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="0d16d6527a7ed87fd8cf77c2f697b84ea7c49443">
+        sha1="ad6157ff9784c52564f353f547bc6920d4ca4ade">
         <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4f25b126e3fcecad480d03f66d3eee7dcd35d2ae/classes.dex" />
     </item>
     <item
@@ -309,21 +309,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0c5e4d79f27cd7bafe6b69778dabaed28756ff05">
-        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d95fce8bdd78bfc9506415e76299ca83585dadd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
         <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5f59406691e44a2fd11f1e13cc7ad3bb2950ed6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dc1a33c1ffce449524bd27603e089331340d02a4">
+        <dex dex="/Users/ripka/IT/DeutschWiederholung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4d95fce8bdd78bfc9506415e76299ca83585dadd/classes.dex" />
     </item>
 
 </items>

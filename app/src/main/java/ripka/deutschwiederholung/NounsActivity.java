@@ -61,9 +61,8 @@ public class NounsActivity extends NavActivity {
         textView.getBackground().setAlpha(85);
     }
     @Override
-    protected void onStart() {
-        super.onStart();
-
+    public void onAttachedToWindow() {
+        super.onAttachedToWindow();
         List<Integer> filesToParse = new ArrayList<>(
                 Arrays.asList(R.raw.nouns_a1)
         );

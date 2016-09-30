@@ -13,7 +13,7 @@
     <ImageView
         android:id="@+id/bannerImg"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="40dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
         android:src="@mipmap/site_bg" />
@@ -25,7 +25,7 @@
         android:gravity="center"
         android:textAlignment="center"
         android:background="#00BCD4"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:textColor="@color/colorWhite"
         android:text="@string/app_descr"/>

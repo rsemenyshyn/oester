@@ -51,9 +51,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
     }
     @Override
-    protected void onStart() {
-        super.onStart();
-        /*
+    public void onAttachedToWindow() {
+        super.onAttachedToWindow();
         AlphaAnimation fadeIn = new AlphaAnimation(0.0f , 1.0f ) ;
         AlphaAnimation fadeOut = new AlphaAnimation(0.0f , 1.0f ) ;
         TextView textView = (TextView) findViewById(R.id.loadText);
@@ -64,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
         fadeOut.setDuration(1000);
         fadeOut.setFillAfter(true);
         fadeOut.setStartOffset(1000+fadeIn.getStartOffset());
-        */
     }
 
     public void btnStart(View view) {
