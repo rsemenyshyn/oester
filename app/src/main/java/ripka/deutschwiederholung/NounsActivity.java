@@ -1,19 +1,7 @@
 package ripka.deutschwiederholung;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.animation.AlphaAnimation;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
@@ -59,32 +47,51 @@ public class NounsActivity extends NavActivity {
 
         TextView textView = (TextView) findViewById(R.id.bannerText);
         textView.getBackground().setAlpha(85);
+
+        afterCreate( savedInstanceState != null );
     }
-    @Override
-    public void onAttachedToWindow() {
-        super.onAttachedToWindow();
+    protected void afterCreate(boolean isRestored) {
         List<Integer> filesToParse = new ArrayList<>(
                 Arrays.asList(R.raw.nouns_a1)
         );
         tests = new WordsParser(filesToParse);
-        setNextTest();
+        setNextTest(isRestored);
     }
 
-    /* -------------- CONTROLLS ------------*/
+    /* -------------- lower level func ------------*/
+    public void onCheckedChanged(View view) {
+        TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
+        if ( ((CheckBox)view).isChecked() ) {
+            txtWordTranslation.setVisibility(View.VISIBLE);
+        } else {
+            txtWordTranslation.setVisibility(View.INVISIBLE);
+        }
+    }
     public void checkTest(View view) {
-        checkCurrTest();
+        RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
+        int radioButtonID = radioGroup.getCheckedRadioButtonId();
+        View radioButton = radioGroup.findViewById(radioButtonID);
+        int idx = radioGroup.indexOfChild(radioButton);
+
+        TestResult res = TestGen.checkTest(idx);
+
+        TextView txtMessage = (TextView) findViewById(R.id.message);
+        txtMessage.setText( res.message );
+        if (res.isPassed) {
+            txtMessage.setBackgroundColor( this.getResources().getColor(R.color.colorSuccess) );
+        } else {
+            txtMessage.setBackgroundColor( this.getResources().getColor(R.color.colorError) );
+        }
+        txtMessage.setVisibility(View.VISIBLE);
 
         Button btnCheck = (Button)findViewById(R.id.app_btn_go);
         btnCheck.setVisibility(View.INVISIBLE);
 
         Button btnNext = (Button)findViewById(R.id.app_btn_next);
         btnNext.setVisibility(View.VISIBLE);
-
-        TextView txtMessage = (TextView) findViewById(R.id.message);
-        txtMessage.setVisibility(View.VISIBLE);
     }
     public void nextTest(View view) {
-        setNextTest();
+        setNextTest(false);
 
         TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
         txtWordTranslation.setVisibility(View.INVISIBLE);
@@ -107,18 +114,11 @@ public class NounsActivity extends NavActivity {
         btnCheck.setVisibility(View.VISIBLE);
         btnCheck.setEnabled(false);
     }
-    public void onCheckedChanged(View view) {
-        TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
-        if ( ((CheckBox)view).isChecked() ) {
-            txtWordTranslation.setVisibility(View.VISIBLE);
-        } else {
-            txtWordTranslation.setVisibility(View.INVISIBLE);
+    protected void setNextTest(boolean isRestored){
+        Test test = TestGen.getLastTest();
+        if (!isRestored || test == null) {
+            test = TestGen.generateNextTest( tests.getWords() );
         }
-    }
-
-    /* ------------------- LOGIC ----------------*/
-    protected void setNextTest(){
-        Test test = TestGen.generateNextTest( tests.getWords() );
 
         RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
         int count = radioGroup.getChildCount();
@@ -137,21 +137,5 @@ public class NounsActivity extends NavActivity {
 
         txtWordCurrent.setText( test.getWord() );
         txtWordTranslation.setText( test.getTranslation() );
-    }
-    protected void checkCurrTest(){
-        RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
-        int radioButtonID = radioGroup.getCheckedRadioButtonId();
-        View radioButton = radioGroup.findViewById(radioButtonID);
-        int idx = radioGroup.indexOfChild(radioButton);
-
-        TestResult res = TestGen.checkTest(idx);
-        TextView txtMessage = (TextView) findViewById(R.id.message);
-        txtMessage.setText( res.message );
-
-        if (res.isPassed) {
-            txtMessage.setBackgroundColor( this.getResources().getColor(R.color.colorSuccess) );
-        } else {
-            txtMessage.setBackgroundColor( this.getResources().getColor(R.color.colorError) );
-        }
     }
 }

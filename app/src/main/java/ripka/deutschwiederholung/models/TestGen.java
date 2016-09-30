@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Random;
 
 public class TestGen {
-    static private Test lastGenerated;
+    static private Test lastGenerated = null;
     static public Test generateNextTest(List<List<String>> words) {
         Random rand = new Random();
         int index = rand.nextInt( words.size() );
@@ -37,5 +37,8 @@ public class TestGen {
         TestResult res = new TestResult();
         res = lastGenerated.isPassed(answerNo);
         return res;
+    }
+    static public Test getLastTest() {
+        return lastGenerated;
     }
 }

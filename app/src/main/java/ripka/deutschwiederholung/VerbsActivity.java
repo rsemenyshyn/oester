@@ -27,25 +27,20 @@ import ripka.deutschwiederholung.models.WordsParser;
  */
 
 public class VerbsActivity extends NavActivity {
-
     protected WordsParser tests;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ViewFlipper vf = (ViewFlipper)findViewById(R.id.vf);
         vf.setDisplayedChild(1);
+
+        afterCreate( savedInstanceState != null );
     }
-
-    @Override
-    public void onAttachedToWindow() {
-        super.onAttachedToWindow();
-
+    protected void afterCreate(boolean isRestored) {
         List<Integer> filesToParse = new ArrayList<>(
                 Arrays.asList(R.raw.nouns_a1)
         );
         tests = new WordsParser(filesToParse);
-        //setNextTest();
+        //setNextTest(isRestored);
     }
-
 }
