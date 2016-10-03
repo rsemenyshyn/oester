@@ -1,7 +1,10 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Deutsch Wiederholung</string>
     <string name="app_descr"><b>Einfache App für die Wiederholung</b></string>
     <string name="app_message">Result of test here</string>
+
+    <!-- Strings related to preferences -->
+    <string name="display_name"><xliff:g id="preferance_key">display_name</xliff:g></string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -47,7 +50,7 @@
     </string>
 
     <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_default_display_name">User Name</string>
 
     <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
     <string-array name="pref_example_list_titles">
