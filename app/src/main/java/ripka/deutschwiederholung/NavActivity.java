@@ -35,7 +35,7 @@ public class NavActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "E-mail sending action here", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "E-mail sending action here. Needs to be finished", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -52,14 +52,24 @@ public class NavActivity extends AppCompatActivity
     @Override
     public void onResume() {
         super.onResume();
+        SharedPreferences shPref = PreferenceManager.getDefaultSharedPreferences(RipkaApp.getAppContext());
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View header = navigationView.getHeaderView(0);
-        TextView txtUserName = (TextView) header.findViewById(R.id.user_name);
-        if (txtUserName != null) {
-            SharedPreferences shPref = PreferenceManager.getDefaultSharedPreferences(RipkaApp.getAppContext());
-            String userName = shPref.getString( getString(R.string.display_name), "");
-            txtUserName.setText(userName);
+        if (header != null) {
+            TextView txtUserName = (TextView) header.findViewById(R.id.user_name);
+            if (txtUserName != null) {
+                String userName = shPref.getString(getString(R.string.display_name), "");
+                txtUserName.setText(userName);
+            }
+            TextView txtUserEmail = (TextView) header.findViewById(R.id.user_email);
+            if (txtUserEmail != null) {
+                String userEmail = shPref.getString(getString(R.string.contact_email), "");
+                txtUserEmail.setText(userEmail);
+            }
         }
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        Boolean enableFab = shPref.getBoolean(getString(R.string.email_switcher), false);
+        fab.setVisibility( enableFab ? View.VISIBLE : View.INVISIBLE );
     }
 
     @Override

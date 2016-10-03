@@ -24,6 +24,9 @@ public class Test {
         }
         return res;
     }
+    public boolean isPlural(){
+        return data.get(intArticelNo).toLowerCase().contains("(pl)");
+    }
 
     // -------------- SET ----------
     public void setOptions(List<String> _options) {
