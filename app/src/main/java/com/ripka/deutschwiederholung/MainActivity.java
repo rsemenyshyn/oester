@@ -1,4 +1,4 @@
-package ripka.deutschwiederholung;
+package com.ripka.deutschwiederholung;
 
 import android.content.Intent;
 import android.os.Bundle;

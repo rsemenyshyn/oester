@@ -1,4 +1,4 @@
-package ripka.deutschwiederholung.models;
+package com.ripka.deutschwiederholung.models;
 
 import java.util.List;
 

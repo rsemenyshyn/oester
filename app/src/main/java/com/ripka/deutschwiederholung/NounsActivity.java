@@ -1,4 +1,4 @@
-package ripka.deutschwiederholung;
+package com.ripka.deutschwiederholung;
 
 import android.os.Bundle;
 import android.view.View;
@@ -13,11 +13,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import ripka.deutschwiederholung.models.Test;
-import ripka.deutschwiederholung.models.TestGen;
-import ripka.deutschwiederholung.models.TestOptions;
-import ripka.deutschwiederholung.models.TestResult;
-import ripka.deutschwiederholung.models.WordsParser;
+import com.ripka.deutschwiederholung.models.Test;
+import com.ripka.deutschwiederholung.models.TestGen;
+import com.ripka.deutschwiederholung.models.TestOptions;
+import com.ripka.deutschwiederholung.models.TestResult;
+import com.ripka.deutschwiederholung.models.WordsParser;
 
 public class NounsActivity extends NavActivity {
 

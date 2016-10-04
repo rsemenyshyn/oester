@@ -1,4 +1,4 @@
-package ripka.deutschwiederholung.models;
+package com.ripka.deutschwiederholung.models;
 
 import android.content.res.Resources;
 
@@ -8,9 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import ripka.deutschwiederholung.MainActivity;
-import ripka.deutschwiederholung.R;
-import ripka.deutschwiederholung.RipkaApp;
+import com.ripka.deutschwiederholung.R;
+import com.ripka.deutschwiederholung.RipkaApp;
 
 /**
  * Created by ripka on 9/25/16.

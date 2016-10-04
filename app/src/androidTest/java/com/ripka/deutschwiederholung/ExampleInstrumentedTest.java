@@ -1,4 +1,4 @@
-package ripka.deutschwiederholung;
+package com.ripka.deutschwiederholung;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("ripka.deutschwiederholung", appContext.getPackageName());
+        assertEquals("com.ripka.deutschwiederholung", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package ripka.deutschwiederholung;
+package com.ripka.deutschwiederholung;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

@@ -1,4 +1,4 @@
-package ripka.deutschwiederholung.models;
+package com.ripka.deutschwiederholung.models;
 
 /**
  * Created by ripka on 9/22/16.
@@ -11,8 +11,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import ripka.deutschwiederholung.R;
-import ripka.deutschwiederholung.RipkaApp;
+import com.ripka.deutschwiederholung.R;
+import com.ripka.deutschwiederholung.RipkaApp;
 
 public class TestGen {
     static private Test lastGenerated = null;

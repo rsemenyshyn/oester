@@ -1,792 +1,791 @@
 die	(Ehe)Frau	Man
-die(pl)	(Ehe)Frauen	Man (pl)
 der	(Ehe)Mann	Woman
-die(pl)	(Ehe)Männer	Woman (pl)
+die	Ärztin	Doctor
 der	Abend	Evening
-die(pl)	Abende	Evening (pl)
 der	Abfall	Waste
-die(pl)	Abfälle	Waste (pl)
 die	Adresse	Adress
-die(pl)	Adressen	Adress (pl)
 das	Alter	Age
-die(pl)	Alter	Age (pl)
 die	Altstadt	Old city
-die(pl)	Altstädte	Old city (pl)
 die	Ampel	Traffic light
-die(pl)	Ampeln	Traffic light (pl)
 die	Angst	Scare
-die(pl)	Ängste	Scare (pl)
 der	Anruf	Call (phone)
 der	Anrufbeantworter	Autoreply
-die(pl)	Anrufbeantworter	Autoreply (pl)
-die(pl)	Anrufe	Call (phone) (pl)
 die	Antwort	Answer
-die(pl)	Antworten	Answer (pl)
 die	Anzeige	Advert
-die(pl)	Anzeigen	Advert (pl)
 der	Apfel	Apple
-die(pl)	Äpfel	Apple (pl)
 die	Apotheke	Pharmacy
-die(pl)	Apotheken	Pharmacy (pl)
 die	Arbeit	Job
-die(pl)	Arbeiten	Job (pl)
 der	Arbeitgeber	Employer
-die(pl)	Arbeitgeber	Employer (pl)
 der	Arbeitsplatz	Workplace
-die(pl)	Arbeitsplätzer	Workplace (pl)
 das	Arbeitszimmer	Workroom
-die(pl)	Arbeitszimmer	Workroom (pl)
 die	Architektin	Architect
-die(pl)	Architektinnen	Architect (pl)
 der	Arm	Arm
-die(pl)	Arme	Arm (pl)
-die(pl)	Ärzte	Doctor (pl)
-die	Ärztin	Doctor
 der	Aufzug	Elevator
-die(pl)	Aufzüge	Elevator (pl)
 das	Auge	Eye
-die(pl)	Augen	Eye (pl)
 die	Ausbildung	Intership(training)
-die(pl)	Ausbildungen	Intership(training) (pl)
 der	Ausflug	Excursion
-die(pl)	Ausflüge	Excursion (pl)
-das	Ausland	Foreign countries
+das	Ausland	Foreign countrie
 der	Ausländer	Foreigner
-die(pl)	Ausländer	Foreigner (pl)
 die	Ausstellung	Exhibition
-die(pl)	Ausstellungen	Exhibition (pl)
 das	Auto	Auto
-die(pl)	Autos	Auto (pl)
 das	Baby	Baby
-die(pl)	Babys	Baby (pl)
 die	Bäckerei	bakery
-die(pl)	Bäckereien	bakery (pl)
 das	Bad	bathroom
 der	Bademantel	bathrobe
-die(pl)	Bademäntel	bathrobe (pl)
-die(pl)	Bäder	bathroom (pl)
 der	Bahnhof	railway station
-die(pl)	Bahnhöfe	railway station (pl)
 der	Bahnsteig	platform
-die(pl)	Bahnsteige	platform (pl)
 der	Balkon	balcony
-die(pl)	Balkone	balcony (pl)
 die	Bank	bank
-die(pl)	Banken	bank (pl)
 die	Bar	bar
-die(pl)	Bars	bar (pl)
 der	Bart	beard
-die(pl)	Bärte	beard (pl)
-der	Bauch	belly
-die(pl)	Bäuche	belly (pl)
+der	Bauch	stomach
 der	Baum	tree
-die(pl)	Bäume	tree (pl)
 das	Bein	leg
-die(pl)	Beine	leg (pl)
 das	Beispiel	example
-die(pl)	Beispiele	example (pl)
 der	Bekannte	known
-die(pl)	Bekannten	known (pl)
 der	Berg	mountain
-die(pl)	Berge	mountain (pl)
 der	Beruf	profession
-die(pl)	Berufe	profession (pl)
 das	Bett	bed
-die(pl)	Betten	bed (pl)
 die	Bibliothek	library
-die(pl)	Bibliotheken	library (pl)
 das	Bier	beer
-die(pl)	Biere	beer (pl)
 das	Bild	image
-die(pl)	Bilder	image (pl)
 der	Bildschirm	screen
-die(pl)	Bildschirme	screen (pl)
 der	Bleistift	pencil
-die(pl)	Bleistifte	pencil (pl)
 der	Blick	view
-die(pl)	Blicke	view (pl)
 die	Blume	flower
-die(pl)	Blumen	flower (pl)
 die	Bluse	blouse
-die(pl)	Blusen	blouse (pl)
-der	Boden	ground
-die(pl)	Böden	ground (pl)
-der	Braten	fry
-die(pl)	Braten	fry (pl)
-der	Brief	letter
-die(pl)	Briefe	letter (pl)
+der	Boden	floor
+der	Braten	pork
+der	Brief	letter(post)
 die	Briefmarke	postal mark
-die(pl)	Briefmarken	postal mark (pl)
 die	Brille	glasses
-die(pl)	Brillen	glasses (pl)
 das	Brot	bread
 das	Brötchen	bun
-die(pl)	Brötchen	bun (pl)
-die(pl)	Brote	bread (pl)
 die	Brücke	bridge
-die(pl)	Brücken	bridge (pl)
 der	Bruder	brother
-die(pl)	Brüder	brother (pl)
 die	Brust	chest
-die(pl)	Brüste	chest (pl)
 das	Buch	book
-die(pl)	Bücher	book (pl)
 das	Büro	office
-die(pl)	Büros	office (pl)
 der	Bus	bus
-die(pl)	Busse	bus(pl)
 die	Butter	butter
 das	Cafe´	coffee shop
-die(pl)	Cafes	coffee shop(pl)
 die	Chance	chance
-die(pl)	Chancen	chance (pl)
 der	Chef	boss
-die(pl)	Chefs	boss (pl)
 der	Computer	computer
-die(pl)	Computer	computer (pl)
 die	Couch	coutch
-die(pl)	Couchen	coutch (pl)
 das	Dach	roof
-die(pl)	Dächer	roof (pl)
 die	Disko	disco
-die(pl)	Diskos	disco (pl)
 der	Doktor	doctor
-die(pl)	Doktoren	doctor (pl)
 der	Dom	cathedral
-die(pl)	Dome	cathedral (pl)
 der	Drucker	printer
-die(pl)	Drucker	printer (pl)
 der	Durst	thirst
 die	Dusche	shower
-die(pl)	Duschen	shower (pl)
 die	E-Mail	e-mail
-die(pl)	E-Mails	e-mail (pl)
 das	Ei	egg
-die(pl)	Eier	egg (pl)
 die	Einladung	invitation
-die(pl)	Einladungen	invitation (pl)
 das	Eis	ice cream
 die(pl)	Eltern	parents
 der	Enkel	grandson
 die	Enkelin	granddaughter
-die(pl)	Enkelin	grandson (pl)
-die(pl)	Enkelinnen	granddaughter (pl)
 die	Entschuldigung	sorry
-die(pl)	Entschuldigungen	sorry (pl)
 das	Erdgeschoss	ground floor
-die(pl)	Erdgeschosse	ground floor (pl)
-das	Essen	eat
-die(pl)	Essen	eat (pl)
+das	Essen	food
 die	Fabrik	factory
-die(pl)	Fabriken	factory (pl)
 der	Fahrer	driver
-die(pl)	Fahrer	driver (pl)
 das	Fahrrad	bicycle
-die(pl)	Fahrräder	bicycle (pl)
 die	Familie	family
-die(pl)	Familien	family (pl)
 der	Familienstand	marital status
-die(pl)	Familienstand	marital status (pl)
 das	Fax	fax
-die(pl)	Faxe	fax (pl)
-die	Feier	celebration
-die(pl)	Feiern	celebration (pl)
+die	Feier	party
 das	Fenster	window
-die(pl)	Fenster	window (pl)
 der	Fernseher	TV
-die(pl)	Fernseher	TV (pl)
 das	Fest	holyday
-die(pl)	Feste	holyday (pl)
 das	Feuerzeug	lighter
-die(pl)	Feuerzeuge	lighter (pl)
 das	Fieber	fever
 der	Film	film
-die(pl)	Filme	film (pl)
 der	Finger	finger
-die(pl)	Finger	finger (pl)
 die	Firma	company
-die(pl)	Firmen	company (pl)
 der	Fisch	fish
-die(pl)	Fische	fish (pl)
 die	Flasche	bottle
-die(pl)	Flaschen	bottle (pl)
 das	Fleisch	meat
 der	Flughafen	airport
-die(pl)	Flughäfen	airport (pl)
 das	Flugzeug	airplane
-die(pl)	Flugzeuge	airplane (pl)
 der	Flur	corridor
-die(pl)	Flure	corridor (pl)
 der	Fluss	river
-die(pl)	Flüsse	river (pl)
 der	Föhn	hairdryer
-die(pl)	Föhn(e/s)	hairdryer (pl)
 die	Form	form
-die(pl)	Formen	form (pl)
 das	Formular	form
-die(pl)	Formulare	form (pl)
 das	Foto	photo
 der	Fotoapparat	camera
-die(pl)	Fotoapparate	camera (pl)
-die(pl)	Fotos	photo (pl)
 die	Frage	question
-die(pl)	Fragen	question (pl)
 die	Freizeit	leisure
-die(pl)	Freizeit	leisure (pl)
 die	Fremdsprache	foreign language
-die(pl)	Fremdsprachen	foreign language (pl)
 die	Friseurin	hairdresser
-die(pl)	Friseurinnen	hairdresser (pl)
-das	Frühjahr	spring/last year
-die(pl)	Frühjahre	spring/last year (pl)
+das	Frühjahr	last year
 der	Frühling	spring
-die(pl)	Frühlinge	spring (pl)
 das	Frühstück	breakfast
-die(pl)	Frühstücke	breakfast (pl)
 der	Führerschein	driving license
-die(pl)	Führerscheine	driving license (pl)
 der	Fuß	foot
-die(pl)	Fuße	foot (pl)
 die	Garage	garage
-die(pl)	Garagen	garage (pl)
 der	Garten	garden
-die(pl)	Gärten	garden (pl)
 der	Gast	quest
-die(pl)	Gäste	quest (pl)
-die(pl)	Geburtsdaten	birth date (pl)
 das	Geburtsdatum	birth date
 das	Geld	money
 die	Geldbörse	Purse
-die(pl)	Geldbörsen	Purse (pl)
 das	Gepäck	Luggage
 das	Geschäft	business
-die(pl)	Geschäfte	business (pl)
 das	Geschenk	gift
-die(pl)	Geschenke	gift (pl)
 das	Geschirr	dishes
 die	Geschwister	brothers and sisters
 das	Gespräch	conversation
-die(pl)	Gespräche	conversation (pl)
 das	Getränk	drink
-die(pl)	Getränke	drink (pl)
 das	Gewitter	thunderstorm
-die(pl)	Gewitter	thunderstorm (pl)
 das	Glas	Glass
-die(pl)	Gläser	Glass (pl)
 das	Gleis	rail
-die(pl)	Gleise	rail (pl)
 das	Glück	happiness
 der	Glückwunsch	congratulation
-die(pl)	Glückwünsche	congratulation (pl)
 das	Grad	Degree
-die(pl)	Grade	Degree (pl)
-die	Größe	size
-die(pl)	Größen	size (pl)
-die	Großeltern	grandparents
+die(pl)	Großeltern	grandparents
 die	Großmutter/Oma	Grandmother / grandma
-die(pl)	Großmütter/Omas	Grandmother / grandma (pl)
 der	Großvater/Opa	Grandfather/grandfa
-die(pl)	Großväter/Opas	Grandfather/grandfa (pl)
+die	Größe	size
 der	Gruß	greeting
-die(pl)	Grüße	greeting (pl)
 der	Gürtel	belt
-die(pl)	Gürtel	belt (pl)
 das	Haar	hair
-die(pl)	Haare	hair (pl)
 der	Hafen	port
-die(pl)	Häfen	port (pl)
-der	Hals	neck
-die(pl)	Halse	neck (pl)
-der	Halt	Stop
-die(pl)	Halt(e/s)	Stop (pl)
+der	Hals	throat
+der	Halt	hold
 die	Haltestelle	stop for transport
-die(pl)	Haltestellen	stop for transport (pl)
 das	Handtuch	towel
-die(pl)	Handtücher/Handtüche	towel (pl)
 das	Handy	mobile phone
-die(pl)	Handys	mobile phone (pl)
 das	Haus	House
 die	Hausaufgabe	homework
-die(pl)	Hausaufgaben	homework (pl)
-die(pl)	Häuser	House (pl)
 die	Hausfrau	housewife
-die(pl)	Hausfrauen	housewife (pl)
 der	Haushalt	household
 die	Heizung	heating
-die(pl)	Heizungen	heating (pl)
 das	Hemd	shirt
-die(pl)	Hemden	shirt (pl)
 der	Herbst	autumn
-die(pl)	Herbste	autumn (pl)
-die	Himmelsrichtung	direction
-die(pl)	Himmelsrichtungen	direction (pl)
+die	Himmelsrichtung	compass direction
 das	Hobby	Hobby
-die(pl)	Hobbys	Hobby (pl)
 die	Hochzeit	wedding
-die(pl)	Hochzeiten	wedding (pl)
 das	Holz	Wood
 die	Hose	trousers
-die(pl)	Hosen	trousers (pl)
 das	Hotel	hotel
-die(pl)	Hotels	hotel (pl)
 der	Hund	dog
-die(pl)	Hunde	dog (pl)
 der	Hunger	hunger
 der	Husten	cough
 der	Hut	cap
-die(pl)	Hüte	cap (pl)
 die	Information	information
-die(pl)	Informationen	information (pl)
 der	Ingenieur	engineer
 das	Instrument	instrument
-die(pl)	Instrumente	instrument (pl)
 das	Internet	Internet
-die(pl)	Internet	Internet (pl)
 die	Internetverbindung	Internet connection
 die	Jacke	jacket
-die(pl)	Jacken	jacket (pl)
 das	Jahr	year
-die(pl)	Jahre	year (pl)
 der	Januar	January
-die(pl)	Januare	January (pl)
 die	Journalistin	journalist
-die(pl)	Journalistinnen	journalist (pl)
 die	Jugendherberge	youth hostel
-die(pl)	Jugendherbergen	youth hostel (pl)
-die(pl)	Jugendherbergen	coffee (pl)
 der	Kaffee	coffee
-die(pl)	Kaffee	calendar (pl)
 der	Kalender	calendar
-die(pl)	Kalender	carnival (pl)
 der	Karneval	carnival
 die	Kartoffel	potato
-die(pl)	Kartoffeln	cheese (pl)
 der	Käse	cheese
 der	Keller	cellar
 die	Kellnerin	Waitress
 die	Kette	Chain
-die(pl)	Ketten	Chain (pl)
 der	Kilometer	kilometer
-die(pl)	Kilometer	kilometer (pl)
 das	Kind	child
-die(pl)	Kinder	child (pl)
 der	Kindergarten	kindergarten
-die(pl)	Kindergärten	kindergarten (pl)
-das	Kinderzimmer	nursery
-die(pl)	Kinderzimmer	nursery (pl)
+das	Kinderzimmer	children room
 das	Kino	cinema
-die(pl)	Kinos	cinema (pl)
 die	Kirche	church
-die(pl)	Kirchen	church (pl)
 das	Kleid	dress
-die(pl)	Kleider	dress (pl)
 die	Kleidung	clothing
 die	Klimaanlage	air conditioner
-die(pl)	Klimaanlagen	air conditioner (pl)
 die	Kneipe	pub
-die(pl)	Kneipen	pub (pl)
 das	Knie	knee
-die(pl)	Knie	knee (pl)
 der	Koffer	suitcase
-die(pl)	Koffer	suitcase (pl)
 der	Kollege	colleague
-die(pl)	Kollegen	colleague (pl)
 das	Konzert	concert
-die(pl)	Konzerte	concert (pl)
 der	Kopf	head
-die(pl)	Köpfe	head (pl)
 das	Krankenhaus	hospital
-die(pl)	Krankenhäuser	hospital (pl)
 die	Kreditkarte	Credit card
-die(pl)	Kreditkarten	Credit card (pl)
 die	Küche	kitchen
 der	Kuchen	cake
-die(pl)	Kuchen	cake (pl)
-die(pl)	Küchen	kitchen (pl)
 der	Kugelschreiber	pen
-die(pl)	Kugelschreiber	pen (pl)
 der	Kühlschrank	fridge
-die(pl)	Kühlschränke	fridge (pl)
 der	Kunststoff	plastic
 der	Kurs	course
-die(pl)	Kurse	course (pl)
-der	Laden	load
-die(pl)	Läden	load (pl)
+der	Laden	shop
 die	Lampe	lamp
-die(pl)	Lampen	lamp (pl)
 der	Laptop	Laptop
-die(pl)	Laptops	Laptop (pl)
 die	Laune	mood
-die(pl)	Launen	mood (pl)
 das	Leben	live
 der	Lehrer	teacher
-die(pl)	Lehrer	teacher (pl)
 das	Licht	light
-die(pl)	Lichter	light (pl)
 das	Lied	song
-die(pl)	Lieder	song (pl)
 die	Lust	lust
 der	Mantel	coat
-die(pl)	Mäntel	coat (pl)
 der	Markt	market
-die(pl)	Märkte	market (pl)
 das	Material	material
-die(pl)	Materialien	material (pl)
 die	Maus	mouse
-die(pl)	Mäuse	mouse (pl)
 der	Mechatroniker	mechatronics
-die(pl)	Mechatroniker	mechatronics (pl)
 das	Medikament	drug
-die(pl)	Medikamente	drug (pl)
 die	Medizin	medicine
 das	Meer	sea
-die(pl)	Meere	sea (pl)
 die	Menge	amount
-die(pl)	Mengen	amount (pl)
 der	Mensch	human
-die(pl)	Menschen	human (pl)
 das	Metall	metal
 der	Meter	meter
-die(pl)	Meter	meter (pl)
 die	Miete	rental fee
-die(pl)	Mieten	rental fee (pl)
 die	Milch	milk
 die	Minute	minute
-die(pl)	Minuten	minute (pl)
 der	Mittag	noon
-die(pl)	Mittage	noon (pl)
 die	Mitte	center
-die(pl)	Mitten	center (pl)
 die	Möbel	furniture
-die(pl)	Möbel	furniture (pl)
 der	Moment	moment
-die(pl)	Momente	moment (pl)
 der	Monat	month
-die(pl)	Monate	month (pl)
 der	Montag	Monday
-die(pl)	Montage	Monday (pl)
 der	Morgen	tomorrow
-die(pl)	Morgen	tomorrow (pl)
 das	Motorrad	motorcycle
-die(pl)	Motorräder	motorcycle (pl)
-der	Müll	trash
+der	Müll	waste
 der	Mund	mouth
-die(pl)	Münder	mouth (pl)
-die(pl)	Museen	museum (pl)
 das	Museum	museum
 die	Mutter	mother
-die(pl)	Mütter	mother (pl)
 die	Mütze	Cap
-die(pl)	Mützen	Cap (pl)
 der	Nachbar	Neighboring
-die(pl)	Nachbarn	Neighboring (pl)
 der	Nachmittag	Afternoon
-die(pl)	Nachmittage	Afternoon (pl)
 die	Nacht	night
-die(pl)	Nächte	night (pl)
-die	Nähe	neighborhood
+die	Nähe	near
 die	Nase	nose
-die(pl)	Nasen	nose (pl)
 die	Natur	nature
 der	Nebel	fog
 das	Neujahr	New Year
-die(pl)	Neujahre	New Year (pl)
 der	Norden	north
 das	Notizbuch	Notebook
-die(pl)	Notizbücher	Notebook (pl)
 die	Nummer	number
-die(pl)	Nummern	number (pl)
 das	Obst	fruit
 das	Ohr	ear
-die(pl)	Ohren	ear (pl)
 die	Orange	orange
-die(pl)	Orangen	orange (pl)
 die	Ordnung	order
 der	Ort	place
-die(pl)	Orte	place (pl)
 der	Osten	east
 das	Ostern	Easter
 das	Paar	pair
-die(pl)	Paare	pair (pl)
 das	Papier	paper
 der	Park	park
-die(pl)	Parks	park (pl)
 die	Party	party
-die(pl)	Partys	party (pl)
 die	Pause	pause
-die(pl)	Pausen	pause (pl)
 die	Person	person
-die(pl)	Personen	person (pl)
 das	Pflaster	plaster
-die(pl)	Pflaster	plaster (pl)
 das	Picknick	picnic
-die(pl)	Picknick(e/s)	picnic (pl)
 der	Plan	plan
-die(pl)	Pläne	plan (pl)
 das	Plastik	plastic
 der	Politiker	Politician
-die(pl)	Politiker	Politician (pl)
 die	Polizei	police
 die	Post	post
 die	Postleitzahl	zip code
-die(pl)	Postleitzahlen	zip code (pl)
-die(pl)	Praxen	Practice (pl)
 die	Praxis	Practice
 das	Problem	problem
-die(pl)	Probleme	problem (pl)
 das	Produkt	product
-die(pl)	Produkte	product (pl)
 die	Prüfung	exam
-die(pl)	Prüfungen	exam (pl)
 der	Pullover 	sweater
-die(pl)	Pullover 	sweater (pl)
-der	Quadratmeter	square meters
-die(pl)	Quadratmeter	square meters (pl)
+der	Quadratmeter	square meter
 das	Radio	radio
-die(pl)	Radios	radio (pl)
 das	Rathaus	town hall
-die(pl)	Rathäuser	town hall (pl)
 die	Rechnung	bill
-die(pl)	Rechnungen	bill (pl)
 die	Regel	rule
-die(pl)	Regeln	rule (pl)
 der	Regen	rain
 der	Regenschirm	umbrella
-die(pl)	Regenschirme	umbrella (pl)
 der	Reis	rice
 die	Reise	travel
 das	Reisebüro	Travel agency
-die(pl)	Reisebüros	Travel agency (pl)
 der	Reiseführer	travel Guide
-die(pl)	Reiseführer	travel Guide (pl)
-die(pl)	Reisen	travel (pl)
 das	Restaurant	restaurant
-die(pl)	Restaurants	restaurant (pl)
 das	Rezept	recipe
-die(pl)	Rezepte	recipe (pl)
 der	Ring	ring
-die(pl)	Ringe	ring (pl)
-der	Rock	Rock
-die(pl)	Röcke	Rock (pl)
-der	Rücken	move back
-die(pl)	Rücken	move back (pl)
+der	Rock	skirt
+der	Rücken	body back
 die	S-Bahn	S-Bahn
-die(pl)	S-Bahnen	S-Bahn (pl)
 die	Sahne	cream
 der	Salat	salad
-die(pl)	Salate	salad (pl)
 die	Salbe	ointment
-die(pl)	Salben	ointment (pl)
 der	Sänger	vocalist
-die(pl)	Sänger	vocalist (pl)
 die	Sängerin	singer
-die(pl)	Sängerinnen	singer (pl)
 der	Schauspieler	actor
-die(pl)	Schauspieler	actor (pl)
 das	Schild	Shield
-die(pl)	Schilder	Shield (pl)
 der	Schinken	ham
 der	Schirm	Shield
-die(pl)	Schirme	Shield (pl)
 das	Schlafzimmer	bedroom
-die(pl)	Schlafzimmer	bedroom (pl)
 das	Schloss	castle
-die(pl)	Schlösser	castle (pl)
 der	Schlüssel	key
-die(pl)	Schlüssel	key (pl)
 der	Schmerz	pain
-die(pl)	Schmerzen	pain (pl)
 der	Schnee	snow
-der	Schnupfen	sniff
+der	Schnupfen	catarrh
 die	Schokolade	chocolate
-die(pl)	Schokoladen	chocolate (pl)
 der	Schrank	cabinet
-die(pl)	Schränke	cabinet (pl)
 der	Schuh	shoe
-die(pl)	Schuhe	shoe (pl)
 die	Schule	school
-die(pl)	Schulen	school (pl)
 die	Schwester	sister
-die(pl)	Schwestern	sister (pl)
 das	Schwimmbad	swimming pool
-die(pl)	Schwimmbäder	swimming pool (pl)
 die	Seife	Soap
-die(pl)	Seifen	Soap (pl)
 die	Sekretärin	secretary
-die(pl)	Sekretärinnen	secretary (pl)
 der	Sessel	armchair
-die(pl)	Sessel	armchair (pl)
 das	Silvester	New Year's Eve
-die(pl)	Silvester	New Year's Eve (pl)
-die	Sitzung	meeting
-die(pl)	Sitzungen	meeting (pl)
+die	Sitzung	meeting session
 die	SMS	SMS
-die(pl)	SMS	SMS (pl)
 die	Socke	sock
-die(pl)	Socken	sock (pl)
 das	Sofa	sofa
-die(pl)	Sofas	sofa (pl)
 der	Sohn	son
-die(pl)	Söhne	son (pl)
 der	Sommer	summer
-die(pl)	Sommer	summer (pl)
 die	Sonne	Sun
-die(pl)	Sonnen	Sun (pl)
 die	Speisekarte	menu
-die(pl)	Speisekarten	menu (pl)
 der	Spielplatz	playground
-die(pl)	Spielplätze	playground (pl)
 der	Sport	Sports
 die	Spülmaschine	dishwasher
-die(pl)	Spülmaschinen	dishwasher (pl)
 die	Stadt	City
-die(pl)	Städte	City (pl)
 der	Star	star
-die(pl)	Stars	star (pl)
 die	Stelle	point/place
-die(pl)	Stellen	point/place (pl)
 der	Stift	pen
-die(pl)	Stift	pen (pl)
 der	Stock	floor
-die(pl)	Stockwerke	floor (pl)
 die	Straße	street
-die(pl)	Straßen	street (pl)
 die	Straßenbahn	Tram
-die(pl)	Straßenbahnen	Tram (pl)
 das	Streichholz	match
-die(pl)	Streichhölzer	match (pl)
 der	Strumpf	stocking
-die(pl)	Strümpfe	stocking (pl)
 die	Strumpfhose	tights
-die(pl)	Strumpfhosen	tights (pl)
 der	Student	college student
-die(pl)	Studenten	college student (pl)
 der	Stuhl	chair
-die(pl)	Stühle	chair (pl)
 die	Stunde	hour
-die(pl)	Stunden	hour (pl)
 der	Sturm	storm
-die(pl)	Stürme	storm (pl)
 der	Süden	south
 die	Suppe	soup
-die(pl)	Suppen	soup (pl)
 das	T-Shirt	T-shirt
-die(pl)	T-Shirts	T-shirt (pl)
 die	Tablette	tablet
-die(pl)	Tabletten	tablet (pl)
 der	Tag	day
-die(pl)	Tage	day (pl)
 die	Tasche	bag
-die(pl)	Taschen	bag (pl)
 das	Taxi	taxi
-die(pl)	Taxis	taxi (pl)
 der	Tee	tea
-die(pl)	Tees	tea (pl)
 das	Telefon	phone
-die(pl)	Telefone	phone (pl)
 die	Telefonnummer	phone number
-die(pl)	Telefonnummern	phone number (pl)
 der	Teppich	carpet
-die(pl)	Teppiche	carpet (pl)
 der	Termin	meeting
-die(pl)	Termine	meeting (pl)
 der	Text	text
-die(pl)	Texte	text (pl)
 das	Theater	theater
-die(pl)	Theater	theater (pl)
 das	Ticket	ticket
-die(pl)	Tickets	ticket (pl)
 der	Tisch	table
-die(pl)	Tische	table (pl)
 die	Tochter	daughter
-die(pl)	Töchter	daughter (pl)
 die	Toilette	Toilet
-die(pl)	Toiletten	Toilet (pl)
 die	Tomate	tomato
-die(pl)	Tomaten	tomato (pl)
 die	Tram	tram
-die(pl)	Trams	tram (pl)
 der	Traum	dream
-die(pl)	Träume	dream (pl)
 die	Treppe	stairway
-die(pl)	Treppen	stairway (pl)
 der	Turm	tower
-die(pl)	Türme	tower (pl)
 die	U-Bahn	U-Bahn
-die(pl)	U-Bahnen	U-Bahn (pl)
 die	Uhr	Clock
-die(pl)	Uhren	Clock (pl)
 der	Urlaub	vacation
-die(pl)	Urlaube	vacation (pl)
 der	Vater	father
-die(pl)	Väter	father (pl)
 die	Verbindung	connection
-die(pl)	Verbindungen	connection (pl)
-der	Verkäufer	Seller
-die(pl)	Verkäufer	Seller (pl)
 der	Verkehr	traffic
 das	Verkehrsmittel	means of transport
-die(pl)	Verkehrsmittel	means of transport (pl)
+der	Verkäufer	Seller
 der	Vermieter	landlord
-die(pl)	Vermieter	landlord (pl)
-die	Verwandte	relation
-die(pl)	Verwandten	relation (pl)
+die	Verwandte	relative
 der	Vormittag	morning
-die(pl)	Vormittage	morning (pl)
 die	Vorsicht	caution
 der	Wald	forest
-die(pl)	Wälder	forest (pl)
 die	Wäsche	wash
 das	Wasser	water
 der	Wecker	alarm clock
-die(pl)	Wecker	alarm clock (pl)
 der	Weg	Away
-die(pl)	Wege	Away (pl)
-das	Weihnachten	Christmas
 der	Wein	Wine
-die(pl)	Weine	Wine (pl)
+das	Weihnachten	Christmas
 die	Welt	world
 der	Westen	west
 das	Wetter	Weather
-die	Wiese	meadow
-die(pl)	Wiesen	meadow (pl)
+die	Wiese	manner
 der	Wind	wind
-die(pl)	Winde	wind (pl)
 der	Winter	winter
-die(pl)	Winter	winter (pl)
 die	Woche	week
-die(pl)	Wochen	week (pl)
 das	Wochenende	weekend
-die(pl)	Wochenenden	weekend (pl)
 die	Wohnung	apartment
-die(pl)	Wohnungen	apartment (pl)
 das	Wohnzimmer	living room
-die(pl)	Wohnzimmer	living room (pl)
 die	Wolke	cloud
-die(pl)	Wolken	cloud (pl)
 das	Wort	word
-die(pl)	Wörter	word (pl)
 das	Wörterbuch	dictionary
-die(pl)	Wörterbücher	dictionary (pl)
 der	Wunsch	wish
-die(pl)	Wünsche	wish (pl)
 die	Wurst	sausage
-die(pl)	Würste	sausage (pl)
 der	Zahn	tooth
-die(pl)	Zähne	tooth (pl)
 die	Zeit	time
-die(pl)	Zeit	time (pl)
 die	Zeitung	newspaper
-die(pl)	Zeitungen	newspaper (pl)
 das	Zelt	tent
-die(pl)	Zelte	tent (pl)
-die(pl)	Zentren	center (pl)
 das	Zentrum	center
 das	Zimmer	room
-die(pl)	Zimmer	room (pl)
 die	Zitrone	lemon
-die(pl)	Zitronen	lemon (pl)
 der	Zug	train
-die(pl)	Züge	train (pl)
 die	Zwiebel	onion
+die(pl)	(Ehe)Frauen	Man (pl)
+die(pl)	(Ehe)Männer	Woman (pl)
+die(pl)	Ärzte	Doctor (pl)
+die(pl)	Abende	Evening (pl)
+die(pl)	Abfälle	Waste (pl)
+die(pl)	Adressen	Adress (pl)
+die(pl)	Alter	Age (pl)
+die(pl)	Altstädte	Old city (pl)
+die(pl)	Ampeln	Traffic light (pl)
+die(pl)	Ängste	Scare (pl)
+die(pl)	Anrufe	Call (phone) (pl)
+die(pl)	Anrufbeantworter	Autoreply (pl)
+die(pl)	Antworten	Answer (pl)
+die(pl)	Anzeigen	Advert (pl)
+die(pl)	Äpfel	Apple (pl)
+die(pl)	Apotheken	Pharmacy (pl)
+die(pl)	Arbeiten	Job (pl)
+die(pl)	Arbeitgeber	Employer (pl)
+die(pl)	Arbeitsplätzer	Workplace (pl)
+die(pl)	Arbeitszimmer	Workroom (pl)
+die(pl)	Architektinnen	Architect (pl)
+die(pl)	Arme	Arm (pl)
+die(pl)	Aufzüge	Elevator (pl)
+die(pl)	Augen	Eye (pl)
+die(pl)	Ausbildungen	Intership(training) (pl)
+die(pl)	Ausflüge	Excursion (pl)
+die(pl)	Ausländer	Foreigner (pl)
+die(pl)	Ausstellungen	Exhibition (pl)
+die(pl)	Autos	Auto (pl)
+die(pl)	Babys	Baby (pl)
+die(pl)	Bäckereien	bakery (pl)
+die(pl)	Bäder	bathroom (pl)
+die(pl)	Bademäntel	bathrobe (pl)
+die(pl)	Bahnhöfe	railway station (pl)
+die(pl)	Bahnsteige	platform (pl)
+die(pl)	Balkone	balcony (pl)
+die(pl)	Banken	bank (pl)
+die(pl)	Bars	bar (pl)
+die(pl)	Bärte	beard (pl)
+die(pl)	Bäuche	stomach (pl)
+die(pl)	Bäume	tree (pl)
+die(pl)	Beine	leg (pl)
+die(pl)	Beispiele	example (pl)
+die(pl)	Bekannten	known (pl)
+die(pl)	Berge	mountain (pl)
+die(pl)	Berufe	profession (pl)
+die(pl)	Betten	bed (pl)
+die(pl)	Bibliotheken	library (pl)
+die(pl)	Biere	beer (pl)
+die(pl)	Bilder	image (pl)
+die(pl)	Bildschirme	screen (pl)
+die(pl)	Bleistifte	pencil (pl)
+die(pl)	Blicke	view (pl)
+die(pl)	Blumen	flower (pl)
+die(pl)	Blusen	blouse (pl)
+die(pl)	Böden	floor (pl)
+die(pl)	Braten	pork (pl)
+die(pl)	Briefe	letter(post) (pl)
+die(pl)	Briefmarken	postal mark (pl)
+die(pl)	Brillen	glasses (pl)
+die(pl)	Brote	bread (pl)
+die(pl)	Brötchen	bun (pl)
+die(pl)	Brücken	bridge (pl)
+die(pl)	Brüder	brother (pl)
+die(pl)	Brüste	chest (pl)
+die(pl)	Bücher	book (pl)
+die(pl)	Büros	office (pl)
+die(pl)	Busse	bus (pl)
+die(pl)	Cafes	coffee shop (pl)
+die(pl)	Chancen	chance (pl)
+die(pl)	Chefs	boss (pl)
+die(pl)	Computer	computer (pl)
+die(pl)	Couchen	coutch (pl)
+die(pl)	Dächer	roof (pl)
+die(pl)	Diskos	disco (pl)
+die(pl)	Doktoren	doctor (pl)
+die(pl)	Dome	cathedral (pl)
+die(pl)	Drucker	printer (pl)
+die(pl)	Duschen	shower (pl)
+die(pl)	E-Mails	e-mail (pl)
+die(pl)	Eier	egg (pl)
+die(pl)	Einladungen	invitation (pl)
+die(pl)	Enkelin	grandson (pl)
+die(pl)	Enkelinnen	granddaughter (pl)
+die(pl)	Entschuldigungen	sorry (pl)
+die(pl)	Erdgeschosse	ground floor (pl)
+die(pl)	Essen	food (pl)
+die(pl)	Fabriken	factory (pl)
+die(pl)	Fahrer	driver (pl)
+die(pl)	Fahrräder	bicycle (pl)
+die(pl)	Familien	family (pl)
+die(pl)	Familienstand	marital status (pl)
+die(pl)	Faxe	fax (pl)
+die(pl)	Feiern	party (pl)
+die(pl)	Fenster	window (pl)
+die(pl)	Fernseher	TV (pl)
+die(pl)	Feste	holyday (pl)
+die(pl)	Feuerzeuge	lighter (pl)
+die(pl)	Filme	film (pl)
+die(pl)	Finger	finger (pl)
+die(pl)	Firmen	company (pl)
+die(pl)	Fische	fish (pl)
+die(pl)	Flaschen	bottle (pl)
+die(pl)	Flughäfen	airport (pl)
+die(pl)	Flugzeuge	airplane (pl)
+die(pl)	Flure	corridor (pl)
+die(pl)	Flüsse	river (pl)
+die(pl)	Föhn(e/s)	hairdryer (pl)
+die(pl)	Formen	form (pl)
+die(pl)	Formulare	form (pl)
+die(pl)	Fotos	photo (pl)
+die(pl)	Fotoapparate	camera (pl)
+die(pl)	Fragen	question (pl)
+die(pl)	Freizeit	leisure (pl)
+die(pl)	Fremdsprachen	foreign language (pl)
+die(pl)	Friseurinnen	hairdresser (pl)
+die(pl)	Frühjahre	last year (pl)
+die(pl)	Frühlinge	spring (pl)
+die(pl)	Frühstücke	breakfast (pl)
+die(pl)	Führerscheine	driving license (pl)
+die(pl)	Fuße	foot (pl)
+die(pl)	Garagen	garage (pl)
+die(pl)	Gärten	garden (pl)
+die(pl)	Gäste	quest (pl)
+die(pl)	Geburtsdaten	birth date (pl)
+die(pl)	Geldbörsen	Purse (pl)
+die(pl)	Geschäfte	business (pl)
+die(pl)	Geschenke	gift (pl)
+die(pl)	Gespräche	conversation (pl)
+die(pl)	Getränke	drink (pl)
+die(pl)	Gewitter	thunderstorm (pl)
+die(pl)	Gläser	Glass (pl)
+die(pl)	Gleise	rail (pl)
+die(pl)	Glückwünsche	congratulation (pl)
+die(pl)	Grade	Degree (pl)
+die(pl)	Großmütter/Omas	Grandmother / grandma (pl)
+die(pl)	Großväter/Opas	Grandfather/grandfa (pl)
+die(pl)	Größen	size (pl)
+die(pl)	Grüße	greeting (pl)
+die(pl)	Gürtel	belt (pl)
+die(pl)	Haare	hair (pl)
+die(pl)	Häfen	port (pl)
+die(pl)	Halse	throat (pl)
+die(pl)	Halt(e/s)	hold (pl)
+die(pl)	Haltestellen	stop for transport (pl)
+die(pl)	Handtücher/Handtüche	towel (pl)
+die(pl)	Handys	mobile phone (pl)
+die(pl)	Häuser	House (pl)
+die(pl)	Hausaufgaben	homework (pl)
+die(pl)	Hausfrauen	housewife (pl)
+die(pl)	Heizungen	heating (pl)
+die(pl)	Hemden	shirt (pl)
+die(pl)	Herbste	autumn (pl)
+die(pl)	Himmelsrichtungen	compass direction (pl)
+die(pl)	Hobbys	Hobby (pl)
+die(pl)	Hochzeiten	wedding (pl)
+die(pl)	Hosen	trousers (pl)
+die(pl)	Hotels	hotel (pl)
+die(pl)	Hunde	dog (pl)
+die(pl)	Hüte	cap (pl)
+die(pl)	Informationen	information (pl)
+die(pl)	Instrumente	instrument (pl)
+die(pl)	Internet	Internet (pl)
+die(pl)	Jacken	jacket (pl)
+die(pl)	Jahre	year (pl)
+die(pl)	Januare	January (pl)
+die(pl)	Journalistinnen	journalist (pl)
+die(pl)	Jugendherbergen	youth hostel (pl)
+die(pl)	Kaffee	coffee (pl)
+die(pl)	Kalender	calendar (pl)
+die(pl)	Kartoffeln	potato (pl)
+die(pl)	Ketten	Chain (pl)
+die(pl)	Kilometer	kilometer (pl)
+die(pl)	Kinder	child (pl)
+die(pl)	Kindergärten	kindergarten (pl)
+die(pl)	Kinderzimmer	children room (pl)
+die(pl)	Kinos	cinema (pl)
+die(pl)	Kirchen	church (pl)
+die(pl)	Kleider	dress (pl)
+die(pl)	Klimaanlagen	air conditioner (pl)
+die(pl)	Kneipen	pub (pl)
+die(pl)	Knie	knee (pl)
+die(pl)	Koffer	suitcase (pl)
+die(pl)	Kollegen	colleague (pl)
+die(pl)	Konzerte	concert (pl)
+die(pl)	Köpfe	head (pl)
+die(pl)	Krankenhäuser	hospital (pl)
+die(pl)	Kreditkarten	Credit card (pl)
+die(pl)	Küchen	kitchen (pl)
+die(pl)	Kuchen	cake (pl)
+die(pl)	Kugelschreiber	pen (pl)
+die(pl)	Kühlschränke	fridge (pl)
+die(pl)	Kurse	course (pl)
+die(pl)	Läden	shop (pl)
+die(pl)	Lampen	lamp (pl)
+die(pl)	Laptops	Laptop (pl)
+die(pl)	Launen	mood (pl)
+die(pl)	Lehrer	teacher (pl)
+die(pl)	Lichter	light (pl)
+die(pl)	Lieder	song (pl)
+die(pl)	Mäntel	coat (pl)
+die(pl)	Märkte	market (pl)
+die(pl)	Materialien	material (pl)
+die(pl)	Mäuse	mouse (pl)
+die(pl)	Mechatroniker	mechatronics (pl)
+die(pl)	Medikamente	drug (pl)
+die(pl)	Meere	sea (pl)
+die(pl)	Mengen	amount (pl)
+die(pl)	Menschen	human (pl)
+die(pl)	Meter	meter (pl)
+die(pl)	Mieten	rental fee (pl)
+die(pl)	Minuten	minute (pl)
+die(pl)	Mittage	noon (pl)
+die(pl)	Mitten	center (pl)
+die(pl)	Möbel	furniture (pl)
+die(pl)	Momente	moment (pl)
+die(pl)	Monate	month (pl)
+die(pl)	Montage	Monday (pl)
+die(pl)	Morgen	tomorrow (pl)
+die(pl)	Motorräder	motorcycle (pl)
+die(pl)	Münder	mouth (pl)
+die(pl)	Museen	museum (pl)
+die(pl)	Mütter	mother (pl)
+die(pl)	Mützen	Cap (pl)
+die(pl)	Nachbarn	Neighboring (pl)
+die(pl)	Nachmittage	Afternoon (pl)
+die(pl)	Nächte	night (pl)
+die(pl)	Nasen	nose (pl)
+die(pl)	Neujahre	New Year (pl)
+die(pl)	Notizbücher	Notebook (pl)
+die(pl)	Nummern	number (pl)
+die(pl)	Ohren	ear (pl)
+die(pl)	Orangen	orange (pl)
+die(pl)	Orte	place (pl)
+die(pl)	Paare	pair (pl)
+die(pl)	Parks	park (pl)
+die(pl)	Partys	party (pl)
+die(pl)	Pausen	pause (pl)
+die(pl)	Personen	person (pl)
+die(pl)	Pflaster	plaster (pl)
+die(pl)	Picknick(e/s)	picnic (pl)
+die(pl)	Pläne	plan (pl)
+die(pl)	Politiker	Politician (pl)
+die(pl)	Postleitzahlen	zip code (pl)
+die(pl)	Praxen	Practice (pl)
+die(pl)	Probleme	problem (pl)
+die(pl)	Produkte	product (pl)
+die(pl)	Prüfungen	exam (pl)
+die(pl)	Pullover 	sweater (pl)
+die(pl)	Quadratmeter	square meter (pl)
+die(pl)	Radios	radio (pl)
+die(pl)	Rathäuser	town hall (pl)
+die(pl)	Rechnungen	bill (pl)
+die(pl)	Regeln	rule (pl)
+die(pl)	Regenschirme	umbrella (pl)
+die(pl)	Reisen	travel (pl)
+die(pl)	Reisebüros	Travel agency (pl)
+die(pl)	Reiseführer	travel Guide (pl)
+die(pl)	Restaurants	restaurant (pl)
+die(pl)	Rezepte	recipe (pl)
+die(pl)	Ringe	ring (pl)
+die(pl)	Röcke	skirt (pl)
+die(pl)	Rücken	body back (pl)
+die(pl)	S-Bahnen	S-Bahn (pl)
+die(pl)	Salate	salad (pl)
+die(pl)	Salben	ointment (pl)
+die(pl)	Sänger	vocalist (pl)
+die(pl)	Sängerinnen	singer (pl)
+die(pl)	Schauspieler	actor (pl)
+die(pl)	Schilder	Shield (pl)
+die(pl)	Schirme	Shield (pl)
+die(pl)	Schlafzimmer	bedroom (pl)
+die(pl)	Schlösser	castle (pl)
+die(pl)	Schlüssel	key (pl)
+die(pl)	Schmerzen	pain (pl)
+die(pl)	Schokoladen	chocolate (pl)
+die(pl)	Schränke	cabinet (pl)
+die(pl)	Schuhe	shoe (pl)
+die(pl)	Schulen	school (pl)
+die(pl)	Schwestern	sister (pl)
+die(pl)	Schwimmbäder	swimming pool (pl)
+die(pl)	Seifen	Soap (pl)
+die(pl)	Sekretärinnen	secretary (pl)
+die(pl)	Sessel	armchair (pl)
+die(pl)	Silvester	New Year's Eve (pl)
+die(pl)	Sitzungen	meeting session (pl)
+die(pl)	SMS	SMS (pl)
+die(pl)	Socken	sock (pl)
+die(pl)	Sofas	sofa (pl)
+die(pl)	Söhne	son (pl)
+die(pl)	Sommer	summer (pl)
+die(pl)	Sonnen	Sun (pl)
+die(pl)	Speisekarten	menu (pl)
+die(pl)	Spielplätze	playground (pl)
+die(pl)	Spülmaschinen	dishwasher (pl)
+die(pl)	Städte	City (pl)
+die(pl)	Stars	star (pl)
+die(pl)	Stellen	point/place (pl)
+die(pl)	Stift	pen (pl)
+die(pl)	Stockwerke	floor (pl)
+die(pl)	Straßen	street (pl)
+die(pl)	Straßenbahnen	Tram (pl)
+die(pl)	Streichhölzer	match (pl)
+die(pl)	Strümpfe	stocking (pl)
+die(pl)	Strumpfhosen	tights (pl)
+die(pl)	Studenten	college student (pl)
+die(pl)	Stühle	chair (pl)
+die(pl)	Stunden	hour (pl)
+die(pl)	Stürme	storm (pl)
+die(pl)	Suppen	soup (pl)
+die(pl)	T-Shirts	T-shirt (pl)
+die(pl)	Tabletten	tablet (pl)
+die(pl)	Tage	day (pl)
+die(pl)	Taschen	bag (pl)
+die(pl)	Taxis	taxi (pl)
+die(pl)	Tees	tea (pl)
+die(pl)	Telefone	phone (pl)
+die(pl)	Telefonnummern	phone number (pl)
+die(pl)	Teppiche	carpet (pl)
+die(pl)	Termine	meeting (pl)
+die(pl)	Texte	text (pl)
+die(pl)	Theater	theater (pl)
+die(pl)	Tickets	ticket (pl)
+die(pl)	Tische	table (pl)
+die(pl)	Töchter	daughter (pl)
+die(pl)	Toiletten	Toilet (pl)
+die(pl)	Tomaten	tomato (pl)
+die(pl)	Trams	tram (pl)
+die(pl)	Träume	dream (pl)
+die(pl)	Treppen	stairway (pl)
+die(pl)	Türme	tower (pl)
+die(pl)	U-Bahnen	U-Bahn (pl)
+die(pl)	Uhren	Clock (pl)
+die(pl)	Urlaube	vacation (pl)
+die(pl)	Väter	father (pl)
+die(pl)	Verbindungen	connection (pl)
+die(pl)	Verkehrsmittel	means of transport (pl)
+die(pl)	Verkäufer	Seller (pl)
+die(pl)	Vermieter	landlord (pl)
+die(pl)	Verwandten	relative (pl)
+die(pl)	Vormittage	morning (pl)
+die(pl)	Wälder	forest (pl)
+die(pl)	Wecker	alarm clock (pl)
+die(pl)	Wege	Away (pl)
+die(pl)	Weine	Wine (pl)
+die(pl)	Wiesen	manner (pl)
+die(pl)	Winde	wind (pl)
+die(pl)	Winter	winter (pl)
+die(pl)	Wochen	week (pl)
+die(pl)	Wochenenden	weekend (pl)
+die(pl)	Wohnungen	apartment (pl)
+die(pl)	Wohnzimmer	living room (pl)
+die(pl)	Wolken	cloud (pl)
+die(pl)	Wörter	word (pl)
+die(pl)	Wörterbücher	dictionary (pl)
+die(pl)	Wünsche	wish (pl)
+die(pl)	Würste	sausage (pl)
+die(pl)	Zähne	tooth (pl)
+die(pl)	Zeit	time (pl)
+die(pl)	Zeitungen	newspaper (pl)
+die(pl)	Zelte	tent (pl)
+die(pl)	Zentren	center (pl)
+die(pl)	Zimmer	room (pl)
+die(pl)	Zitronen	lemon (pl)
+die(pl)	Züge	train (pl)
 die(pl)	Zwiebeln	onion (pl)

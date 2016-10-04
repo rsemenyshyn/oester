@@ -1,4 +1,4 @@
-package ripka.deutschwiederholung.models;
+package com.ripka.deutschwiederholung.models;
 
 /**
  * Created by ripka on 9/22/16.

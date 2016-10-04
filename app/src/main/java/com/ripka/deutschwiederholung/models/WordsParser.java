@@ -1,16 +1,13 @@
-package ripka.deutschwiederholung.models;
+package com.ripka.deutschwiederholung.models;
 
 /**
  * Created by ripka on 9/22/16.
  */
-import ripka.deutschwiederholung.MainActivity;
-import ripka.deutschwiederholung.R;
-import ripka.deutschwiederholung.RipkaApp;
+import com.ripka.deutschwiederholung.RipkaApp;
 
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.util.Xml;
 
 import java.io.BufferedReader;
 import java.io.IOException;

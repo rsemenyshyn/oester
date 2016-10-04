@@ -1,15 +1,15 @@
-package ripka.deutschwiederholung;
+package com.ripka.deutschwiederholung;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import ripka.deutschwiederholung.models.WordsParser;
+import com.ripka.deutschwiederholung.models.WordsParser;
 
 /**
  * Created by ripka on 9/28/16.
  */
 
-public class NounsA1Activity extends NounsActivity {
+public class NounsB1Activity extends NounsActivity {
     @Override
     protected void afterCreate(boolean isRestored) {
         List<Integer> filesToParse = new ArrayList<>(
