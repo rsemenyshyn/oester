@@ -16,11 +16,17 @@ import com.ripka.deutschwiederholung.RipkaApp;
  */
 
 public class TestOptions {
-    static private List<List<String>> Options = new ArrayList<List<String>>(
+    static private List<List<String>> NounsOptions = new ArrayList<List<String>>(
             Arrays.asList(
                     Arrays.asList("der", "die", "das", "die(pl)"),
                     Arrays.asList("den", "die", "das", "die(pl)"),
                     Arrays.asList("dem(m)", "der(f)", "dem(n)", "den")
+            )
+    );
+
+    static private List<List<String>> VerbsOptions = new ArrayList<List<String>>(
+            Arrays.asList(
+                    Arrays.asList("Infinitiv", "Präsens", "Präteritum", "Partizip II")
             )
     );
 
@@ -41,7 +47,7 @@ public class TestOptions {
     static public int getOptionColor(String option) {
         return Colors.get(option);
     }
-    static public List<String> getOption(int arcticelNo) {
-        return Options.get(arcticelNo);
+    static public List<String> getNounsOptions(int arcticelNo) {
+        return NounsOptions.get(arcticelNo);
     }
 }

@@ -13,7 +13,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.ripka.deutschwiederholung.models.Test;
+import com.ripka.deutschwiederholung.models.deTests.NounTest;
+import com.ripka.deutschwiederholung.models.deTests.Test;
 import com.ripka.deutschwiederholung.models.TestGen;
 import com.ripka.deutschwiederholung.models.TestOptions;
 import com.ripka.deutschwiederholung.models.TestResult;
@@ -29,7 +30,7 @@ public class NounsActivity extends NavActivity {
         ViewFlipper vf = (ViewFlipper)findViewById(R.id.vf);
         vf.setDisplayedChild(0);
 
-
+        // ------------- UI setting for first use ------------
         Button btnCheck = (Button)findViewById(R.id.app_btn_go);
         btnCheck.setVisibility(View.VISIBLE);
         btnCheck.setEnabled(false);
@@ -44,9 +45,6 @@ public class NounsActivity extends NavActivity {
                 btnCheck.setEnabled(true);
             }
         });
-
-        TextView textView = (TextView) findViewById(R.id.bannerText);
-        textView.getBackground().setAlpha(85);
 
         afterCreate( savedInstanceState != null );
     }
@@ -73,7 +71,8 @@ public class NounsActivity extends NavActivity {
         View radioButton = radioGroup.findViewById(radioButtonID);
         int idx = radioGroup.indexOfChild(radioButton);
 
-        TestResult res = TestGen.checkTest(idx);
+        Test test = TestGen.getLastGeneratedTest();
+        TestResult res = ((NounTest)test).getResult(Integer.toString(idx) );
 
         TextView txtMessage = (TextView) findViewById(R.id.message);
         txtMessage.setText( res.message );
@@ -115,9 +114,9 @@ public class NounsActivity extends NavActivity {
         btnCheck.setEnabled(false);
     }
     protected void setNextTest(boolean isRestored){
-        Test test = TestGen.getLastTest();
+        Test test = TestGen.getLastGeneratedTest();
         if (!isRestored || test == null) {
-            test = TestGen.generateNextTest( tests.getWords() );
+            test = TestGen.generateNounTest( tests.getWords() );
         }
 
         RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);

@@ -57,6 +57,9 @@ public class NavActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        TextView textView = (TextView) findViewById(R.id.bannerText);
+        textView.getBackground().setAlpha(85);
     }
     @Override
     public void onResume() {
@@ -146,6 +149,8 @@ public class NavActivity extends AppCompatActivity
         return true;
     }
 
+
+    // ----------- GLOBAL UI -----------
     public void sendScreenShot() {
         View view = getWindow().getDecorView().getRootView();
         view.setDrawingCacheEnabled(true);

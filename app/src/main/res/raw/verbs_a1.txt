@@ -1,0 +1,215 @@
+fährt ab	fuhr ab	ist abgefahren	abfahren	-
+fliegt ab	flog ab	ist abgeflogen	abfliegen	-
+gibt ab	gab ab	hat abgegeben	abgeben	-
+holt ab	holte ab	hat abgeholt	abholen 	-
+gibt acht	gab acht	hat achtgegeben	achtgeben	-
+ändert sich	änderte sich	hat sich geändert	ändern (sich)	-
+fängt an	fing an	hat angefangen	anfangen	-
+kommt an	kam an	ist angekommen	ankommen	-
+macht an	machte an	hat angemacht	anmachen	-
+meldet an	meldete an	hat angemeldet	anmelden (sich)	-
+ruft an	rief an	hat angerufen	anrufen	-
+antwortet	antwortete	hat geantwortet	antworten	-
+zieht an	zog an	hat angezogen	anziehen (sich)	-
+arbeitet	arbeitete	hat gearbeitet	arbeiten	-
+ärgert	ärgerte	hat geärgert	ärgern (sich)	-
+hört auf	hörte auf	hat aufgehört	aufhören	-
+macht auf	machte auf	hat aufgemacht	aufmachen	-
+passt auf	passte auf	hat aufgepasst	aufpassen	-
+räumt auf	räumte auf	hat aufgeräumt	aufräumen	-
+schreibt auf	schrieb auf	hat aufgeschrieben	aufschreiben	-
+steht auf	stand auf	ist aufgestanden	aufstehen	-
+füllt aus	füllte aus	hat ausgefüllt	ausfüllen	-
+gibt aus	gab aus	hat ausgegeben	ausgeben	-
+packt aus	packte aus	hat ausgepackt	auspacken	-
+sieht aus	sah aus	hat ausgesehen	aussehen	-
+steigt aus	stieg aus	ist ausgestiegen	aussteigen	-
+zieht sich aus	zog sich aus	hat sich ausgezogen	ausziehen sich	-
+zieht aus	zog aus	ist ausgezogen	ausziehen 	-
+badet	badete	hat gebadet	baden	-
+bedeutet	bedeutete	hat bedeutet	bedeuten	-
+beeilt	beeilte	hat beeilt	beeilen (sich)	-
+beginnt	begann	hat begonnen	beginnen	-
+behält	behielt	hat behalten	behalten	-
+bekommt	bekam	hat bekommen	bekommen	-
+benutzt	benutzte	hat benutzt	benutzen	-
+beschwert	beschwerte	hat beschwert	beschweren (sich)	-
+besichtig	besichtigte 	hat besichtigt	besichtigen	-
+besteht	bestand	hat bestanden	bestehen	-
+bestellt	bestellte	hat bestellt	bestellen	-
+besucht	besuchte	hat besucht	besuchen	-
+bezahlt	bezahlte	hat bezahlt	bezahlen	-
+bittet	bat	hat gebeten	bitten	-
+bleibt	blieb	ist geblieben	bleiben	-
+bloggt	bloggte	hat gebloggt	bloggen	-
+bluten	blutete	hat geblutet	bluten	-
+braucht 	brauchte	hat gebraucht	brauchen	-
+bremst	bremste	hat gebremst	bremsen	-
+bringt	brachte	hat gebracht	bringen	-
+bucht	buchte	hat gebucht	buchen	-
+buchstabiert	buchstabierte	hat buchstabiert	buchstabieren	-
+dankt	dankte	hat gedankt	danken	-
+dauert	dauerte	hat gedauert	dauern	-
+denkt 	dachte	hat gedacht	denken	-
+diskutiert	diskutierte	hat diskutiert	diskutieren	-
+druckt	druckte	hat gedruckt	drucken	-
+duscht	duschte	hat geduscht	duschen (sich)	-
+kauft ein	kaufte ein	hat eingekauft	einkaufen	-
+lädt ein	lud ein	hat eingeladen	einladen	-
+steigt ein	stieg ein	ist eingestiegen	einsteigen	-
+zieht ein	zog ein	ist eingezogen	einziehen	-
+endet	endete	hat geendet	enden	-
+entschuldigt	entschuldigte	hat entschuldigt	entschuldigen	-
+erinnert	erinnerte	hat erinnert	erinnern (sich)	-
+erklärt	erklärte	hat erklärt	erklären	-
+erlaubt	erlaubte	hat erlaubt	erlauben	-
+erreicht	erreichte	hat erreicht	erreichen	-
+erzählt	erzählte	hat erzählt	erzählen	-
+isst	aß	hat gegessen	essen	-
+fährt	fuhr	ist gefahren	fahren	-
+fällt	fiel	ist gefallen	fallen	-
+fehlt	fehlte	hat gefehlt	fehlen	-
+feiert	feierte	hat gefeiert	feiern	-
+sieht fern	sah fern	hat ferngesehen	fernsehen	-
+findet	fand	hat gefunden	finden	-
+fliegt	flog	ist geflogen	fliegen	-
+fragt	fragte 	hat gefragt	fragen	-
+freut	freute	hat gefreut	freuen (sich)	-
+frühstückt	frühstückte	hat gefrühstückt	frühstücken	-
+fühlt	fühlte 	hat gefühlt	fühlen (sich)	-
+gibt	gab	hat gegeben	geben	-
+gefällt	gefiel	hat gefallen	gefallen	-
+geht	ging	ist gegangen	gehen	-
+gehört	gehörte	hat gehört	gehören	-
+gewinnt	gewann 	hat gewonnen	gewinnen	-
+glaubt	glaubte	hat geglaubt	glauben	-
+grillt	grillte	hat gegrillt	grillen	-
+hält	hielt	hat gehalten	halten (sich)	-
+hängt	hängte	hat gehängt 	hängen	-
+hängt	hing	hat gehangen	hängen	-
+heiratet	heiratete	hat geheiratet	heiraten	-
+heißt	hieß	hat geheißen	heißen	-
+hilft	half	hat geholfen	helfen	-
+holt	holte	hat geholt	holen	-
+hört	hörte	hat gehört	hören	-
+interessiert	interessierte	hat interessiert	interessieren (sich)	-
+kauft 	kaufte	hat gekauft	kaufen	-
+kennt	kannte	hat gekannt	kennen	-
+lernt kennen	lernte kennen	hat kennengelernt	kennenlernen	-
+klopft 	klopfte	hat geklopft	klopfen	-
+kocht	kochte	hat gekocht	kochen	-
+kommt	kam	ist gekommen	kommen	-
+korrigiert	korrigierte	hat korrigiert	korrigieren	-
+kostet	kostete	hat gekostet	kosten	-
+kümmert	kümmerte	hat gekümmert	kümmern (sich)	-
+lacht	lachte	hat gelacht	lachen	-
+lässt	ließ	hat gelassen	lassen	-
+läuft	lief	ist gelaufen	laufen	-
+lebt	lebte	hat gelebt	leben	-
+legt	legte	hat gelegt	legen	-
+leiht	lieh	hat geliehen	leihen	-
+lernt	lernte	hat gelernt	lernen	-
+liest	las	hat gelesen	lesen	-
+liefert	lieferte	hat geliefert	liefern	-
+liegt	lag	hat gelegen	liegen	-
+löst	löste 	hat gelöst	lösen	-
+lügt	log	hat gelogen	lügen	-
+macht	machte	hat gemacht	machen	-
+meint	meinte	hat gemeint	meinen	-
+merkt	merkte	hat gemerkt	merken (sich)	-
+mietet	mietete	hat gemietet	mieten	-
+bringt mit	brachte mit	hat mitgebracht	mitbringen	-
+kommt mit	kam mit	ist mitgekommen	mitkommen	-
+machte mit	machte mit	hat mitgemacht	mitmachen	-
+nimmt mit	nahm mit	hat mitgenommen	mitnehmen	-
+nimmt	nahm	hat genommen	nehmen	-
+öffnet	öffnete	hat geöffnet	öffnen	-
+parkt	parkte	hat geparkt	parken 	-
+passt	passte	hat gepasst	passen	-
+probiert	probierte	hat probiert	probieren 	-
+putzt	putzte	hat geputzt	putzen	-
+raucht	rauchte	hat geraucht	rauchen	-
+regnet	regnete	hat geregnet	regnen	-
+reist	reiste	ist gereist	reisen	-
+renoviert	renovierte	hat renoviert	renovieren	-
+repariert	reparierte	hat repariert	reparieren	-
+reserviert	reservierte	hat reserviert	reservieren	-
+riecht	roch	hat gerochen	riechen	-
+sagt	sagte	hat gesagt	sagen	-
+sammelt	sammelte	hat gesammelt	sammeln	-
+scheint 	schien	hat geschienen	scheinen	-
+schenkt	schenkte	hat geschenkt	schenken	-
+schickt	schickte	hat geschickt	schicken	-
+schläft	schlief	hat geschlafen	schlafen	-
+schließt	schloss	hat geschlossen	schließen	-
+schmeckt	schmeckte	hat geschmeckt	schmecken	-
+schneidet	schnitt	hat geschnitten	schneiden (sich)	-
+schneit	schneite	hat geschneit	schneien	-
+schreibt	schrieb	hat geschrieben	schreiben	-
+schwimmt	schwamm	ist geschwommen	schwimmen	-
+sieht	sah	hat gesehen	sehen	-
+singt	sang	hat gesungen	singen	-
+sitzt	saß	hat/ist gesessen	sitzen	-
+geht spazieren	ging spazieren	ist spazieren gegangen	spazieren gehen	-
+speichert	speicherte	hat gespeichert	speichern	-
+spielt	spielte	hat gespielt	spielen	-
+spricht	sprach	hat gesprochen	sprechen	-
+spült	spülte	hat gespült	spülen	-
+findet statt	fand statt	hat stattgefunden	stattfinden	-
+steckt	steckte	hat gesteckt	stecken	-
+steht	stand	ist gestanden	stehen	-
+bleibt stehen	blieb stehen	ist stehen geblieben	stehen bleiben	-
+stellt	stellte	hat gestellt	stellen	-
+stirbt	starb	ist gestorben	sterben	-
+stimmt	stimmte	hat gestimmt	stimmen	-
+stört	störte	hat gestört	stören	-
+streitet	stritt	hat gestritten	streiten (sich)	-
+studiert	studierte	hat studiert	studieren	-
+sucht	suchte	hat gesucht	suchen	-
+tankt	tankte	hat getankt	tanken	-
+tanzt	tanzte	hat getanzt	tanzen	-
+tauscht	tauschte	hat getauscht	tauschen	-
+nimmt teil	nahm teil	hat teilgenommen	teilnehmen	-
+telefoniert	telefonierte	hat telefoniert	telefonieren	-
+trägt	trug	hat getragen	tragen	-
+trifft	traf	hat getroffen	treffen (sich)	-
+trinkt	trank	hat getrunken	trinken	-
+tut	tat	hat getan	tun	-
+übernachtet	übernachtete	hat übernachtet	übernachten	-
+übersetzt	übersetzte	hat übersetzt	übersetzen	-
+überweist	überwies	hat überwiesen	überweisen	-
+steigt um	stieg um	ist umgestiegen	umsteigen	-
+zieht um	zog um	ist umgezogen	umziehen	-
+zieht um	zog um	hat umgezogen	umziehen (sich)	-
+unterhält 	unterhielt	hat unterhalten	unterhalten (sich)	-
+unternimmt	unternahm	hat unternommen	unternehmen	-
+unterschreibt	unterschrieb	hat unterschrieben	unterschreiben	-
+untersucht	untersuchte	hat untersucht	untersuchen	-
+verdient	verdiente	hat verdient	verdienen	-
+vereinbart	vereinbarte	hat vereinbart	vereinbaren	-
+vergisst	vergaß	hat vergessen	vergessen	-
+vergleicht	verglich	hat verglichen	vergleichen	-
+verkauft	verkaufte	hat verkauft	verkaufen	-
+verliert	verlor	hat verloren	verlieren	-
+verpasst	verpasste	hat verpasst	verpassen	-
+verschiebt	verschob	hat verschoben	verschieben	-
+verspricht	versprach	hat versprochen	versprechen (sich)	-
+versteht	verstand	hat verstanden	verstehen (sich)	-
+versucht	versuchte	hat versucht	versuchen	-
+stellt vor	stellte vor	hat vorgestellt	vorstellen	-
+wählt	wählte	hat gewählt	wählen	-
+wandert	wanderte	ist gewandert	wandern	-
+wartet	wartete	hat gewartet	warten	-
+wäscht	wusch	hat gewaschen	waschen (sich)	-
+wechselt	wechselte	hat gewechselt	wechseln 	-
+weckt 	weckte	hat geweckt	wecken	-
+wird	wurde	ist geworden	werden	-
+wiederholt	wiederholte	hat wiederholt	wiederholen	-
+weiß	wusste	hat gewusst	wissen	-
+wohnt 	wohnte	hat gewohnt	wohnen	-
+wünscht	wünschte	hat gewünscht	wünschen (sich)	-
+zahlt	zahlte	hat gezahlt	zahlen	-
+zeigt	zeigte	hat gezeigt	zeigen	-
+hört zu	hörte zu	hat zugehört	zuhören	-
+macht zu	machte zu	hat zugemacht	zumachen	-
+kommt zurecht	kam zurecht	ist zurechtgekommen	zurechtkommen	-

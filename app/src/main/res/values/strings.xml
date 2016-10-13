@@ -19,16 +19,21 @@
     <string name="title_activity_nouns_b1">Nomen B1</string>
     <string name="title_activity_verbs_all">Verben</string>
 
-    <!-- Strings related to nouns content -->
     <string name="btn_ok">OK</string>
     <string name="btn_next">Nächster</string>
 
+    <!-- Strings related to nouns content -->
     <string name="ger_nominativ">Der/Die/Das</string>
     <string name="ger_akusativ">Einen/Eine/Ein</string>
     <string name="ger_dativ">Dem/Der/Dem/Den</string>
     <string name="ger_none">Kein</string>
     <string name="ger_word">SuperDifficultGermanWord</string>
     <string name="ger_translate">Übersetzen</string>
+
+    <!-- Strings related to verbs content -->
+    <string name="ger_present">Präsens</string>
+    <string name="ger_past">Präteritum</string>
+    <string name="ger_perfect">Perfekt</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>

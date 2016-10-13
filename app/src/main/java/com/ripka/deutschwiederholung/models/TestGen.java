@@ -13,10 +13,13 @@ import java.util.Random;
 
 import com.ripka.deutschwiederholung.R;
 import com.ripka.deutschwiederholung.RipkaApp;
+import com.ripka.deutschwiederholung.models.deTests.NounTest;
+import com.ripka.deutschwiederholung.models.deTests.Test;
+import com.ripka.deutschwiederholung.models.deTests.PartizipIITest;
 
 public class TestGen {
     static private Test lastGenerated = null;
-    static public Test generateNextTest(List<List<String>> words) {
+    static public Test generateNounTest(List<List<String>> words) {
         SharedPreferences shPref = PreferenceManager.getDefaultSharedPreferences(RipkaApp.getAppContext());
         Boolean usePlural = shPref.getBoolean( RipkaApp.getAppContext().getString(R.string.nouns_plural), false);
         Test nextTest = null;
@@ -35,10 +38,10 @@ public class TestGen {
             }
             List<String> options = new ArrayList(new HashSet(acticles));
             */
-            List<String> options = TestOptions.getOption(articleNo);
+            List<String> options = TestOptions.getNounsOptions(articleNo);
             Collections.shuffle(options);
 
-            Test test = new Test(record);
+            NounTest test = new NounTest(record);
             test.setIntArticelNo(articleNo);
             test.setOptions(options);
 
@@ -51,12 +54,19 @@ public class TestGen {
         lastGenerated = nextTest;
         return nextTest;
     }
-    static public TestResult checkTest(int answerNo) {
-        TestResult res = new TestResult();
-        res = lastGenerated.isPassed(answerNo);
-        return res;
+
+    static public Test generateVerbTest(List<List<String>> words) {
+        Random rand = new Random();
+        int index = rand.nextInt(words.size());
+
+        List<String> record = words.get(index);
+        PartizipIITest nextTest = new PartizipIITest(record);
+
+        lastGenerated = nextTest;
+        return nextTest;
     }
-    static public Test getLastTest() {
+
+    static public Test getLastGeneratedTest() {
         return lastGenerated;
     }
 }
