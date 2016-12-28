@@ -8,7 +8,6 @@ body {
 #pdf-container, #the-canvas {
 	z-index: 1 !important;
 	width: 100%;
-	height: 100%;
 }
 
 /* This stuff is important! Otherwise when you select the text, the text in the divs will show up! */

@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import android.graphics.Bitmap;
@@ -63,7 +64,11 @@ public class NavActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         TextView textView = (TextView) findViewById(R.id.bannerText);
+        textView.setVisibility(View.VISIBLE);
         textView.getBackground().setAlpha(85);
+
+        ImageView imageView = (ImageView)findViewById(R.id.bannerImg);
+        imageView.setVisibility(View.VISIBLE);
     }
     @Override
     protected void onResume() {
