@@ -25,18 +25,26 @@
                 android:id="@+id/nav_verbs_a1"
                 android:icon="@drawable/ic_sentiment_neutral_black_24dp"
                 android:title="Verben" />
+            <item
+                android:id="@+id/nav_grammar_a1"
+                android:icon="@drawable/ic_sentiment_neutral_black_24dp"
+                android:title="Grammatik" />
         </menu>
     </item>
-    <item android:title="Stufe B1" >
+    <item android:title="Stufe A2" >
         <menu>
             <item
-                android:id="@+id/nav_nouns_b1"
+                android:id="@+id/nav_nouns_a2"
                 android:icon="@drawable/ic_mood_black_24dp"
                 android:title="Nomen" />
             <item
-                android:id="@+id/nav_verbs_b1"
+                android:id="@+id/nav_verbs_a2"
                 android:icon="@drawable/ic_mood_black_24dp"
                 android:title="Verben" />
+            <item
+                android:id="@+id/nav_grammar_a2"
+                android:icon="@drawable/ic_sentiment_neutral_black_24dp"
+                android:title="Grammatik" />
         </menu>
     </item>
 </menu>

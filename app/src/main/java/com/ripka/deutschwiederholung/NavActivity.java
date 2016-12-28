@@ -33,6 +33,10 @@ import java.io.IOException;
 public class NavActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    protected Integer VIEW_NOUNS = 0;
+    protected Integer VIEW_VERBS = 1;
+    protected Integer VIEW_GRAMM = 2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,7 +66,7 @@ public class NavActivity extends AppCompatActivity
         textView.getBackground().setAlpha(85);
     }
     @Override
-    public void onResume() {
+    protected void onResume() {
         super.onResume();
         SharedPreferences shPref = PreferenceManager.getDefaultSharedPreferences(RipkaApp.getAppContext());
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -127,20 +131,26 @@ public class NavActivity extends AppCompatActivity
         if (id == R.id.nav_nouns_all) {
             Intent intent = new Intent(this, NounsActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_nouns_a1) {
-            Intent intent = new Intent(this, NounsA1Activity.class);
-            startActivity(intent);
-        } else if (id == R.id.nav_nouns_b1) {
-            Intent intent = new Intent(this, NounsB1Activity.class);
-            startActivity(intent);
         } else if (id == R.id.nav_verbs_all) {
             Intent intent = new Intent(this, VerbsActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_nouns_a1) {
+            Intent intent = new Intent(this, NounsA1Activity.class);
             startActivity(intent);
         } else if (id == R.id.nav_verbs_a1) {
             Intent intent = new Intent(this, VerbsActivity.class);
             startActivity(intent);
-        } else if (id == R.id.nav_verbs_b1) {
+        } else if (id == R.id.nav_grammar_a1) {
+            Intent intent = new Intent(this, GrammatikA1Activity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_nouns_a2) {
+            Intent intent = new Intent(this, NounsA2Activity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_verbs_a2) {
             Intent intent = new Intent(this, VerbsActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_grammar_a2) {
+            Intent intent = new Intent(this, GrammatikA2Activity.class);
             startActivity(intent);
         }
 

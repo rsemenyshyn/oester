@@ -16,8 +16,9 @@
     <string name="title_activity_login">Sign in</string>
     <string name="title_activity_nouns_all">Nomen</string>
     <string name="title_activity_nouns_a1">Nomen A1</string>
-    <string name="title_activity_nouns_b1">Nomen B1</string>
+    <string name="title_activity_nouns_a2">Nomen A2</string>
     <string name="title_activity_verbs_all">Verben</string>
+    <string name="title_activity_grammatik">Grammatik</string>
 
     <string name="btn_ok">OK</string>
     <string name="btn_next">Nächster</string>

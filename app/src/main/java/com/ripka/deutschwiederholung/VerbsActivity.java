@@ -3,7 +3,9 @@ package com.ripka.deutschwiederholung;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -31,7 +33,7 @@ public class VerbsActivity extends NavActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ViewFlipper vf = (ViewFlipper)findViewById(R.id.vf);
-        vf.setDisplayedChild(1);
+        vf.setDisplayedChild(VIEW_VERBS);
 
         EditText editPerfect = (EditText)findViewById(R.id.verbs_perfect);
         editPerfect.addTextChangedListener(new TextWatcher() {
@@ -44,6 +46,18 @@ public class VerbsActivity extends NavActivity {
                 Button btnCheck = (Button)findViewById(R.id.verbs_btn_go);
                 if(s.length() > 0) btnCheck.setEnabled(true);
                 else btnCheck.setEnabled(false);
+            }
+        });
+        editPerfect.setOnEditorActionListener(new EditText.OnEditorActionListener(){
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event){
+                boolean handled = false;
+                if (actionId == EditorInfo.IME_ACTION_DONE) {
+                    Button btnCheck = (Button)findViewById(R.id.verbs_btn_go);
+                    btnCheck.performClick();
+                    handled = true;
+                }
+                return handled;
             }
         });
 

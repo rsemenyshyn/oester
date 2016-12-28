@@ -5,4 +5,8 @@ package com.ripka.deutschwiederholung;
  */
 
 public class GrammatikA2Activity extends GrammatikActivity {
+    @Override
+    protected void loadHtmlWithPdf() {
+        webView.loadUrl("file:///android_asset/pdfviewer/a2grammatik.html");
+    }
 }

@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="minimal.css"/>
+    <script type="text/javascript" src="compatibility.js"></script>
+    <script type="text/javascript" src="pdffile2.js"></script>
+  </head>
+  <body>
+    <div id="pdf-container">
+      <canvas id="the-canvas"></canvas>
+    </div>
+
+    <div id="tool-bar">
+      <button id="prev" onclick="goPrevious()" class="google-btn">&#8592;</button>
+      <button id="next" onclick="goNext()" class="google-btn">&#8594;</button>
+      
+      <span id="page_info">Page: 
+        <span id="page_num"></span> / 
+        <span id="page_count"></span>
+      </span>
+    </div>
+
+    <!-- Use latest PDF.js build from Github -->
+    <script type="text/javascript" src="pdf.js"></script>
+    <script type="text/javascript" src="customview.js"></script>  
+  </body>
+</html>

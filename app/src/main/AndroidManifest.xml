@@ -37,8 +37,16 @@
             android:label="@string/title_activity_nouns_a1"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.ripka.deutschwiederholung.NounsB1Activity"
-            android:label="@string/title_activity_nouns_b1"
+            android:name="com.ripka.deutschwiederholung.NounsA2Activity"
+            android:label="@string/title_activity_nouns_a2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.ripka.deutschwiederholung.GrammatikA1Activity"
+            android:label="@string/title_activity_grammatik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.ripka.deutschwiederholung.GrammatikA2Activity"
+            android:label="@string/title_activity_grammatik"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.ripka.deutschwiederholung.VerbsActivity"

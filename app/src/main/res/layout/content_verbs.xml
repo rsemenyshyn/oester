@@ -75,7 +75,10 @@
                 android:id="@+id/verbs_perfect"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:layout_width="200dp"/>
+                android:layout_width="200dp"
+                android:inputType="text|textNoSuggestions"
+                android:singleLine="true"
+                android:imeOptions="actionDone"/>
         </LinearLayout>
 
     </FrameLayout>

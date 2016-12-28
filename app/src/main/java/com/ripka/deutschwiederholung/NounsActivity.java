@@ -28,7 +28,7 @@ public class NounsActivity extends NavActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ViewFlipper vf = (ViewFlipper)findViewById(R.id.vf);
-        vf.setDisplayedChild(0);
+        vf.setDisplayedChild(VIEW_NOUNS);
 
         // ------------- UI setting for first use ------------
         Button btnCheck = (Button)findViewById(R.id.app_btn_go);
