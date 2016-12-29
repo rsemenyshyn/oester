@@ -62,6 +62,7 @@ public class NavActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        navigationView.setItemIconTintList(null);
 
         TextView textView = (TextView) findViewById(R.id.bannerText);
         textView.setVisibility(View.VISIBLE);
