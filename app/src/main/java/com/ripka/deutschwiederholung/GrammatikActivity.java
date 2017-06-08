@@ -28,12 +28,6 @@ public class GrammatikActivity extends NavActivity {
         LinearLayout ctrlPanel = (LinearLayout)findViewById(R.id.web_grammatik_pdf_ctrls);
         ctrlPanel.getBackground().setAlpha(200);
 
-        TextView textView = (TextView) findViewById(R.id.bannerText);
-        textView.setVisibility(View.GONE);
-
-        ImageView imageView = (ImageView)findViewById(R.id.bannerImg);
-        imageView.setVisibility(View.GONE);
-
         Button btnZoomIn = (Button)findViewById(R.id.web_grammatik_zc_in);
         btnZoomIn.setOnClickListener( new View.OnClickListener() {
             @Override

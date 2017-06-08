@@ -20,14 +20,16 @@
             android:name="com.ripka.deutschwiederholung.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.ripka.deutschwiederholung.LoginActivity"
+            android:label="@string/title_activity_login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.ripka.deutschwiederholung.LoginActivity"
-            android:label="@string/title_activity_login" />
         <activity
             android:name="com.ripka.deutschwiederholung.NounsActivity"
             android:label="@string/title_activity_nouns_all"

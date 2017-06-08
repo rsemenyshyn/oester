@@ -2,11 +2,11 @@ package com.ripka.deutschwiederholung;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 import android.widget.ViewFlipper;
 
 import java.util.ArrayList;
@@ -16,7 +16,6 @@ import java.util.List;
 import com.ripka.deutschwiederholung.models.deTests.NounTest;
 import com.ripka.deutschwiederholung.models.deTests.Test;
 import com.ripka.deutschwiederholung.models.TestGen;
-import com.ripka.deutschwiederholung.models.TestOptions;
 import com.ripka.deutschwiederholung.models.TestResult;
 import com.ripka.deutschwiederholung.models.WordsParser;
 
@@ -35,16 +34,32 @@ public class NounsActivity extends NavActivity {
         btnCheck.setVisibility(View.VISIBLE);
         btnCheck.setEnabled(false);
 
-        RadioGroup ringtone_radio_group = (RadioGroup)findViewById(R.id.radioGroup);
-        ringtone_radio_group.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
-        {
-            @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId)
-            {
-                Button btnCheck = (Button)findViewById(R.id.app_btn_go);
-                btnCheck.setEnabled(true);
+        // customizing and setting up toggle buttons (options )
+        ViewGroup radioGroup = (ViewGroup)findViewById(R.id.radioGroup);
+        int count = radioGroup.getChildCount();
+        for (int i=0;i<count;i++) {
+            View o = radioGroup.getChildAt(i);
+            if (o instanceof ToggleButton) {
+                ToggleButton option = (ToggleButton)o;
+                option.setOnClickListener(new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        ViewGroup radioGroup = (ViewGroup)findViewById(R.id.radioGroup);
+                        int count = radioGroup.getChildCount();
+                        for (int i=0;i<count;i++) {
+                            View o = radioGroup.getChildAt(i);
+                            if (o instanceof ToggleButton) {
+                                ToggleButton tb = (ToggleButton)o;
+                                tb.setChecked(false);
+                            }
+                        }
+                        ToggleButton btn = (ToggleButton)findViewById( v.getId() );
+                        btn.setChecked(true);
+                        Button btnCheck = (Button)findViewById(R.id.app_btn_go);
+                        btnCheck.setEnabled(true);
+                    }
+                });
             }
-        });
+        }
 
         afterCreate( savedInstanceState != null );
     }
@@ -66,13 +81,24 @@ public class NounsActivity extends NavActivity {
         }
     }
     public void checkTest(View view) {
-        RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
-        int radioButtonID = radioGroup.getCheckedRadioButtonId();
-        View radioButton = radioGroup.findViewById(radioButtonID);
-        int idx = radioGroup.indexOfChild(radioButton);
+        int optionID = 0;
+        ViewGroup radioGroup = (ViewGroup)findViewById(R.id.radioGroup);
+        int count = radioGroup.getChildCount();
+        for (int i=0;i<count;i++) {
+            View o = radioGroup.getChildAt(i);
+            if (o instanceof ToggleButton) {
+                ToggleButton tb = (ToggleButton)o;
+                if (tb.isChecked()) {
+                    optionID = tb.getId();
+                    break;
+                }
+            }
+        }
+        View optionButton = radioGroup.findViewById(optionID);
+        int idx = radioGroup.indexOfChild(optionButton);
 
         Test test = TestGen.getLastGeneratedTest();
-        TestResult res = ((NounTest)test).getResult(Integer.toString(idx) );
+        TestResult res = ((NounTest)test).getResult( Integer.toString(idx) );
 
         TextView txtMessage = (TextView) findViewById(R.id.message);
         txtMessage.setText( res.message );
@@ -101,9 +127,6 @@ public class NounsActivity extends NavActivity {
         Button btnNext = (Button)findViewById(R.id.app_btn_next);
         btnNext.setVisibility(View.INVISIBLE);
 
-        RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
-        radioGroup.clearCheck();
-
         CheckBox checkBox = (CheckBox)findViewById(R.id.checkBox);
         if(checkBox.isChecked()){
             checkBox.toggle();
@@ -119,15 +142,17 @@ public class NounsActivity extends NavActivity {
             test = TestGen.generateNounTest( tests.getWords() );
         }
 
-        RadioGroup radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
+        ViewGroup radioGroup = (ViewGroup)findViewById(R.id.radioGroup);
         int count = radioGroup.getChildCount();
         for (int i=0;i<count;i++) {
             View o = radioGroup.getChildAt(i);
-            if (o instanceof RadioButton) {
-                RadioButton option = (RadioButton)o;
+            if (o instanceof ToggleButton) {
+                ToggleButton option = (ToggleButton)o;
                 String strRadio = (i < test.getOptions().size() ) ? test.getOptions().get(i) : "";
                 option.setText( strRadio );
-                option.setTextColor( TestOptions.getOptionColor(strRadio) );
+                option.setTextOn( strRadio );
+                option.setTextOff( strRadio );
+                option.setChecked(false);
             }
         }
 

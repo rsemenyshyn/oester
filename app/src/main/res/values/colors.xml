@@ -12,5 +12,6 @@
     <color name="colorNeutral">#18a948</color>
     <color name="colorPlural">#e3c539</color>
     <color name="colorMessageText">#333333</color>
+    <color name="colorOK">#74b359</color>
 </resources>
 

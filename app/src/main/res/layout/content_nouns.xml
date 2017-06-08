@@ -1,56 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:id="@+id/radioGroup"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" >
-
-        <RadioButton
-            android:text="@string/ger_nominativ"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/radioButton"
-            android:layout_below="@+id/radioGroup" />
-
-        <RadioButton
-            android:text="@string/ger_akusativ"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/radioButton"
-            android:layout_marginTop="10dp"
-            android:id="@+id/radioButton2"
-            android:layout_alignLeft="@+id/radioButton" />
-        <RadioButton
-            android:text="@string/ger_dativ"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/radioButton2"
-            android:layout_alignLeft="@+id/radioButton"
-            android:layout_marginTop="10dp"
-            android:id="@+id/radioButton3" />
-        <RadioButton
-            android:text="@string/ger_none"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/radioButton3"
-            android:layout_alignLeft="@+id/radioButton"
-            android:layout_marginTop="10dp"
-            android:id="@+id/radioButton4" />
-    </RadioGroup>
 
     <TextView
         android:id="@+id/word_of_test"
@@ -82,6 +37,55 @@
             android:layout_alignLeft="@+id/word_translate" />
     </FrameLayout>
 
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/message"
+        android:id="@+id/radioGroup">
+        <ToggleButton
+            android:text="@string/ger_nominativ"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/centerPoint"
+            android:textAllCaps="false"
+            android:id="@+id/radioButton" />
+        <ToggleButton
+            android:text="@string/ger_akusativ"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/centerPoint"
+            android:textAllCaps="false"
+            android:id="@+id/radioButton2" />
+
+        <ToggleButton
+            android:text="@string/ger_dativ"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/centerPoint"
+            android:textAllCaps="false"
+            android:layout_below="@+id/radioButton2"
+            android:id="@+id/radioButton3" />
+        <ToggleButton
+            android:text="@string/ger_none"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/centerPoint"
+            android:textAllCaps="false"
+            android:layout_below="@+id/radioButton2"
+            android:id="@+id/radioButton4" />
+        <TextView
+            android:id="@+id/centerPoint"
+            android:text=""
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
     <TextView
         android:id="@+id/message"
         android:layout_width="match_parent"
@@ -95,23 +99,28 @@
         android:layout_marginBottom="10dp"
         android:text="@string/app_message"
         android:textColor="@color/colorMessageText"/>
+
     <Button
         android:id="@+id/app_btn_go"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:text="@string/btn_ok"
-        android:onClick="checkTest"/>
+        android:onClick="checkTest"
+        android:background="@color/colorOK"
+        android:textColor="@color/colorWhite"/>
     <Button
         android:id="@+id/app_btn_next"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:text="@string/btn_next"
         android:onClick="nextTest"
         android:visibility="invisible"
+        android:background="@color/colorOK"
+        android:textColor="@color/colorWhite"
         style="@style/Widget.AppCompat.Button.Colored" />
 
 </RelativeLayout>
