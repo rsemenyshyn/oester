@@ -7,75 +7,99 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <TextView
-        android:id="@+id/word_of_test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/ger_word"/>
-
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="140dp"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true" >
-
-        <TextView
-            android:id="@+id/word_translate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:visibility="invisible"
-            android:text="@string/ger_translate" />
-
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/radioGroup">
         <CheckBox
             android:text="@string/ger_translate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/checkBox"
-            android:onClick="onCheckedChanged"
-            android:layout_marginTop="120dp"
-            android:layout_alignLeft="@+id/word_translate" />
-    </FrameLayout>
+            android:layout_gravity="end"
+            android:onClick="onCheckedChanged" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:indeterminate="false"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/progress"
+            android:id="@+id/progress" />
 
+        <TextView
+            android:id="@+id/word_of_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/ger_word" />
+        <TextView
+            android:id="@+id/word_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="50dp"
+            android:visibility="invisible"
+            android:text="@string/ger_translate" />
+    </FrameLayout>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:layout_above="@+id/message"
         android:id="@+id/radioGroup">
         <ToggleButton
             android:text="@string/ger_nominativ"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:layout_toLeftOf="@+id/centerPoint"
+            android:layout_toStartOf="@+id/centerPoint"
             android:textAllCaps="false"
+            android:background="@drawable/toggle_selector"
             android:id="@+id/radioButton" />
         <ToggleButton
             android:text="@string/ger_akusativ"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_toRightOf="@+id/centerPoint"
+            android:layout_toEndOf="@+id/centerPoint"
             android:textAllCaps="false"
+            android:background="@drawable/toggle_selector"
             android:id="@+id/radioButton2" />
-
         <ToggleButton
             android:text="@string/ger_dativ"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_alignParentLeft="true"
             android:layout_toLeftOf="@+id/centerPoint"
             android:textAllCaps="false"
+            android:background="@drawable/toggle_selector"
             android:layout_below="@+id/radioButton2"
             android:id="@+id/radioButton3" />
         <ToggleButton
             android:text="@string/ger_none"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_alignParentRight="true"
             android:layout_toRightOf="@+id/centerPoint"
             android:textAllCaps="false"
+            android:background="@drawable/toggle_selector"
             android:layout_below="@+id/radioButton2"
             android:id="@+id/radioButton4" />
         <TextView

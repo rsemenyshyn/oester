@@ -1,10 +1,14 @@
 package com.ripka.deutschwiederholung;
 
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 import android.widget.ViewFlipper;
@@ -22,6 +26,8 @@ import com.ripka.deutschwiederholung.models.WordsParser;
 public class NounsActivity extends NavActivity {
 
     protected WordsParser tests;
+    protected ProgressBar mProgress;
+    protected Button mOK;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +67,13 @@ public class NounsActivity extends NavActivity {
             }
         }
 
+        Resources res = getResources();
+        Drawable drawable = res.getDrawable(R.drawable.progress);
+        mProgress = (ProgressBar) findViewById(R.id.progress);
+        mProgress.setProgressDrawable(drawable);
+
+        mOK = (Button) findViewById(R.id.app_btn_go);
+
         afterCreate( savedInstanceState != null );
     }
     protected void afterCreate(boolean isRestored) {
@@ -69,19 +82,24 @@ public class NounsActivity extends NavActivity {
         );
         tests = new WordsParser(filesToParse);
         setNextTest(isRestored);
+        setProgresBar();
     }
 
     /* -------------- lower level func ------------*/
     public void onCheckedChanged(View view) {
         TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
+        TextView txtWord = (TextView)findViewById(R.id.word_of_test);
         if ( ((CheckBox)view).isChecked() ) {
             txtWordTranslation.setVisibility(View.VISIBLE);
+            txtWord.setPadding(0,0,0,20);
         } else {
             txtWordTranslation.setVisibility(View.INVISIBLE);
+            txtWord.setPadding(0,0,0,0);
         }
     }
     public void checkTest(View view) {
         int optionID = 0;
+        procRun = false;
         ViewGroup radioGroup = (ViewGroup)findViewById(R.id.radioGroup);
         int count = radioGroup.getChildCount();
         for (int i=0;i<count;i++) {
@@ -115,6 +133,7 @@ public class NounsActivity extends NavActivity {
         Button btnNext = (Button)findViewById(R.id.app_btn_next);
         btnNext.setVisibility(View.VISIBLE);
     }
+
     public void nextTest(View view) {
         setNextTest(false);
 
@@ -136,7 +155,7 @@ public class NounsActivity extends NavActivity {
         btnCheck.setVisibility(View.VISIBLE);
         btnCheck.setEnabled(false);
     }
-    protected void setNextTest(boolean isRestored){
+    protected void setNextTest(boolean isRestored) {
         Test test = TestGen.getLastGeneratedTest();
         if (!isRestored || test == null) {
             test = TestGen.generateNounTest( tests.getWords() );
@@ -161,5 +180,47 @@ public class NounsActivity extends NavActivity {
 
         txtWordCurrent.setText( test.getWord() );
         txtWordTranslation.setText( test.getTranslation() );
+        setProgresBar();
+    }
+
+    int pStatus = 0;
+    boolean procRun = true;
+    private Handler handler = new Handler();
+    protected void setProgresBar() {
+        procRun = true;
+        pStatus = 0;
+        final int loopTime = 10; //seconds
+        final int loopStep = 20; //milliseconds
+        final int loopsCount = (loopTime * 1000/ loopStep);
+        mProgress.setSecondaryProgress(loopsCount);
+        mProgress.setMax(loopsCount);
+        mProgress.setProgress(0);
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (pStatus < loopsCount && procRun) {
+                    pStatus += 1;
+                    handler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            mProgress.setProgress(pStatus);
+                        }
+                    });
+                    try {
+                        Thread.sleep(loopStep);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+                if(procRun) {
+                    handler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            mOK.callOnClick();
+                        }
+                    });
+                }
+            }
+        }).start();
     }
 }

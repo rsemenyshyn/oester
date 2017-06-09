@@ -15,7 +15,7 @@ public class NounTest extends Test {
     // ------- abstract interface ---------
     protected boolean isPassed(String answer){
         int optionID = Integer.parseInt(answer);
-        return options.get(optionID).equals( data.get(intArticelNo) );
+        return optionID >= 0 && options.get(optionID).equals( data.get(intArticelNo) );
     }
     protected String getSuccessMessage(){
         return "Gut! Sie haben richtigen Artikel ausgewählt";
