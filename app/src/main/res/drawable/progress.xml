@@ -5,7 +5,7 @@
         <shape
             android:innerRadiusRatio="3"
             android:shape="ring"
-            android:thicknessRatio="40"
+            android:thicknessRatio="60"
             android:useLevel="true">
             <rotate
                 android:fromDegrees="0"
@@ -28,7 +28,7 @@
             <shape
                 android:innerRadiusRatio="3"
                 android:shape="ring"
-                android:thicknessRatio="40"
+                android:thicknessRatio="60"
                 android:useLevel="true">
                 <rotate
                     android:fromDegrees="0"
@@ -39,6 +39,8 @@
                     android:centerColor="@color/colorProgressCenter"
                     android:endColor="@color/colorProgressEnd"
                     android:startColor="@color/colorProgressStart"
+                    android:centerY="0.5"
+                    android:centerX="0.5"
                     android:type="sweep" />
             </shape>
         </rotate>

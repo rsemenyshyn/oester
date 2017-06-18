@@ -115,11 +115,6 @@ public class VerbsActivity extends NavActivity {
         Button btnNext = (Button)findViewById(R.id.verbs_btn_next);
         btnNext.setVisibility(View.INVISIBLE);
 
-        CheckBox checkBox = (CheckBox)findViewById(R.id.checkBox);
-        if(checkBox.isChecked()){
-            checkBox.toggle();
-        }
-
         Button btnCheck = (Button)findViewById(R.id.verbs_btn_go);
         btnCheck.setVisibility(View.VISIBLE);
         btnCheck.setEnabled(false);

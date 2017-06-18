@@ -34,15 +34,15 @@ public class TestOptions {
     static {
         Resources res = RipkaApp.getAppContext().getResources();
         Colors = new HashMap<String, Integer>();
-        Colors.put("der", res.getColor(R.color.colorMale));
-        Colors.put("die", res.getColor(R.color.colorFemale));
-        Colors.put("das", res.getColor(R.color.colorNeutral));
-        Colors.put("die(pl)", res.getColor(R.color.colorPlural));
-        Colors.put("den", res.getColor(R.color.colorMale));
-        Colors.put("dem(m)", res.getColor(R.color.colorMale));
-        Colors.put("der(f)", res.getColor(R.color.colorFemale));
-        Colors.put("dem(n)", res.getColor(R.color.colorNeutral));
-        Colors.put("den(pl)", res.getColor(R.color.colorPlural));
+        Colors.put("der", res.getColor(R.color.colorBlackLight));
+        Colors.put("die", res.getColor(R.color.colorBlackLight));
+        Colors.put("das", res.getColor(R.color.colorBlackLight));
+        Colors.put("die(pl)", res.getColor(R.color.colorBlackLight));
+        Colors.put("den", res.getColor(R.color.colorBlackLight));
+        Colors.put("dem(m)", res.getColor(R.color.colorBlackLight));
+        Colors.put("der(f)", res.getColor(R.color.colorBlackLight));
+        Colors.put("dem(n)", res.getColor(R.color.colorBlackLight));
+        Colors.put("den(pl)", res.getColor(R.color.colorBlackLight));
     }
     static public int getOptionColor(String option) {
         return Colors.get(option);

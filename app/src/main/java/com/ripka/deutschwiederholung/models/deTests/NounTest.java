@@ -21,7 +21,7 @@ public class NounTest extends Test {
         return "Gut! Sie haben richtigen Artikel ausgewählt";
     }
     protected String getMistakeMessage(){
-        return "Leider haben Sie falschen Artikel gewählt. Richtige ist \""+data.get(intArticelNo)+"\"";
+        return "Leider falsch. Richtige ist \""+data.get(intArticelNo)+"\"";
     }
 
     // -------------- GET -----------

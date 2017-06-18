@@ -5,19 +5,95 @@
     android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@android:color/background_light">
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_above="@+id/radioGroup">
-        <CheckBox
-            android:text="@string/ger_translate"
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/checkBox"
+            android:paddingTop="10dp"
             android:layout_gravity="end"
-            android:onClick="onCheckedChanged" />
+            android:weightSum="1" >
+            <ImageView
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="0.5"
+                android:gravity="end"
+                app:srcCompat="@drawable/ic_translate"
+                android:onClick="onCheckedChanged"
+                android:id="@+id/img_translate" />
+            <ImageView
+                android:layout_height="35dp"
+                android:layout_width="35dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="0.5"
+                android:gravity="end"
+                app:srcCompat="@drawable/ic_timer"
+                android:onClick="onOpenTimerSet"
+                android:id="@+id/img_timer"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/timer_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_gravity="end"
+            android:paddingTop="50dp">
+            <TextView
+                android:id="@+id/timer_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="17dp"
+                android:paddingStart="17dp"
+                android:textColor="@color/colorGreyDark"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:onClick="onTimerSet"
+                android:text="5" />
+            <TextView
+                android:id="@+id/timer_10"
+                android:layout_below="@+id/timer_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/colorGreyDark"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:onClick="onTimerSet"
+                android:text="10" />
+            <TextView
+                android:id="@+id/timer_20"
+                android:layout_below="@+id/timer_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/colorGreyDark"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:onClick="onTimerSet"
+                android:text="20" />
+            <TextView
+                android:id="@+id/timer_30"
+                android:layout_below="@+id/timer_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/colorGreyDark"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:onClick="onTimerSet"
+                android:text="30" />
+        </RelativeLayout>
+
         <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="300dp"
@@ -32,10 +108,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textColor="@color/colorBlack"
+            android:text="@string/ger_word"
             android:textStyle="bold"
-            android:textSize="20sp"
-            android:text="@string/ger_word" />
+            android:textSize="30sp"
+            android:textColor="@color/colorBlackLight" />
         <TextView
             android:id="@+id/word_translate"
             android:layout_width="wrap_content"
@@ -43,7 +119,9 @@
             android:layout_gravity="center"
             android:paddingTop="50dp"
             android:visibility="invisible"
-            android:text="@string/ger_translate" />
+            android:text="@string/ger_translate"
+            android:textSize="20sp"
+            android:textColor="@color/colorGreyDark" />
     </FrameLayout>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -53,7 +131,7 @@
         android:layout_above="@+id/message"
         android:id="@+id/radioGroup">
         <ToggleButton
-            android:text="@string/ger_nominativ"
+            android:id="@+id/radioButton"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_marginLeft="10dp"
@@ -62,11 +140,13 @@
             android:layout_alignParentStart="true"
             android:layout_toLeftOf="@+id/centerPoint"
             android:layout_toStartOf="@+id/centerPoint"
+            android:text="@string/ger_nominativ"
             android:textAllCaps="false"
-            android:background="@drawable/toggle_selector"
-            android:id="@+id/radioButton" />
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackLight"
+            android:background="@drawable/toggle_selector" />
         <ToggleButton
-            android:text="@string/ger_akusativ"
+            android:id="@+id/radioButton2"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_marginLeft="10dp"
@@ -75,33 +155,39 @@
             android:layout_alignParentEnd="true"
             android:layout_toRightOf="@+id/centerPoint"
             android:layout_toEndOf="@+id/centerPoint"
+            android:text="@string/ger_akusativ"
             android:textAllCaps="false"
-            android:background="@drawable/toggle_selector"
-            android:id="@+id/radioButton2" />
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackLight"
+            android:background="@drawable/toggle_selector" />
         <ToggleButton
-            android:text="@string/ger_dativ"
+            android:id="@+id/radioButton3"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_alignParentLeft="true"
             android:layout_toLeftOf="@+id/centerPoint"
-            android:textAllCaps="false"
-            android:background="@drawable/toggle_selector"
             android:layout_below="@+id/radioButton2"
-            android:id="@+id/radioButton3" />
+            android:text="@string/ger_dativ"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackLight"
+            android:background="@drawable/toggle_selector" />
         <ToggleButton
-            android:text="@string/ger_none"
+            android:id="@+id/radioButton4"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_alignParentRight="true"
             android:layout_toRightOf="@+id/centerPoint"
-            android:textAllCaps="false"
-            android:background="@drawable/toggle_selector"
             android:layout_below="@+id/radioButton2"
-            android:id="@+id/radioButton4" />
+            android:text="@string/ger_none"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlackLight"
+            android:background="@drawable/toggle_selector" />
         <TextView
             android:id="@+id/centerPoint"
             android:text=""
@@ -115,14 +201,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:padding="10dp"
-        android:visibility="invisible"
-        android:gravity="center"
-        android:textAlignment="center"
         android:layout_above="@+id/app_btn_go"
         android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:textAlignment="center"
         android:text="@string/app_message"
-        android:textColor="@color/colorMessageText"/>
+        android:textColor="@color/colorBlackLight"/>
 
     <Button
         android:id="@+id/app_btn_go"
@@ -131,8 +217,11 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:text="@string/btn_ok"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
         android:onClick="checkTest"
-        android:background="@color/colorOK"
+        android:background="@color/colorGreyDark"
         android:textColor="@color/colorWhite"/>
     <Button
         android:id="@+id/app_btn_next"
@@ -141,10 +230,11 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:text="@string/btn_next"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
         android:onClick="nextTest"
         android:visibility="invisible"
         android:background="@color/colorOK"
-        android:textColor="@color/colorWhite"
-        style="@style/Widget.AppCompat.Button.Colored" />
-
+        android:textColor="@color/colorWhite" />
 </RelativeLayout>

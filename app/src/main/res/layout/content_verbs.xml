@@ -116,7 +116,7 @@
         android:layout_above="@+id/verbs_btn_go"
         android:layout_marginBottom="10dp"
         android:text="@string/app_message"
-        android:textColor="@color/colorMessageText"/>
+        android:textColor="@color/colorBlackLight"/>
     <Button
         android:id="@+id/verbs_btn_go"
         android:layout_width="wrap_content"

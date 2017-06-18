@@ -3,18 +3,18 @@
     <color name="colorPrimary">#0097A7</color>
     <color name="colorPrimaryDark">#006974</color>
     <color name="colorAccent">#009688</color>
+
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBlack">#000000</color>
-    <color name="colorError">#f2dede</color>
-    <color name="colorSuccess">#dff0d8</color>
-    <color name="colorFemale">#e0494d</color>
-    <color name="colorMale">#1770cc</color>
-    <color name="colorNeutral">#18a948</color>
-    <color name="colorPlural">#e3c539</color>
-    <color name="colorMessageText">#333333</color>
-    <color name="colorOK">#74b359</color>
+    <color name="colorBlackLight">#3e3e3e</color>
     <color name="colorGrey">#e9e9e9</color>
+    <color name="colorGreyDark">#d1d1d1</color>
+
     <color name="colorProgressStart">#0097a7</color>
     <color name="colorProgressCenter">#fdc800</color>
     <color name="colorProgressEnd">#e96031</color>
+
+    <color name="colorError">#f2dede</color>
+    <color name="colorSuccess">#dff0d8</color>
+    <color name="colorOK">#74b359</color>
 </resources>
