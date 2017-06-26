@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,61 +18,148 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
         android:visibility="gone" />
 
-    <ScrollView
+    <FrameLayout
         android:id="@+id/login_form"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
             android:id="@+id/email_login_form"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <AutoCompleteTextView
-                    android:id="@+id/email"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/prompt_email"
-                    android:inputType="textEmailAddress"
-                    android:maxLines="1"
-                    android:singleLine="true" />
-
-            </android.support.design.widget.TextInputLayout>
-
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <EditText
-                    android:id="@+id/password"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/prompt_password"
-                    android:imeActionId="@+id/login"
-                    android:imeActionLabel="@string/action_sign_in_short"
-                    android:imeOptions="actionUnspecified"
-                    android:inputType="textPassword"
-                    android:maxLines="1"
-                    android:singleLine="true" />
-
-            </android.support.design.widget.TextInputLayout>
-
-            <Button
-                android:id="@+id/email_sign_in_button"
-                style="?android:textAppearanceSmall"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center">
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/action_sign_in"
-                android:textStyle="bold" />
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="50dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/ic_launcher" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30sp"
+                    android:fontFamily="sans-serif-light"/>
 
-        </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/prompt_email"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:textColor="@color/colorWhite"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/prompt_password"
+                        android:imeActionId="@+id/login"
+                        android:imeActionLabel="@string/action_sign_in_short"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textPassword"
+                        android:textColor="@color/colorWhite"
+                        android:maxLines="1"
+                        android:backgroundTint="@color/colorWhite"
+                        android:textColorHint="@color/colorWhite"
+                        android:drawableTint="@color/colorWhite"
+                        android:paddingTop="25dp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="30dp">
+                    <Button
+                        android:id="@+id/email_sign_in_button"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/btn_round"
+                        android:text="@string/btn_ok"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif-light"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/radioButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/centerPoint"
+            android:layout_toStartOf="@+id/centerPoint"
+            android:text="@string/action_facebook"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/btn_rounded"
+            android:drawableLeft="@drawable/ic_action_facebook"
+            android:drawableStart="@drawable/ic_action_facebook"
+            android:drawableTint="@color/colorWhite"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingRight="20dp"
+            android:paddingEnd="20dp" />
+        <Button
+            android:id="@+id/radioButton2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/centerPoint"
+            android:layout_toEndOf="@+id/centerPoint"
+            android:text="@string/action_google"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/btn_rounded"
+            android:drawableLeft="@drawable/ic_action_google"
+            android:drawableStart="@drawable/ic_action_google"
+            android:drawableTint="@color/colorWhite"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingRight="30dp"
+            android:paddingEnd="30dp" />
+        <TextView
+            android:id="@+id/centerPoint"
+            android:text=""
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>
