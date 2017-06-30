@@ -112,7 +112,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
         <Button
-            android:id="@+id/radioButton"
+            android:id="@+id/facebook_btn"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_marginLeft="10dp"
@@ -134,7 +134,7 @@
             android:paddingRight="20dp"
             android:paddingEnd="20dp" />
         <Button
-            android:id="@+id/radioButton2"
+            android:id="@+id/google_btn"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_marginLeft="10dp"
