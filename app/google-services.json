@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "189013491828",
+    "project_id": "firebase-oester"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189013491828:android:dc786b85ed55e1ec",
+        "android_client_info": {
+          "package_name": "ripka.deutschwiederholung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189013491828-fmneefpdnq8qanb7lr2f09v3805lq5sb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ripka.deutschwiederholung",
+            "certificate_hash": "914354ef76f2ee98cb0a60e5f5d1ec6ccd40b984"
+          }
+        },
+        {
+          "client_id": "189013491828-b36hg2stt11s6i6io79prfufq040j4li.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnoSiVtiMdw3vzw3wdNL1Op-jEpo5rQtg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-101883240-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
