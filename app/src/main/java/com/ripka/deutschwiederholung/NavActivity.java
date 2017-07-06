@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
@@ -22,6 +23,9 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.util.Log;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -37,6 +41,7 @@ public class NavActivity extends AppCompatActivity
     protected Integer VIEW_NOUNS = 0;
     protected Integer VIEW_VERBS = 1;
     protected Integer VIEW_GRAMM = 2;
+    protected NavActivity mInstanceNavActivity = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,7 +123,21 @@ public class NavActivity extends AppCompatActivity
             return true;
         }
 
+        if (id == R.id.action_logout) {
+            FirebaseAuth auth = FirebaseAuth.getInstance();
+            if (auth.getCurrentUser() != null) {
+                auth.signOut();
+                callLoginActivity();
+            }
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
+    }
+
+    protected void callLoginActivity() {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
