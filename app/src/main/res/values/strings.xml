@@ -3,6 +3,9 @@
     <string name="app_descr"><b>Einfache App für die Wiederholung</b></string>
     <string name="app_message">Result of test here</string>
 
+    <string name="facebook_app_id">679515238906605</string>
+    <string name="fb_login_protocol_scheme">fb679515238906605</string>
+
     <!-- Strings related to preferences -->
     <string name="display_name"><xliff:g id="preferance_key">display_name</xliff:g></string>
     <string name="contact_email"><xliff:g id="preferance_key">contact_email</xliff:g></string>
@@ -45,8 +48,10 @@
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
+    <string name="error_auth_failed">Oops, something is wrong with login.</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
     <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_logout">Log out</string>
     <string name="action_facebook">Facebook</string>
     <string name="action_google">Google</string>
 
