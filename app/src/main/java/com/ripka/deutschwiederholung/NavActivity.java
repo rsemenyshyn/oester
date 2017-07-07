@@ -23,6 +23,7 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.util.Log;
 
+import com.facebook.login.LoginManager;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -124,9 +125,18 @@ public class NavActivity extends AppCompatActivity
         }
 
         if (id == R.id.action_logout) {
+            boolean hasLoggedOut = false;
             FirebaseAuth auth = FirebaseAuth.getInstance();
+            LoginManager fb_login = LoginManager.getInstance();
             if (auth.getCurrentUser() != null) {
                 auth.signOut();
+                hasLoggedOut = true;
+            }
+            if (fb_login != null) {
+                fb_login.logOut();
+                hasLoggedOut = true;
+            }
+            if (hasLoggedOut) {
                 callLoginActivity();
             }
             return true;

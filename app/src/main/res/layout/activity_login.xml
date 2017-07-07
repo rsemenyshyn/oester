@@ -149,7 +149,8 @@
             android:paddingLeft="10dp"
             android:paddingStart="10dp"
             android:paddingRight="20dp"
-            android:paddingEnd="20dp" />
+            android:paddingEnd="20dp"
+            android:onClick="facebookClick"/>
         <Button
             android:id="@+id/google_btn"
             android:layout_height="wrap_content"
