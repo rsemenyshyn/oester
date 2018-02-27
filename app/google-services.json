@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "898206023130-l965v8qr5lt4nq8s5umnb3o8ucq6h2k4.apps.googleusercontent.com",
+          "client_id": "898206023130-8tqphplvbghd9ff7paqb8gt3v58l8s9q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.ripka.deutschwiederholung",
-            "certificate_hash": "127a86409d2e62b57fac15b1706d414cdb6df0d1"
+            "certificate_hash": "8498bebe586785eca0ffca1bf788b6b735d1b8d7"
           }
         },
         {
