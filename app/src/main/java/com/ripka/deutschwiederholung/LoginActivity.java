@@ -27,14 +27,23 @@ import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.auth.api.signin.GoogleSignInResult;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.EmailAuthProvider;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.GoogleAuthProvider;
 
 import android.util.Log;
 import android.text.TextUtils;
@@ -42,9 +51,11 @@ import android.text.TextUtils;
 /**
  * A login screen that offers login via email/password.
  */
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity implements
+        GoogleApiClient.OnConnectionFailedListener {
 
     private static final String TAG = "SignInActivity";
+    private static final int RC_SIGN_IN = 9001;
 
     private UserLoginTask mAuthTask = null;
     private CallbackManager mCallbackManager = null;
@@ -54,6 +65,7 @@ public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth.AuthStateListener mAuthListener;
     private boolean mSignInSuccess = false;
     private boolean mSignInRunning = false;
+    private GoogleApiClient mGoogleApiClient;
 
     // UI references
     private AutoCompleteTextView mEmailView;
@@ -71,32 +83,6 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         FacebookSdk.sdkInitialize( RipkaApp.getAppContext() );
         setContentView(R.layout.activity_login);
-        // Set up the login form.
-        mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
-
-        mPasswordView = (EditText) findViewById(R.id.password);
-        mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
-                if (id == R.id.login || id == EditorInfo.IME_NULL) {
-                    attemptLogin();
-                    return true;
-                }
-                return false;
-            }
-        });
-
-        Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
-        mEmailSignInButton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                attemptLogin();
-            }
-        });
-
-        mLoginFormView = findViewById(R.id.login_form);
-        mLoginSocialView = findViewById(R.id.login_social);
-        mProgressView = findViewById(R.id.login_progress);
 
     // Firebase login SDK
         mAuth = FirebaseAuth.getInstance();
@@ -114,6 +100,31 @@ public class LoginActivity extends AppCompatActivity {
                 // ...
             }
         };
+
+    // Set up the login form.
+        mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
+        mPasswordView = (EditText) findViewById(R.id.password);
+        mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
+                if (id == R.id.login || id == EditorInfo.IME_NULL) {
+                    attemptLogin();
+                    return true;
+                }
+                return false;
+            }
+        });
+        Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
+        mEmailSignInButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                attemptLogin();
+            }
+        });
+        mLoginFormView = findViewById(R.id.login_form);
+        mLoginSocialView = findViewById(R.id.login_social);
+        mProgressView = findViewById(R.id.login_progress);
+
     // Firebase login Facebook
         mCallbackManager = CallbackManager.Factory.create();
         Button facebookButton = (Button)findViewById(R.id.facebook_btn) ;
@@ -139,18 +150,60 @@ public class LoginActivity extends AppCompatActivity {
                 showProgress(false);
             }
         });
+
+    // Firebase login Google
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestEmail()
+                .build();
+        mGoogleApiClient = new GoogleApiClient.Builder(this)
+                .enableAutoManage(this, this)
+                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+                .build();
     }
 
+// calls for Sign-In with social services
     public void facebookClick(View view) {
         showProgress(true);
         mLacebookButtonLogin.callOnClick();
+    }
+
+    public void googleClick(View view) {
+        showProgress(true);
+        signInWithGoogle();
+    }
+
+// general callbacks
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+        Log.d(TAG, "onConnectionFailed:" + connectionResult);
+        Toast.makeText(this, "Connection failed, please try again", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == RC_SIGN_IN) {
+            // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
+            GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
+            if (result.isSuccess()) { // Google Sign In was successful, authenticate with Firebase
+                GoogleSignInAccount account = result.getSignInAccount();
+                firebaseAuthWithGoogle(account);
+            } else {
+                Log.d(TAG, "linkWithCredential:fail" + result.getStatus());
+                showProgress(false);
+            }
+        } else {
+            // Pass the activity result back to the Facebook SDK
+            mCallbackManager.onActivityResult(requestCode, resultCode, data);
+        }
     }
 
     @Override
     public void onStart() {
         super.onStart();
         mAuth.addAuthStateListener(mAuthListener);
-
         FirebaseAuth auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser() != null) {
             Intent intent = new Intent(RipkaApp.getAppContext(), NounsActivity.class);
@@ -166,14 +219,7 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        // Pass the activity result back to the Facebook SDK
-        mCallbackManager.onActivityResult(requestCode, resultCode, data);
-    }
-
+// handlers for Sign-In with social services
     private void handleFacebookAccessTocken(AccessToken token) {
         Log.d(TAG, "handleFacebookAccessTocken:" + token);
         AuthCredential credential = FacebookAuthProvider.getCredential( token.getToken() );
@@ -212,6 +258,36 @@ public class LoginActivity extends AppCompatActivity {
                 }
             });
         }
+    }
+
+    private void  signInWithGoogle() {
+        Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
+        startActivityForResult(signInIntent, RC_SIGN_IN);
+    }
+
+    private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
+        Log.d(TAG, "firebaseAuthWithGoogle:" + acct.getId());
+        AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
+
+        mAuth.signInWithCredential(credential)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Sign in success, update UI with the signed-in user's information
+                            Log.d(TAG, "signInWithCredential:success");
+                            FirebaseUser user = mAuth.getCurrentUser();
+                            Intent intent = new Intent(RipkaApp.getAppContext(), NounsActivity.class);
+                            startActivity(intent);
+                        } else {
+                            // If sign in fails, display a message to the user.
+                            Log.w(TAG, "signInWithCredential:failure", task.getException());
+                            Toast.makeText(LoginActivity.this, "Authentication failed.",
+                                    Toast.LENGTH_SHORT).show();
+                        }
+
+                    }
+                });
     }
 
     /**
@@ -296,7 +372,7 @@ public class LoginActivity extends AppCompatActivity {
                 });
     }
 
-    protected void signIn(String email, String password) {
+    protected void signInWithEmail(String email, String password) {
         mSignInRunning = true;
         AuthCredential credential = EmailAuthProvider.getCredential(email, password);
         FirebaseUser user = mAuth.getCurrentUser();
@@ -402,7 +478,7 @@ public class LoginActivity extends AppCompatActivity {
 
         @Override
         protected Boolean doInBackground(Void... params) {
-            signIn(mEmail, mPassword);
+            signInWithEmail(mEmail, mPassword);
             while (mSignInRunning) {
                 try {
                     Thread.sleep(500);
