@@ -52,8 +52,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_logout">Log out</string>
-    <string name="action_facebook">Facebook</string>
-    <string name="action_google">Google</string>
+    <string name="action_facebook">FACEBOOK</string>
+    <string name="action_google">GOOGLE</string>
 
     <!-- Strings related to Settings -->
     <!-- General settings -->
