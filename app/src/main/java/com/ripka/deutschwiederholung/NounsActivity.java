@@ -18,6 +18,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 import com.ripka.deutschwiederholung.models.deTests.NounTest;
 import com.ripka.deutschwiederholung.models.deTests.Test;
@@ -156,6 +157,7 @@ public class NounsActivity extends NavActivity {
             btnTimer.setImageResource(mTimersMapBtnHover.get(timerDuration));
             View viewSettings = findViewById(R.id.timer_setting);
             toggleViewVisibility( viewSettings );
+            setProgresBar();
         }
     }
     public void onTranslateToggle(View view) {
@@ -175,6 +177,36 @@ public class NounsActivity extends NavActivity {
     public void onEasyToggle(View view) {
         ImageView ivVectorImage = (ImageView) findViewById(R.id.img_50x50);
         ivVectorImage.setImageResource(R.mipmap.ic_50x50_hover);
+        Test test = TestGen.getLastGeneratedTest();
+        int correctOption = ((NounTest)test).getCorrectOption();
+        ViewGroup radioGroup = (ViewGroup)findViewById(R.id.radioGroup);
+        int count = 0;
+        for (int i = 0; i < radioGroup.getChildCount(); i++) {
+            View o = radioGroup.getChildAt(i);
+            count = (o instanceof ToggleButton) ? count + 1 : count;
+        }
+
+        Map<Integer,Integer> mapCanDiasable = new HashMap<Integer,Integer>();
+        for (int i = 0; i < count; i++) {
+            int size = mapCanDiasable.size();
+            if (i != correctOption) {
+                mapCanDiasable.put(size, i);
+            }
+        }
+
+        Random r = new Random();
+        int randToLeave = r.nextInt( mapCanDiasable.size() );
+        for(Map.Entry<Integer, Integer> entry : mapCanDiasable.entrySet()) {
+            if (entry.getKey() != randToLeave) {
+                int optionToDisable = entry.getValue();
+                View o = radioGroup.getChildAt(optionToDisable);
+                if (o instanceof ToggleButton) {
+                    ToggleButton option = (ToggleButton)o;
+                    option.setEnabled(false);
+                    option.setTextColor( this.getResources().getColor(R.color.colorGreyDark));
+                }
+            }
+        }
     }
     public void checkTest(View view) {
         int optionID = 0;
@@ -249,6 +281,8 @@ public class NounsActivity extends NavActivity {
                 option.setTextOn( strRadio );
                 option.setTextOff( strRadio );
                 option.setChecked(false);
+                option.setEnabled(true);
+                option.setTextColor( this.getResources().getColor(R.color.colorBlackLight));
             }
         }
 
