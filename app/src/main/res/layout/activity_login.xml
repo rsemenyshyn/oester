@@ -116,7 +116,7 @@
                         android:background="@drawable/btn_round"
                         android:text="@string/btn_ok"
                         android:textColor="@color/colorWhite"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:fontFamily="sans-serif-light"/>
                 </LinearLayout>
             </LinearLayout>
@@ -140,7 +140,7 @@
             android:layout_toStartOf="@+id/centerPoint"
             android:text="@string/action_facebook"
             android:textAllCaps="false"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="@color/colorWhite"
             android:background="@drawable/btn_rounded"
             android:drawableLeft="@drawable/ic_action_facebook"
@@ -163,7 +163,7 @@
             android:layout_toEndOf="@+id/centerPoint"
             android:text="@string/action_google"
             android:textAllCaps="false"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textColor="@color/colorWhite"
             android:background="@drawable/btn_rounded"
             android:drawableLeft="@drawable/ic_action_google"
