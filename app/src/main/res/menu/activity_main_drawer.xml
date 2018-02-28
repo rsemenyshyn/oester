@@ -4,30 +4,30 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_nouns_all"
-            android:icon="@mipmap/ic_nomen_all"
+            android:icon="@mipmap/ic_empty"
             android:title="Alle nomen" />
         <item
             android:id="@+id/nav_verbs_all"
-            android:icon="@mipmap/ic_verben_all"
+            android:icon="@mipmap/ic_empty"
             android:title="Alle verben" />
         <item
             android:id="@+id/nav_nouns_custom"
-            android:icon="@mipmap/ic_verben_stark"
+            android:icon="@mipmap/ic_empty"
             android:title="Starke Verben" />
     </group>
     <item android:title="Stufe A1">
         <menu>
             <item
                 android:id="@+id/nav_nouns_a1"
-                android:icon="@mipmap/ic_nomen"
+                android:icon="@mipmap/ic_empty"
                 android:title="Nomen" />
             <item
                 android:id="@+id/nav_verbs_a1"
-                android:icon="@mipmap/ic_verben"
+                android:icon="@mipmap/ic_empty"
                 android:title="Verben" />
             <item
                 android:id="@+id/nav_grammar_a1"
-                android:icon="@mipmap/ic_grammar"
+                android:icon="@mipmap/ic_empty"
                 android:title="Grammatik" />
         </menu>
     </item>
@@ -35,15 +35,15 @@
         <menu>
             <item
                 android:id="@+id/nav_nouns_a2"
-                android:icon="@mipmap/ic_nomen"
+                android:icon="@mipmap/ic_empty"
                 android:title="Nomen" />
             <item
                 android:id="@+id/nav_verbs_a2"
-                android:icon="@mipmap/ic_verben"
+                android:icon="@mipmap/ic_empty"
                 android:title="Verben" />
             <item
                 android:id="@+id/nav_grammar_a2"
-                android:icon="@mipmap/ic_grammar"
+                android:icon="@mipmap/ic_empty"
                 android:title="Grammatik" />
         </menu>
     </item>

@@ -2,9 +2,10 @@ package com.ripka.deutschwiederholung;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
@@ -16,7 +17,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import android.graphics.Bitmap;
@@ -43,6 +44,7 @@ public class NavActivity extends AppCompatActivity
     protected Integer VIEW_VERBS = 1;
     protected Integer VIEW_GRAMM = 2;
     protected NavActivity mInstanceNavActivity = null;
+    protected ProgressBar mProgressMain;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +71,15 @@ public class NavActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setItemIconTintList(null);
+
+        View header = navigationView.getHeaderView(0);
+        Resources res = getResources();
+        Drawable drawable = res.getDrawable(R.drawable.progress_linear);
+        mProgressMain = (ProgressBar) header.findViewById(R.id.progressMain);
+        mProgressMain.setProgressDrawable(drawable);
+        mProgressMain.setSecondaryProgress(100);
+        mProgressMain.setMax(100);
+        mProgressMain.setProgress(100);
     }
     @Override
     protected void onResume() {
