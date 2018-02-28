@@ -32,6 +32,8 @@ public class NounsActivity extends NavActivity {
     protected ProgressBar mProgress;
     protected int timerDuration = 10;
     protected Map<Integer,Integer> mTimersMap;
+    protected Map<Integer,Integer> mTimersMapBtn;
+    protected Map<Integer,Integer> mTimersMapBtnHover;
     int pStatus = 0;
     boolean procRun = true;
     private Handler handler = new Handler();
@@ -84,12 +86,30 @@ public class NounsActivity extends NavActivity {
         mOK = (Button) findViewById(R.id.app_btn_go);
 
         mTimersMap = new HashMap<Integer,Integer>();
-        mTimersMap.put(5, R.id.timer_5);
-        mTimersMap.put(10, R.id.timer_10);
-        mTimersMap.put(20, R.id.timer_20);
-        mTimersMap.put(30, R.id.timer_30);
-        TextView txtWord = (TextView) findViewById(mTimersMap.get(timerDuration));
-        txtWord.setTextColor(getResources().getColor(R.color.colorOK));
+        mTimersMap.put(R.id.timer_5, 5);
+        mTimersMap.put(R.id.timer_10, 10);
+        mTimersMap.put(R.id.timer_20, 20);
+        mTimersMap.put(R.id.timer_30, 30);
+
+        mTimersMapBtn = new HashMap<Integer,Integer>();
+        mTimersMapBtn.put(5, R.mipmap.ic_time_5);
+        mTimersMapBtn.put(10, R.mipmap.ic_time_10);
+        mTimersMapBtn.put(20, R.mipmap.ic_time_20);
+        mTimersMapBtn.put(30, R.mipmap.ic_time_30);
+
+        mTimersMapBtnHover = new HashMap<Integer,Integer>();
+        mTimersMapBtnHover.put(5, R.mipmap.ic_time_5_hover);
+        mTimersMapBtnHover.put(10, R.mipmap.ic_time_10_hover);
+        mTimersMapBtnHover.put(20, R.mipmap.ic_time_20_hover);
+        mTimersMapBtnHover.put(30, R.mipmap.ic_time_30_hover);
+
+        for(Map.Entry<Integer, Integer> entry : mTimersMap.entrySet()) {
+            int timeVal = entry.getValue();
+            if (timeVal == timerDuration) {
+                ImageView imgTimerBtn = (ImageView)findViewById( entry.getKey() );
+                imgTimerBtn.setImageResource(mTimersMapBtnHover.get(timeVal));
+            }
+        }
 
         afterCreate( savedInstanceState != null );
     }
@@ -112,35 +132,49 @@ public class NounsActivity extends NavActivity {
     }
     public void onOpenTimerSet(View view) {
         View viewSettings = findViewById(R.id.timer_setting);
+        if (view instanceof ImageView) {
+            ImageView timerToggleBtn = (ImageView)view;
+            if (viewSettings.getVisibility() != View.VISIBLE) {
+                timerToggleBtn.setImageResource(R.mipmap.ic_time_hover);
+            } else {
+                timerToggleBtn.setImageResource(R.mipmap.ic_time);
+            }
+        }
         toggleViewVisibility( viewSettings );
     }
     public void onTimerSet(View view) {
-        if (view instanceof TextView) {
+        if (view instanceof ImageView) {
             for(Map.Entry<Integer, Integer> entry : mTimersMap.entrySet()) {
-                Integer value = entry.getValue();
-                TextView txtTimerBtn = (TextView)findViewById(value);
-                txtTimerBtn.setTextColor(getResources().getColor(R.color.colorGreyDark));
+                int timeBtnId = entry.getKey();
+                int timeVal = entry.getValue();
+                ImageView imgTimerBtn = (ImageView)findViewById(timeBtnId);
+                imgTimerBtn.setImageResource(mTimersMapBtn.get(timeVal));
             }
-            TextView txtTimer = (TextView)view;
-            timerDuration = Integer.parseInt( txtTimer.getText().toString() );
-            txtTimer.setTextColor(getResources().getColor(R.color.colorOK));
+            ImageView btnTimer = (ImageView)view;
+            int btnId = btnTimer.getId();
+            timerDuration = mTimersMap.get(btnId);
+            btnTimer.setImageResource(mTimersMapBtnHover.get(timerDuration));
             View viewSettings = findViewById(R.id.timer_setting);
             toggleViewVisibility( viewSettings );
         }
     }
-    public void onCheckedChanged(View view) {
+    public void onTranslateToggle(View view) {
         TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
         TextView txtWord = (TextView)findViewById(R.id.word_of_test);
         ImageView ivVectorImage = (ImageView) findViewById(R.id.img_translate);
         if ( txtWordTranslation.getVisibility() != View.VISIBLE ) {
             txtWordTranslation.setVisibility(View.VISIBLE);
             txtWord.setPadding(0,0,0,30);
-            ivVectorImage.setColorFilter(getResources().getColor(R.color.colorOK));
+            ivVectorImage.setImageResource(R.mipmap.ic_translate_hover);
         } else {
             txtWordTranslation.setVisibility(View.INVISIBLE);
             txtWord.setPadding(0,0,0,0);
-            ivVectorImage.setColorFilter(getResources().getColor(R.color.colorGreyDark));
+            ivVectorImage.setImageResource(R.mipmap.ic_translate);
         }
+    }
+    public void onEasyToggle(View view) {
+        ImageView ivVectorImage = (ImageView) findViewById(R.id.img_50x50);
+        ivVectorImage.setImageResource(R.mipmap.ic_50x50_hover);
     }
     public void checkTest(View view) {
         int optionID = 0;
@@ -184,6 +218,9 @@ public class NounsActivity extends NavActivity {
 
         //TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
         //txtWordTranslation.setVisibility(View.INVISIBLE);
+
+        ImageView ivVectorImage = (ImageView) findViewById(R.id.img_50x50);
+        ivVectorImage.setImageResource(R.mipmap.ic_50x50);
 
         TextView txtMessage = (TextView) findViewById(R.id.message);
         txtMessage.setVisibility(View.INVISIBLE);
