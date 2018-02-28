@@ -31,4 +31,15 @@ public class NounTest extends Test {
     public void setIntArticelNo(int _articleNo){
         intArticelNo = _articleNo;
     }
+    public int getCorrectOption() {
+        int optionCorrect = 0;
+        String optionVal = data.get(intArticelNo);
+        for (int i=0; i < options.size(); i++) {
+            if ( options.get(i).equals(optionVal) ) {
+                optionCorrect = i;
+                break;
+            }
+        }
+        return optionCorrect;
+    }
 }
