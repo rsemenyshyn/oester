@@ -145,7 +145,7 @@ public class VerbsActivity extends NavActivity {
         Button btnNext = (Button)findViewById(R.id.verbs_btn_next);
         btnNext.setVisibility(View.VISIBLE);
     }
-    public void onCheckedChanged(View view) {
+    public void onTranslateToggle(View view) {
         TextView txtWordTranslation = (TextView)findViewById(R.id.verbs_translate);
         if ( ((CheckBox)view).isChecked() ) {
             txtWordTranslation.setVisibility(View.VISIBLE);
