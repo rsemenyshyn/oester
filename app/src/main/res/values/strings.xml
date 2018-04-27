@@ -20,6 +20,8 @@
     <string name="title_activity_nouns_all">Nomen</string>
     <string name="title_activity_nouns_a1">Nomen A1</string>
     <string name="title_activity_nouns_a2">Nomen A2</string>
+    <string name="title_activity_nouns_b1">Nomen B1</string>
+    <string name="title_activity_nouns_b2">Nomen B2</string>
     <string name="title_activity_verbs_all">Verben</string>
     <string name="title_activity_grammatik">Grammatik</string>
 

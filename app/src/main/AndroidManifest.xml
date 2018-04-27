@@ -46,6 +46,14 @@
             android:label="@string/title_activity_nouns_a2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name="com.ripka.deutschwiederholung.NounsB1Activity"
+            android:label="@string/title_activity_nouns_b1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.ripka.deutschwiederholung.NounsB2Activity"
+            android:label="@string/title_activity_nouns_b2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.ripka.deutschwiederholung.GrammatikA1Activity"
             android:label="@string/title_activity_grammatik"
             android:theme="@style/AppTheme.NoActionBar" />
