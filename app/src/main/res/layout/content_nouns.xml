@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:visibility="invisible"
             android:layout_gravity="end"
-            android:paddingTop="50dp">
+            android:paddingTop="45dp">
             <ImageView
                 android:layout_height="45dp"
                 android:layout_width="45dp"

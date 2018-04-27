@@ -1,0 +1,497 @@
+der Zeitungsverlag	the newspaper publisher
+die Bewerbungsmappe	the application folder
+die Abteilung	the department
+die Voraussetzung	the condition
+der Bewerber	the applicant
+das Satzglied	the constituent, the clause
+die Aussage	the statement
+die Zulassung	the approval
+der Eheberater	the marriage counselor
+der Erbe	the heritage
+der Zeuge	the witness
+der Neffe	the nephew
+der Bube	the boy
+der Laie	the amateur
+der Dirigent	the conductor
+der Soldat	the soldier
+der Hase	the rabbit
+der Schimpanse	the chimp
+der Affe	the monkey
+der Ochse	the ox
+der Falke	the falcon
+der Loewe	the lion
+der Beamte	the official, the clerk
+der Bauer	the farmer
+der Architekt	the architect
+das Haustier	the pet
+das Recht	the right
+die Ordnung	the order
+der Fachmann	the specialist
+das Verbrechen	the crime
+die Börse	the stock market
+der Pendler	the commuter
+die Bescheinigung	the certificate
+die Grundgebühr	the basic fee
+die Überweisung	the transfer
+die Bankverbindung	the bank account information
+die Geheimzahl	the PIN number
+der TAN-Generator	the TAN generator
+der Staatsbürger	the citizen
+die Bestätigung	the confirmation
+die Strecke zurücklegen	cover the distance
+das Wertpapiere	the securities
+die Behörde	the authority
+der Wohnsitz	the residence
+die Bankleitzahl	the bank code
+die Kontonummer	the account number
+das Girokontokonten	the check account
+das Gebiet	the area
+die umliegenden Städte und Gemeinden	the surrounding towns and communities
+die Firma	the company
+der Seitensprung	the fling, the affair
+die Ausbildung	the training
+die Rechnung	the bill, the invoice
+die Entwicklung	the development
+die Erfahrung	the experience
+die Veranstaltung	the event
+die Aussicht	the view, the outlook
+die Landschaft	the landscape
+der Rentner	the pensioner
+die Ermäßigung	the reduction
+das Kontoguthaben	the account balance
+die Betriebskantine	the canteen
+die Folge	the consequence
+der Stromausfall	the power failure
+die Skihütte	the ski lodge
+die Beziehung beginnen	start the relationship
+der Seitensprung	the fling, the affair
+der Vokalwechsel	the vowel change
+der Verbstamm	the verb root
+der Infinitiv	the infinitive
+das Gasthausr	the inn
+die Schublade	the drawer
+der Stecker	the plug
+die Steckdose	the outlet
+das Inhaltsverzeichnis	the table of contents
+die Lösung	the solution
+der Aufzug	the elevator
+die Verstärkung	emphasis
+die Tatsache	fact
+die Aufforderung	request, demaind
+Beruhigung	reassurance
+das Betriebsklima	work climate
+der Kader	cadre
+die Gleitzeit	flexitime
+die Entscheidungskraft	decisiveness
+der Abteilungsleiter	head of department
+der Vorsatz	intention
+die Zutat	the ingredient
+das Formulare	the form
+das Gebäude	the building
+die Handlung	the action
+die Festplatte löschen	delete the hard drive
+den Strom abstellen	turn off the power
+die Stadtwerke	the municipal works
+der Installateure	the installer
+die Badrenovierung	the bathroom renovation
+die Firmenleitung	the company’s management
+die Gehaltskürzung	the pay cut
+der Schreiner	the carpenter
+die Form	the shape, the form
+das Ersatzteile	the spare part
+der Rechnungsbetrag	the invoiced amount
+der Buchungsfehler	the accounting error
+das Kunstwerk	the work of art
+der Firmensitz	the companys address
+der Steuersatz	the tax rate
+die Zahnbehandlung	the dental treatment
+die Kosten übernehmen	bear the expenses, take over the costs
+die Auswahl haben	have an option
+der Kiefer	the pine
+die Kosten erstatten	reimburse the costs
+die Selbstbeteiligung	the percentage excess
+der Tarife	the rate, the charge
+die Prämie	the insurance rate
+die Selbstauskunft	the self-disclosure
+die Gesellschaft	society
+die Beteiligung, en	the participation
+die Erstellung	the creation
+der Schutz	the protection
+das Nester	the nest
+das Geräusche	the sound
+der Hustenanfall	the cough attack
+das Spielzeug	the toy
+der Saft	the juice
+die Lebenshaltungskosten	living expenses
+das Gewicht	the weight
+das Gepäck	the luggage
+der Hafen	the port
+die Maßnahme	the measure
+die Rechnung	bill
+die Schwangerschaft	the pregnancy
+die Sitzung	the session
+der Geländewagen	the SUV
+das Gebirge	the mountains
+das Grundstücke	the property
+die Heimat	the home, the homeland
+die Ersatzform	the replacement form
+die Konferenz	the conference
+die Krise	the crisis
+die Änderung	changes
+das Bauteile	the device
+die Werkstatt	the workshop
+die Kühlwasserpumpe	the cooling water pump
+die Geduld	the patience
+die Ausdauer	the endurance
+die Sprechstunde	the consultation hours
+das Umfeld	the environment
+die Gondel	the gondola
+die Lage	the location
+das Thermalbadr	the thermal bath
+der Heiratsantrag	the marriage proposal
+der Freundeskreis	circle of friends
+die Sorge	the worry
+der Kampf	the fight
+das Gesuch	the application
+die Einleitung	the introduction
+die Reihenfolge	the order
+der Satzbau	the sentence structure
+die Reihenfolge	the order
+das Zelte	the tent
+die Schuld	the debt
+der Unfall	the accident
+die Sitzung	the session
+die Regel	the rule
+die Verbindung	the connection
+der Bart	the beard
+der Planungsfehler	the planning error
+das Wechselgeld	the change
+der Obdachlose	the homeless
+die Wohngemeinschaft	the shared apartment
+die Küste erreichen	reach the coast
+der Steuerzahler	the taxpayers
+die Aufforderung	the prompt, the request
+die Drohung	the threat
+der Geldbeutel	the wallet, the purse
+die Gegenwart	the present
+die Ausnahme	the exception
+die Folge	the consequence
+die Gleichzeitigkeit	the concurrency
+die Vergangenheit	the past
+der Mehlstaub	the flour dust
+die Allergie	the allergy
+der Gewinne	the profit, win
+der Verluste	the loss
+die Theatervorstellung	the theatrical performance
+die Rückkehr	the return
+der Fleiß	the diligence
+die Disziplin	the discipline
+die Gehaltserhöhung	the salary boost
+die Probleme halten an	the problems continue
+die Entwicklungsabteilung	the development department
+die Infrastruktur	the infrastructure
+der Frieden	the peace
+der Krieg	the war
+der Beweisee	the proof
+der Richter	the judge
+der Beschuldigte	the accused
+die Dachwohnung	the attic apartment
+der Rohstoffe	the raw material
+das Präsens	the present tense
+das Futur	the future tense
+die Kühltruhe	the freezer
+das Vorstellungsgespräch	job interview
+die Verspätung	the delay
+die Stellenausschreibung	the vacancy
+der Führerschein	the driver’s license
+die Autobahnmaut	the motorway tolls
+die Fahrradkette	the bicycle chain
+der Antrag	the application
+das Visum	the visa
+der Ratgeber	the advisor
+die Branche	the industry
+der Neulinge	the newcomer
+der Arbeitsablauf	the workflow
+die Grundlage	the base, the basis
+das Übergewicht	overweight
+die Herkunft	origin
+der Kriege	war
+die Flucht	escape, flight
+die Heimat	home country
+die Kunst	art
+der Leistungsunterricht	intensive course
+die Broschüre	brochure
+die Wahrnehmung	perception
+die Darstellung	display
+der Schatten	shadow
+der Kontraste	contrast
+der Ausgleich	balance
+die Bildbearbeitung	image processing
+die Auflösung	resolution
+die Gestaltung	design, layout
+die Grundlage	basics
+der Artikel	article
+die Struktur	strucutre
+der Zusammenhang	correlation
+die Verarbeitung	prepapration
+der Einsatz	use, usage
+der Blickwinkel	perspective
+die Geburtenrate fällt	the birth rate drops
+das Partnersuchportal	the dating site
+die Höchstgeschwindigkeit	the speed limit
+das Fallschirmspringen	the parachute jumping
+der Moderator	the moderator
+der Spielerkader	the player roster
+die Meisterschaft	the championship
+der Stürmer	the striker
+die Tatsache	the fact
+der Vereine	the club, the association
+der Nachwuchsspier	the young player
+der Ersatzspieler	the replacement players
+die Defensive	the defensive
+die Systemumstellung	the system conversion
+das Fernstudium	the distance learning
+das Kerosin	the kerosene
+das Bahngleise	the railroad track
+die Gewerbesteuer	the trade tax
+der Subjunktor	the subjunction
+der Zustand	the state
+die Gegenwart	the present
+der Zeitpunkt	the time, the moment
+der Vertrieb	the sales
+der Vorgesetzte	the superior
+die Versetzung	the transfer
+die Verbesserung	the improvement
+die Absprache	the agreement
+der Fehltritt	the misstep
+der Vertrag	the contract
+die Verwaltung	the administration
+die Beziehung (partner- schaftliches Verhältnis)	the relationship
+der Vorgang	the operation
+der Gegensatz	the contrast
+das Taschengeld	the pocket money
+die Handlung	the action
+die Abreise	departure
+die Anreise	arrival
+der Ausflug	the trip
+die Werkstattn	the workshop
+die Leistung	the performance
+der Termin steht	the date is fix
+die Sitzung	session
+die Pubertät	puberty
+die Sorge	sprrow
+dir Anschlusszug	connecting train
+die gegebene Situation	the given situation
+das Verhältnis	the ratio
+die Belegschaft	the workforce
+der Aggressor	the aggressor
+die Belastung	the load
+die Gleitzeit	the flexitime
+die Fluktuation	the fluctuation
+die Effizienz	the efficiency
+die Zulage	the allowance
+die Vereinbarkeit	the compatibility
+der Umstand	the fact
+der Ausgleich	the compensation
+die Rate	the rate
+die Quote	the rate
+die Voraussetzung	the condition
+die Betreuung	the care
+die Regeneration	the regeneration
+die Bedingung	the condition
+die Vermutung äußern	venture a guess
+das Verhalten	the behavior
+die Rennstrecke	the race track
+der Kirschbaum	the cherry tree
+die Nacht durchmachen	pull an all-nighter
+die Bevölkerung	the population
+die Ernte	the harvest
+die Wirtschaft	the economy
+das Gefängnisse	the prison
+der Anwalt	the lawyer
+der Makler	the broker
+die Immobilie	the real estate
+die Drohung	the threat
+die Haushaltshilfe	the household help
+die Kreuzung	the crossing
+der Bürgermeister	the mayor
+der Gesprächsanlass	the occasion for talking
+der Stadtrat	the city council
+die Abschiedsrede	the farewell speech
+die Autobahnanbindung	the freeway access
+der Feinstaub	the fine dust
+der Grenzwerte	the limit
+der Grüngürtel	the green belt
+der Lärm	the noise
+die Belastung	the burden
+die Hochschule	the college
+die Geisteswissenschaften	the humanities
+das Anliegen	the concern
+die Feuerwehr	the fire brigade
+die Neuausrichtung	the realignment
+die Investition	the investment
+das Wasserwerke	the waterworks
+die Ringstraße	the circular road
+die Neuausstattung	the new equipment
+das Gewerbegebiete	the industrial area
+der Hafen	the port
+der Verkehr	the traffic
+der Schmutzpartikel	the dirt particles
+die Niederlassung	the branch
+die Zweigstelle	the branch
+das Gewerbe	the industry
+der Bürger	the citizen
+die Regierung	the government
+der Zustand	the state
+die Handlung	the action
+der Zwecke	the purpose
+die DNA	the DNA
+die Spur	the track
+die Analyse	the analysis
+der Mörder	the murderer
+der Einbrecher	the burglar
+der Beweise	the proof
+der Weizen	the wheat
+die Büroeinrichtung	the office equipment
+den Inhalt wiedergeben	describe the content
+der überwiegende Teil	the vast majority
+der Indikativ	the indicative
+die Währungskrise	the currency crisis
+die Steuerlast tragen	burden the tax load
+die Rettung	the rescue
+der Richter	the judge
+das Urteile	the ruling
+die Geburtenrate	the birth rate
+die Elternschaft	the parenthood
+der Wohlstand	the prosperity
+die Unterstützung	the support
+der Antrag	the application
+der Rettungswagen	the ambulance
+das Erdbeben	the earthquake
+das Gefängnisse	the prison
+die Haftstrafe	the prison sentence
+die Sucht	the addiction
+der Aufwand	the effort
+der Sinn	the sense
+die Wirkung	the effect
+der Grundsatz	the principle
+der Zusatz	the addition
+das Gesetze	the law
+der Eindruck	the impression
+die Gegenwart	the present
+der Rückgang	decline, reduction
+die Spitze	pole position
+das Schlusslicht	to be bottom of the table
+die Zunahme	increase
+der Anteil	share, portion
+die Bedienungsanleitung	the operating instructions
+der Finanzvorstand	the finance executive committee
+die Präsentation erstellen	create a presentation
+die Unterseite	the bottom
+der Öltanks	the oil tank
+der Tresor	the safe
+der Räuber	the robber
+der Täter	the perpetrator
+das Diebesgut	the stolen goods
+der Abnehmer	the customer
+der Zeuge	the witness
+das Fahndungsfotos	the photo of a wanted person
+der Ganove	the crook
+das Kunstwerke	the work of art
+der Informant	the informant
+das Einbruchswerkzeug	the burglary tool
+die Meute	the mob
+die Jagd	the hunting
+der Maulkorb	the muzzle
+der Dackel	the dachshund
+das Rudel	the pack, the herd
+der Zugang	the access
+das Tore	the goal
+der Bach	the brook
+der Landschaftspark	the landscape park
+das Schultergelenke	the shoulder joint
+die Offenheit	the openness
+der Verlage	the publishing house
+die Leidenschaft	the passion
+der Zwinger	the kennel
+die Einstellung	the attitude
+der Bergaufstieg	the mountain ascent
+der Staatsanwalt	the public prosecutor
+die Verteidigung	the defense
+der Fingerabdruck	the fingerprint
+der Beschuldigte	the accused
+der Angeklagte	the defendant
+die Kooperation	the cooperation
+der Regierungssprecher	the government spokesman
+die Mitteilung	the report
+die Schöntuerei	flattery
+der Vorwurf	accusation
+die Waffe	weapon
+der Patzer	goof, blunder
+der Bitterstoffe	bitter principle
+der Misserfolge	the failure
+der Aufschub	the delay
+das Präsidentenamt	the presidential office
+die Aufführung	the performance
+die Kundenakquise	the customer acquisition
+der Flüchtlinge	the fugitive
+das Notwendigste	the essentials
+der Kontrollanrufe	the control call
+der Passant	the passer-by
+der Kälteeinbruch	the cold snap
+der Einbruch	the burglary
+die Schlagfertigkeit	the repartee
+der Gesundheitszustand	the state of health
+das Gerüchte	the rumor
+der Forscher	the researcher
+die Drohung	the threat
+die Konkurrenz	the competition
+der Straftäter	the offender
+der Winterreifen	the winter tires
+die Meckerei	the nagging
+das Vermögen	the assets
+der Vertriebsleiter	the sales director
+das Umfeld	the environment
+der Vertragsinhalte	the subject terms of contract
+die Eisenbahn- Schnellfahrtstrecke	the quick drive railway
+die Nachfrage	the demand
+die Eigenschaft	the characteristic, the property
+die Kompetenz	the competence
+der Vorgesetze	the superior
+der Rahmen	the framework
+der Wandel	the change
+der Rechtsspruch	the judgment
+die Bewertung	the assessment, the evaluation
+die Zuversicht	the confidence
+die Ausstattung	equipment
+die Bewilligung	permission
+die Biogasanlage	biogas plant
+die Funktionsweise	function, method
+die Gülle	manure
+der Mist	waste
+der Kompost	compost
+der Vorgang	procedure
+der Nährstoffe	nutrients
+die Biomasse	biomass
+die Grube	pit
+die Fermentierung	fermentation
+das Substrat	substrate
+der Gehalt	amount, volume
+das Stromkraftwerk	electrical power plant
+der Gemeinderat	city council
+der Zugang	access
+die Haube	cover
+die Vergärung	fermentation
+die Stromleistung	electrical power plant
+die Weltgemeinschaft	international community
+das Korallenriffe	coral reef
+der Bestandteile	component, part
+das Immunsystem	immune system
+die Ursache ausmachen	to find the cause
+die Alge	algae
+die Spur	trace
+die Infektion	infection
+die Bewährungsprobe	practical test
+der Schadstoffe	contaminant, toxin
+der Bestand	population, stock
+die Richtlinie	regulation, stipulation
