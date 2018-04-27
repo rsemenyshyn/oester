@@ -1,0 +1,342 @@
+die	Angst	Fear
+der	Besuch	Visit
+die	Menge	Amount
+die	Nachbarin	Neighbour
+das	Aussehen	Appearance
+die	Erfahrung	Experience
+die	Meinung	Opinion
+der	Verwandte	Relative
+der	Bekannte	Friend
+das	Gesicht	Face
+die	Mitteilung	Message
+die	Verwandte	Relative
+die	Bekannte	Friend
+die	Gruppe	Group
+der	Nachbar	Neighbour
+die	Apotheke	pharmacy
+der	Aufzug	lift
+der	Park	park
+das	Dorf	village
+der	Einwohner	residents
+die	Heimat	homeland
+der	Müll	garbage
+die	Straßenbahn	tramway
+der	Nebel	fog
+der	Grad	degree
+das	Geschäft	business
+die	Ausstellung	exhibition
+der	Wald	forest
+die	Stadt	state, town, city
+die	Nähe	vicinity
+die	Landschaft	landscape
+das	Auto	car
+die	U-Bahn	subway
+die	Sonne	sun
+der	Regen	rain
+der	Laden	store
+der	Baum	tree
+der	Spielplatz	playground
+der	Ort	place
+die	Fabrik	factory
+die	Industrie	industry
+der	PKW	car(Personenkraftwagen)
+das	Wetter	weather
+der	Wind	wind
+die	Wolke	cloud
+das	Theater	theatre
+die	Blume	flower
+der	Berg	mountain
+die	Einrichtung	establishment
+der	Fluss	river
+die	Luft	air
+der	LKW	lorry/truck (Lastkraftwagen)
+das	Gewitter	storm
+die	Welt	world
+das	Fernsehen	television
+die	Batterie	battery
+die	Ansage	announcement
+die	Gebühr	fee
+der	Kalendar	calendar
+die	Nachricht	message
+das	Video	video
+der	Fernsehapparat	television set
+die	Durchsage	announcement
+der	Inhalt	content
+der	Programmierer	programmer
+die	Notiz	note
+die	Zeitung	newspaper
+das	Gerät	device
+der	Bildschirm	screen
+die	Einführung	introduction
+die	Kenntnis	knowledge
+die	Musik	music
+der	Quatsch	nonsense
+die	Zeitschrift	magazine
+das	Radio	radio
+die	Farbe	colour
+die	Sendung	programme
+der	Film	film
+der	erste Teil	first chapter
+die	Bäckerei	Bakery
+das	Cafe	Cafe
+das	Gericht	dish
+der	Herd	stove
+die	Packung	package
+die	Gabel	fork
+die	Spülmaschine	dishwasher
+das	Schweinefleisch	Pork
+das	Trinkgeld	Tip(for a waiter)
+der	Alkohol	Alcohol
+die	Mülltonne	Rubbish bin
+das	Fest	festival
+die	Tüte	Bag
+der	Teller	Plate
+das	Messer	Knife
+die	Nudel	Pasta
+die	Suppe	Soup
+der	Kellner	waiter
+die	Speisekarte	Menu
+der	Kiosk	kiosk
+der	Markt	Market
+der	Haushalt	Household
+die	Dose	Tin
+die	Tasse	Cup, Mug
+der	Löffel	Spoon
+der	Käse	Cheese
+die	Soße	Sauce
+die	Kellnerin	Waiter
+der	Supermarkt	Supermarket
+die	Kneipe	Pub
+der	Gast	Guest
+das	Lieblingsessen	favourite food
+die	Portion	portion
+der	Topf	pot
+das	Geschirr	dishes
+der	Tisch	Table
+das	Rindfleisch	beef
+der	Ober	Head waiter
+das	Stellenangebot	vacancy
+die(pl)	Sachen	stuff
+die	Anzeige	advertisement, show
+der	Lohn	wage
+der	Aufenthalt	stay, stopover
+der	Weg	path
+der	Keller	cellar
+der	Vogel	bird
+der	Ausflug	excursion
+die	DVD	DVD
+die	Kirsche	Church
+die	Oper	Opera
+das	Lokal	Local
+das	Schwimmbad	swimming pool
+das	Tier	animal
+der	See	Lake
+der	Dom	Cathedral
+das	Kino	Cinema
+die	Sporthalle	gym
+der	Hund	dog
+die	Sehenswürdigkeit	sight, place of interest
+die	Disko	Disco
+der	Verein	club, association
+die	Katze	Cat
+die	Ermäßigung	discount
+die	Besichtigung	Sightseeing
+die	Adresse	Address
+der	Anrufbeantworter	answering machine
+das	Ding	thing
+die	Ecke	corner
+die	Garage	garage
+das	Handtuch	towel
+das	Licht	light
+der	Preis	Prize
+der	Schlüssel	key
+der	Turm	tower
+das	Werkzeug	tool
+die	Anzeige	advertisement
+die	Beratung	advice
+der	Blick	view
+das	Holz	wood
+die	Küche	Kitchen
+die	Maschine	machine
+die	Ordnung	order
+der	Prospekt	brochure, prospect
+der	Strom	electricity
+der	Teppich	carpet
+der	Betrag	amount
+das	Büro	Office
+der	Erdgeschoss	Ground Floor
+der	Flur	hallway
+das	Metall	metal
+die	Hausfrau	housewife
+der	Kühlschrank	refrigerator
+die	Miete	rent
+die	Mehrwertsteuer	sales tax
+der	Raum	room
+der	Sessel	armchair
+die	Treppe	stairs
+die	Unterkunft	accommodation
+der	Ausgang	exit
+der	Briefkasten	mailbox
+das	Dach	roof
+der	Eingang	entrance
+das	Gas	gas
+die	Heizung	heating
+der	Hausmann	house husband
+der	Kinderwagen	pram
+die	Möbel	furniture
+die	Mitte	middle, centre
+das	Plastik	plastic
+das	Schild	sign
+die	Tür	door
+die	Versicherung	insurance
+das	Bein	leg
+die	Erlaubnis	permission
+das	Gewicht	weight
+der	Hals	neck
+die	Krankenkasse	health insurance
+der	Mund	mouth
+der	Notarzt	emergency doctor
+das	Rezept	recipe
+der	Termin	appointment
+der	Zahn	tooth
+der	Arzt	doctor
+der	Arm	arm
+das	Blut	blood
+das	Fieber	fever
+die	Grippe	flu
+die	Hand	hand
+der	Kopf	head
+das	Krankenhaus	hospital
+das	Mittel	medicine
+die	Operation	operation
+die	Sprechstunde	office hours
+die	Untersuchung	investigation/examination
+der	Ärger	anger
+das	Auge	Eye
+der	Doktor	Physician, doctor
+der	Fuß	Foot
+die	Größe	size
+das	Herz	Heart
+der	Körper	body
+die	Kontrolle	control
+das	Medikament	medicine
+die	Praxis	practice (medical)
+der	Schnupfen	cold, sniffles
+der	Unfall	accident
+der	Bauch	stomach
+das	Ende	end
+das	Haar	Hair
+die	Krankheit	illness
+der	Magen	stomach
+der	Notfall	emergency
+der	Rücken	back
+die	Schmerzen	pain
+die	Wanderung	hike
+der	Ausweis	passport
+die	Fahrkarte	ticket
+das	Ausland	foreign country
+der	Strand	beach
+das	Rathaus	town hall
+die	Brücke	bridge
+der	Koffer	suitcase
+der	Zoll	customs
+das	Gleis	platform
+die	Auskunft	information
+die	Jugendherberge	youth hostel
+die	Autofahrt	car journey
+der	Rundgang	tour
+der	Pass	passport
+die	Brieftasche	wallet
+das	Meer	sea
+der	Reiseführer	travel guide
+das	Schloss	castle
+die	Stadtrundfahrt	city tour
+der	Schirm	umbrella
+der	Fahrplan	schedule
+die	Verbindung	connection
+die	Ferienwohnung	holiday apartment
+die	Vollpension	full board
+die	Bahn	railroad
+das	Schiff	ship
+der	Führerschein	driver's license
+die	Geldbörse	purse
+die	Natur	nature
+die	Insel	island
+die	Kamera	camera
+der	Flughafen	airport
+der	Anschluss	connection
+die	Fähre	Ferry
+das	Ticket	ticket
+die	Papiere	documents
+das	Konsulat	consulate
+das	Gepäck	luggage
+der	Hafen	port
+die	Anmeldung	registration
+der	Monat	month
+die	Weihnachten	Christmas
+die	Frist	deadline
+der	Kontakt	contact
+der	Werktag	workday
+das	Datum	date
+das	Fundbüro	Lost&found
+der	Kunde	customer
+die	Quittung	receipt
+die	Dauer	duration
+der	Glückwünsch	congratulations
+der	Rabatt	reduction
+die	Tageszeit	time of day
+die	Achtung	attention
+die	Autobahn	highway
+die	Haltestelle	bus stop
+die	Kreuzung	intersection
+das	Öl	oil
+der	Verkehr	traffic
+die	Panne	breakdown
+das	Verkehrsschild	traffic sign
+die	Ampel	traffic light
+der	Automat	vending machine
+das	Benzin	gasoline
+das	KFZ	automobile (Kraftfahrzeug)
+die	Tankstelle	gas station
+der	Bahnsteig	train platform
+das	Bremslicht	brake lights
+die	Feuerwehr	fire department
+das	Kennzeichen	license plate
+die	Steuer	tax
+der	Kreis	circle
+der	Reifen	tire
+die	Berufserfahrung	work experience
+die	Ausbildung	education
+das	Blatt	sheet of paper
+der	Computer	Computer
+das	Formular	form
+der	Job	job
+der	Kugelschreiber	ballpoint pen
+der	Zettel	note
+das	Problem	problem
+der	Test	test
+die	Lösung	solution
+der	Beruf	profession, job
+der	Bleistift	pencil
+der	Drucker	printer
+der	Kurs	course
+das	Praktikum	internship
+der	Tipp	tip
+das	Zeugnis	report
+die	Aussage	statement
+der	Bogen	Bow, arch, sheet (of paper)
+das	Internet	internet
+die	Kenntnisse	knowledge
+die	Lehre	apprenticeship
+die	Note	grade, mark
+der	Arbeitsplatz	workplace
+die	Bewerbung	application
+die	E-mail	email
+der	Fehler	mistake
+der	Lehrer	teacher
+das	Papier	paper
+die	Prüfung	exam
+die	Übung	exercise
+der	Unterricht	lesson
+die	Leidenschaft	Passion
+die	Fremdsprache	Foreign language
