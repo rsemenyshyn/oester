@@ -185,6 +185,12 @@ public class NavActivity extends AppCompatActivity
         } else if (id == R.id.nav_nouns_a2) {
             Intent intent = new Intent(this, NounsA2Activity.class);
             startActivity(intent);
+        } else if (id == R.id.nav_nouns_b1) {
+            Intent intent = new Intent(this, NounsB1Activity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_nouns_b2) {
+            Intent intent = new Intent(this, NounsB2Activity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_verbs_a2) {
             Intent intent = new Intent(this, VerbsActivity.class);
             startActivity(intent);
