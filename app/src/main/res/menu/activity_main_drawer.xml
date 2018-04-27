@@ -47,4 +47,20 @@
                 android:title="Grammatik" />
         </menu>
     </item>
+    <item android:title="Stufe B1" >
+        <menu>
+            <item
+                android:id="@+id/nav_nouns_b1"
+                android:icon="@mipmap/ic_empty"
+                android:title="Nomen" />
+        </menu>
+    </item>
+    <item android:title="Stufe B2" >
+        <menu>
+            <item
+                android:id="@+id/nav_nouns_b2"
+                android:icon="@mipmap/ic_empty"
+                android:title="Nomen" />
+        </menu>
+    </item>
 </menu>
