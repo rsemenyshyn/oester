@@ -2,6 +2,8 @@
     <string name="app_name">Öster</string>
     <string name="app_descr"><b>Einfache App für die Wiederholung</b></string>
     <string name="app_message">Result of test here</string>
+    <string name="app_bullet_filled">\u25CF</string>
+    <string name="app_bullet_empty">\u25CB</string>
 
     <string name="facebook_app_id">679515238906605</string>
     <string name="fb_login_protocol_scheme">fb679515238906605</string>
