@@ -102,6 +102,22 @@
                         android:paddingTop="25dp" />
 
                 </android.support.design.widget.TextInputLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="0dp">
+                    <Button
+                        android:id="@+id/reset_pass_button"
+                        android:onClick="resetPasswordClick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@android:color/transparent"
+                        android:text="@string/action_reset_pass"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="15sp"
+                        android:fontFamily="sans-serif-light"/>
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -110,6 +126,7 @@
                     android:paddingTop="30dp">
                     <Button
                         android:id="@+id/email_sign_in_button"
+                        android:onClick="emailLoginClick"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:layout_marginTop="16dp"
