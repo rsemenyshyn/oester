@@ -29,15 +29,21 @@ import com.ripka.deutschwiederholung.models.WordsParser;
 public class NounsActivity extends NavActivity {
 
     protected WordsParser tests;
-    protected Button mOK;
-    protected ProgressBar mProgress;
-    protected int timerDuration = 10;
+    protected Boolean isEasyMode = false;
+
     protected Map<Integer,Integer> mTimersMap;
     protected Map<Integer,Integer> mTimersMapBtn;
     protected Map<Integer,Integer> mTimersMapBtnHover;
+
+    protected Button mOK;
+    protected ProgressBar mProgress;
+
+    protected int timerDuration = 10;
+    protected Boolean isTimeOut = false;
     int pStatus = 0;
     boolean procRun = true;
     private Handler handler = new Handler();
+    private Thread thread = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,6 +89,7 @@ public class NounsActivity extends NavActivity {
         Drawable drawable = res.getDrawable(R.drawable.progress);
         mProgress = (ProgressBar) findViewById(R.id.progress);
         mProgress.setProgressDrawable(drawable);
+        mProgress.setSecondaryProgress(4000);
 
         mOK = (Button) findViewById(R.id.app_btn_go);
 
@@ -116,11 +123,10 @@ public class NounsActivity extends NavActivity {
     }
     protected void afterCreate(boolean isRestored) {
         List<Integer> filesToParse = new ArrayList<>(
-                Arrays.asList(R.raw.nouns_a1)
+            Arrays.asList(R.raw.nouns_a1)
         );
         tests = new WordsParser(filesToParse);
         setNextTest(isRestored);
-        setProgresBar();
     }
 
     /* -------------- lower level func ------------*/
@@ -145,6 +151,7 @@ public class NounsActivity extends NavActivity {
     }
     public void onTimerSet(View view) {
         if (view instanceof ImageView) {
+            procRun = false;
             for(Map.Entry<Integer, Integer> entry : mTimersMap.entrySet()) {
                 int timeBtnId = entry.getKey();
                 int timeVal = entry.getValue();
@@ -155,10 +162,10 @@ public class NounsActivity extends NavActivity {
             int btnId = btnTimer.getId();
             timerDuration = mTimersMap.get(btnId);
             btnTimer.setImageResource(mTimersMapBtnHover.get(timerDuration));
-            View viewSettings = findViewById(R.id.timer_setting);
-            toggleViewVisibility( viewSettings );
-            setProgresBar();
+            stopProgressBar();
+            startProgresBar();
         }
+        onOpenTimerSet( findViewById(R.id.img_timer) );
     }
     public void onTranslateToggle(View view) {
         TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
@@ -175,35 +182,38 @@ public class NounsActivity extends NavActivity {
         }
     }
     public void onEasyToggle(View view) {
-        ImageView ivVectorImage = (ImageView) findViewById(R.id.img_50x50);
-        ivVectorImage.setImageResource(R.mipmap.ic_50x50_hover);
-        Test test = TestGen.getLastGeneratedTest();
-        int correctOption = ((NounTest)test).getCorrectOption();
-        ViewGroup radioGroup = (ViewGroup)findViewById(R.id.radioGroup);
-        int count = 0;
-        for (int i = 0; i < radioGroup.getChildCount(); i++) {
-            View o = radioGroup.getChildAt(i);
-            count = (o instanceof ToggleButton) ? count + 1 : count;
-        }
-
-        Map<Integer,Integer> mapCanDiasable = new HashMap<Integer,Integer>();
-        for (int i = 0; i < count; i++) {
-            int size = mapCanDiasable.size();
-            if (i != correctOption) {
-                mapCanDiasable.put(size, i);
+        if (!isEasyMode) {
+            isEasyMode = true;
+            ImageView ivVectorImage = (ImageView) findViewById(R.id.img_50x50);
+            ivVectorImage.setImageResource(R.mipmap.ic_50x50_hover);
+            Test test = TestGen.getLastGeneratedTest();
+            int correctOption = ((NounTest) test).getCorrectOption();
+            ViewGroup radioGroup = (ViewGroup) findViewById(R.id.radioGroup);
+            int count = 0;
+            for (int i = 0; i < radioGroup.getChildCount(); i++) {
+                View o = radioGroup.getChildAt(i);
+                count = (o instanceof ToggleButton) ? count + 1 : count;
             }
-        }
 
-        Random r = new Random();
-        int randToLeave = r.nextInt( mapCanDiasable.size() );
-        for(Map.Entry<Integer, Integer> entry : mapCanDiasable.entrySet()) {
-            if (entry.getKey() != randToLeave) {
-                int optionToDisable = entry.getValue();
-                View o = radioGroup.getChildAt(optionToDisable);
-                if (o instanceof ToggleButton) {
-                    ToggleButton option = (ToggleButton)o;
-                    option.setEnabled(false);
-                    option.setTextColor( this.getResources().getColor(R.color.colorGreyDark));
+            Map<Integer, Integer> mapCanDiasable = new HashMap<Integer, Integer>();
+            for (int i = 0; i < count; i++) {
+                int size = mapCanDiasable.size();
+                if (i != correctOption) {
+                    mapCanDiasable.put(size, i);
+                }
+            }
+
+            Random r = new Random();
+            int randToLeave = r.nextInt(mapCanDiasable.size());
+            for (Map.Entry<Integer, Integer> entry : mapCanDiasable.entrySet()) {
+                if (entry.getKey() != randToLeave) {
+                    int optionToDisable = entry.getValue();
+                    View o = radioGroup.getChildAt(optionToDisable);
+                    if (o instanceof ToggleButton) {
+                        ToggleButton option = (ToggleButton) o;
+                        option.setEnabled(false);
+                        option.setTextColor(this.getResources().getColor(R.color.colorGreyDark));
+                    }
                 }
             }
         }
@@ -211,6 +221,8 @@ public class NounsActivity extends NavActivity {
     public void checkTest(View view) {
         int optionID = 0;
         procRun = false;
+        isTimeOut = true;
+
         ViewGroup radioGroup = (ViewGroup)findViewById(R.id.radioGroup);
         int count = radioGroup.getChildCount();
         for (int i=0;i<count;i++) {
@@ -227,7 +239,7 @@ public class NounsActivity extends NavActivity {
         int idx = radioGroup.indexOfChild(optionButton);
 
         Test test = TestGen.getLastGeneratedTest();
-        TestResult res = ((NounTest)test).getResult( Integer.toString(idx) );
+        TestResult res = test.getResult( Integer.toString(idx) );
 
         TextView txtMessage = (TextView) findViewById(R.id.message);
         txtMessage.setText( res.message );
@@ -253,6 +265,7 @@ public class NounsActivity extends NavActivity {
 
         ImageView ivVectorImage = (ImageView) findViewById(R.id.img_50x50);
         ivVectorImage.setImageResource(R.mipmap.ic_50x50);
+        isEasyMode = false;
 
         TextView txtMessage = (TextView) findViewById(R.id.message);
         txtMessage.setVisibility(View.INVISIBLE);
@@ -291,44 +304,52 @@ public class NounsActivity extends NavActivity {
 
         txtWordCurrent.setText( test.getWord() );
         txtWordTranslation.setText( test.getTranslation() );
-        setProgresBar();
+
+        isTimeOut = false;
+
+        startProgresBar();
     }
 
-    protected void setProgresBar() {
+    protected void stopProgressBar() {
+        procRun = false;
+        thread.interrupt();
+    }
+
+    protected void startProgresBar() {
         procRun = true;
-        pStatus = 0;
         final int loopTime = timerDuration; //seconds
         final int loopStep = 10; //milliseconds
         final int loopsCount = (loopTime * 1000/ loopStep);
-        mProgress.setSecondaryProgress(4000);
-        mProgress.setMax(loopsCount);
         mProgress.setProgress(0);
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                while (pStatus < loopsCount && procRun) {
-                    pStatus += 1;
-                    handler.post(new Runnable() {
-                        @Override
-                        public void run() {
-                            mProgress.setProgress(pStatus);
-                        }
-                    });
-                    try {
-                        Thread.sleep(loopStep);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
+        mProgress.setMax(loopsCount);
+        pStatus = 0;
+
+        if (!isTimeOut) {
+            thread = new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    while (pStatus < loopsCount && procRun) {
+                        pStatus += 1;
+                        handler.post(new Runnable() {
+                            @Override
+                            public void run() { mProgress.setProgress(pStatus); }
+                        });
+                        try { Thread.sleep(loopStep); }
+                        catch (InterruptedException e) { e.printStackTrace(); }
+                    }
+
+                    if (procRun) {
+                        handler.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                isTimeOut = false;
+                                mOK.callOnClick();
+                            }
+                        });
                     }
                 }
-                if(procRun) {
-                    handler.post(new Runnable() {
-                        @Override
-                        public void run() {
-                            mOK.callOnClick();
-                        }
-                    });
-                }
-            }
-        }).start();
+            });
+            thread.start();
+        }
     }
 }
