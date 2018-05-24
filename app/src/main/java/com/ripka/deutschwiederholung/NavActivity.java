@@ -80,10 +80,13 @@ public class NavActivity extends AppCompatActivity
         mProgressMain.setSecondaryProgress(100);
         mProgressMain.setMax(100);
         mProgressMain.setProgress(100);
+
+        isLoggedUser();
     }
     @Override
     protected void onResume() {
         super.onResume();
+        isLoggedUser();
         SharedPreferences shPref = PreferenceManager.getDefaultSharedPreferences(RipkaApp.getAppContext());
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View header = navigationView.getHeaderView(0);
@@ -102,6 +105,43 @@ public class NavActivity extends AppCompatActivity
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         Boolean enableFab = shPref.getBoolean(getString(R.string.email_switcher), false);
         fab.setVisibility( enableFab ? View.VISIBLE : View.INVISIBLE );
+    }
+
+    public boolean isLoggedUser() {
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        LoginManager fb_login = LoginManager.getInstance();
+        boolean isLoggedUser = (auth.getCurrentUser() != null) || (fb_login != null);
+        if (auth.getCurrentUser() != null) {
+            isLoggedUser = true;
+            String userEmail = auth.getCurrentUser().getEmail();
+            String userName = auth.getCurrentUser().getDisplayName();
+            if (userName == null || userName.isEmpty()) {
+                String[] parts = userEmail.split("@");
+                userName = parts[0].trim();
+                userName = userName.substring(0, 1).toUpperCase() + userName.substring(1);
+            }
+            SharedPreferences shPref = PreferenceManager.getDefaultSharedPreferences(RipkaApp.getAppContext());
+            SharedPreferences.Editor editor = shPref.edit();
+            editor.putString(getString(R.string.display_name), userName);
+            editor.putString(getString(R.string.contact_email), userEmail);
+            editor.apply();
+        }
+        return isLoggedUser;
+    }
+    public boolean logOut() {
+        boolean hasLoggedOut = false;
+        boolean isLoggedUser = isLoggedUser();
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        LoginManager fb_login = LoginManager.getInstance();
+        if (isLoggedUser) {
+            auth.signOut();
+            hasLoggedOut = true;
+        }
+        if (isLoggedUser) {
+            fb_login.logOut();
+            hasLoggedOut = true;
+        }
+        return hasLoggedOut;
     }
 
     @Override
@@ -134,25 +174,12 @@ public class NavActivity extends AppCompatActivity
             startActivity(intent);
             return true;
         }
-
         if (id == R.id.action_logout) {
-            boolean hasLoggedOut = false;
-            FirebaseAuth auth = FirebaseAuth.getInstance();
-            LoginManager fb_login = LoginManager.getInstance();
-            if (auth.getCurrentUser() != null) {
-                auth.signOut();
-                hasLoggedOut = true;
-            }
-            if (fb_login != null) {
-                fb_login.logOut();
-                hasLoggedOut = true;
-            }
-            if (hasLoggedOut) {
+            if ( logOut() ) {
                 callLoginActivity();
             }
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
