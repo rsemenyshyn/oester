@@ -81,12 +81,16 @@ public class NavActivity extends AppCompatActivity
         mProgressMain.setMax(100);
         mProgressMain.setProgress(100);
 
-        isLoggedUser();
+        if (!setLoggedUser()) {
+            callLoginActivity();
+        }
     }
     @Override
     protected void onResume() {
         super.onResume();
-        isLoggedUser();
+        if (!setLoggedUser()) {
+            callLoginActivity();
+        }
         SharedPreferences shPref = PreferenceManager.getDefaultSharedPreferences(RipkaApp.getAppContext());
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View header = navigationView.getHeaderView(0);
@@ -107,7 +111,7 @@ public class NavActivity extends AppCompatActivity
         fab.setVisibility( enableFab ? View.VISIBLE : View.INVISIBLE );
     }
 
-    public boolean isLoggedUser() {
+    public boolean setLoggedUser() {
         FirebaseAuth auth = FirebaseAuth.getInstance();
         LoginManager fb_login = LoginManager.getInstance();
         boolean isLoggedUser = (auth.getCurrentUser() != null) || (fb_login != null);
@@ -130,7 +134,7 @@ public class NavActivity extends AppCompatActivity
     }
     public boolean logOut() {
         boolean hasLoggedOut = false;
-        boolean isLoggedUser = isLoggedUser();
+        boolean isLoggedUser = setLoggedUser();
         FirebaseAuth auth = FirebaseAuth.getInstance();
         LoginManager fb_login = LoginManager.getInstance();
         if (isLoggedUser) {

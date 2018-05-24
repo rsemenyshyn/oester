@@ -3,6 +3,8 @@ package com.ripka.deutschwiederholung;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
@@ -114,13 +116,6 @@ public class LoginActivity extends AppCompatActivity implements
                 return false;
             }
         });
-        Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
-        mEmailSignInButton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                attemptLogin();
-            }
-        });
         mLoginFormView = findViewById(R.id.login_form);
         mLoginSocialView = findViewById(R.id.login_social);
         mProgressView = findViewById(R.id.login_progress);
@@ -171,6 +166,31 @@ public class LoginActivity extends AppCompatActivity implements
     public void googleClick(View view) {
         showProgress(true);
         signInWithGoogle();
+    }
+
+    public void emailLoginClick(View view) {
+        attemptLogin();
+    }
+
+    public void resetPasswordClick(View view) {
+        showProgress(true);
+        SharedPreferences shPref = PreferenceManager.getDefaultSharedPreferences(RipkaApp.getAppContext());
+        String userEmail = shPref.getString(getString(R.string.contact_email), "");
+        String emailEntered = mEmailView.getText().toString();
+        String email = emailEntered.isEmpty() ? userEmail : emailEntered;
+        if (email.isEmpty()) {
+            Toast.makeText(RipkaApp.getAppContext(), "Please enter E-mail or set it in preferences", Toast.LENGTH_LONG).show();
+            showProgress(false);
+        } else {
+            FirebaseAuth.getInstance().sendPasswordResetEmail(email).addOnCompleteListener(new OnCompleteListener<Void>() {
+                @Override
+                public void onComplete(@NonNull Task<Void> task) {
+                    String errorMessage = task.isSuccessful() ? "Email sent" : "Something was wrong. Please check E-mail";
+                    Toast.makeText(RipkaApp.getAppContext(), errorMessage, Toast.LENGTH_LONG).show();
+                    showProgress(false);
+                }
+            });
+        }
     }
 
 // general callbacks
