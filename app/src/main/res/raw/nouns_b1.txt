@@ -28,25 +28,25 @@ das	Recht	the right
 die	Ordnung	the order
 der	Fachmann	the specialist
 das	Verbrechen	the crime
-die	Bцrse	the stock market
+die	Börse	the stock market
 der	Pendler	the commuter
 die	Bescheinigung	the certificate
-die	Grundgebьhr	the basic fee
+die	Grundgebühr	the basic fee
 die	№berweisung	the transfer
 die	Bankverbindung	the bank account information
 die	Geheimzahl	the PIN number
 der	TAN-Generator	the TAN generator
-der	Staatsbьrger	the citizen
-die	Bestдtigung	the confirmation
-die	Strecke zurьcklegen	cover the distance
+der	Staatsbürger	the citizen
+die	Bestätigung	the confirmation
+die	Strecke zurücklegen	cover the distance
 das	Wertpapiere	the securities
-die	Behцrde	the authority
+die	Behörde	the authority
 der	Wohnsitz	the residence
 die	Bankleitzahl	the bank code
 die	Kontonummer	the account number
 das	Girokontokonten	the check account
 das	Gebiet	the area
-die	umliegenden Stдdte und Gemeinden	the surrounding towns and communities
+die	umliegenden Städte und Gemeinden	the surrounding towns and communities
 die	Firma	the company
 der	Seitensprung	the fling, the affair
 die	Ausbildung	the training
@@ -57,12 +57,12 @@ die	Veranstaltung	the event
 die	Aussicht	the view, the outlook
 die	Landschaft	the landscape
 der	Rentner	the pensioner
-die	Ermдяigung	the reduction
+die	Ermäßigung	the reduction
 das	Kontoguthaben	the account balance
 die	Betriebskantine	the canteen
 die	Folge	the consequence
 der	Stromausfall	the power failure
-die	Skihьtte	the ski lodge
+die	Skihütte	the ski lodge
 die	Beziehung beginnen	start the relationship
 der	Seitensprung	the fling, the affair
 der	Vokalwechsel	the vowel change
@@ -73,9 +73,9 @@ die	Schublade	the drawer
 der	Stecker	the plug
 die	Steckdose	the outlet
 das	Inhaltsverzeichnis	the table of contents
-die	Lцsung	the solution
+die	Lösung	the solution
 der	Aufzug	the elevator
-die	Verstдrkung	emphasis
+die	Verstärkung	emphasis
 die	Tatsache	fact
 die	Aufforderung	request, demaind
 Beruhigung	reassurance
@@ -87,15 +87,15 @@ der	Abteilungsleiter	head of department
 der	Vorsatz	intention
 die	Zutat	the ingredient
 das	Formulare	the form
-das	Gebдude	the building
+das	Gebäude	the building
 die	Handlung	the action
-die	Festplatte lцschen	delete the hard drive
+die	Festplatte löschen	delete the hard drive
 den Strom abstellen	turn off the power
 die	Stadtwerke	the municipal works
 der	Installateure	the installer
 die	Badrenovierung	the bathroom renovation
 die	Firmenleitung	the companyТs management
-die	Gehaltskьrzung	the pay cut
+die	Gehaltskürzung	the pay cut
 der	Schreiner	the carpenter
 die	Form	the shape, the form
 das	Ersatzteile	the spare part
@@ -105,34 +105,33 @@ das	Kunstwerk	the work of art
 der	Firmensitz	the companys address
 der	Steuersatz	the tax rate
 die	Zahnbehandlung	the dental treatment
-die	Kosten ьbernehmen	bear the expenses, take over the costs
+die	Kosten	the costs
 die	Auswahl haben	have an option
 der	Kiefer	the pine
-die	Kosten erstatten	reimburse the costs
 die	Selbstbeteiligung	the percentage excess
 der	Tarife	the rate, the charge
-die	Prдmie	the insurance rate
+die	Prämie	the insurance rate
 die	Selbstauskunft	the self-disclosure
 die	Gesellschaft	society
 die	Beteiligung, en	the participation
 die	Erstellung	the creation
 der	Schutz	the protection
 das	Nester	the nest
-das	Gerдusche	the sound
+das	Geräusche	the sound
 der	Hustenanfall	the cough attack
 das	Spielzeug	the toy
 der	Saft	the juice
 die	Lebenshaltungskosten	living expenses
 das	Gewicht	the weight
-das	Gepдck	the luggage
+das	Gepäck	the luggage
 der	Hafen	the port
-die	Maяnahme	the measure
+die	Maßnahme	the measure
 die	Rechnung	bill
 die	Schwangerschaft	the pregnancy
 die	Sitzung	the session
-der	Gelдndewagen	the SUV
+der	Geländewagen	the SUV
 das	Gebirge	the mountains
-das	Grundstьcke	the property
+das	Grundstücke	the property
 die	Heimat	the home, the homeland
 die	Ersatzform	the replacement form
 die	Konferenz	the conference
@@ -140,7 +139,7 @@ die	Krise	the crisis
 die	ƒnderung	changes
 das	Bauteile	the device
 die	Werkstatt	the workshop
-die	Kьhlwasserpumpe	the cooling water pump
+die	Kühlwasserpumpe	the cooling water pump
 die	Geduld	the patience
 die	Ausdauer	the endurance
 die	Sprechstunde	the consultation hours
@@ -168,7 +167,7 @@ der	Planungsfehler	the planning error
 das	Wechselgeld	the change
 der	Obdachlose	the homeless
 die	Wohngemeinschaft	the shared apartment
-die	Kьste erreichen	reach the coast
+die	Küste	the coast
 der	Steuerzahler	the taxpayers
 die	Aufforderung	the prompt, the request
 die	Drohung	the threat
@@ -183,10 +182,10 @@ die	Allergie	the allergy
 der	Gewinne	the profit, win
 der	Verluste	the loss
 die	Theatervorstellung	the theatrical performance
-die	Rьckkehr	the return
-der	Fleiя	the diligence
+die	Rückkehr	the return
+der	Fleiß	the diligence
 die	Disziplin	the discipline
-die	Gehaltserhцhung	the salary boost
+die	Gehaltserhöhung	the salary boost
 die	Probleme halten an	the problems continue
 die	Entwicklungsabteilung	the development department
 die	Infrastruktur	the infrastructure
@@ -197,13 +196,13 @@ der	Richter	the judge
 der	Beschuldigte	the accused
 die	Dachwohnung	the attic apartment
 der	Rohstoffe	the raw material
-das	Prдsens	the present tense
+das	Präsens	the present tense
 das	Futur	the future tense
-die	Kьhltruhe	the freezer
-das	Vorstellungsgesprдch	job interview
-die	Verspдtung	the delay
+die	Kühltruhe	the freezer
+das	Vorstellungsgespräch	job interview
+die	Verspätung	the delay
 die	Stellenausschreibung	the vacancy
-der	Fьhrerschein	the driverТs license
+der	Führerschein	the driverТs license
 die	Autobahnmaut	the motorway tolls
 die	Fahrradkette	the bicycle chain
 der	Antrag	the application
@@ -220,14 +219,14 @@ die	Flucht	escape, flight
 die	Heimat	home country
 die	Kunst	art
 der	Leistungsunterricht	intensive course
-die	Broschьre	brochure
+die	Broschüre	brochure
 die	Wahrnehmung	perception
 die	Darstellung	display
 der	Schatten	shadow
 der	Kontraste	contrast
 der	Ausgleich	balance
 die	Bildbearbeitung	image processing
-die	Auflцsung	resolution
+die	Auflösung	resolution
 die	Gestaltung	design, layout
 die	Grundlage	basics
 der	Artikel	article
@@ -236,14 +235,14 @@ der	Zusammenhang	correlation
 die	Verarbeitung	prepapration
 der	Einsatz	use, usage
 der	Blickwinkel	perspective
-die	Geburtenrate fдllt	the birth rate drops
+die	Geburtenrate fällt	the birth rate drops
 das	Partnersuchportal	the dating site
-die	Hцchstgeschwindigkeit	the speed limit
+die	Höchstgeschwindigkeit	the speed limit
 das	Fallschirmspringen	the parachute jumping
 der	Moderator	the moderator
 der	Spielerkader	the player roster
 die	Meisterschaft	the championship
-der	Stьrmer	the striker
+der	Stürmer	the striker
 die	Tatsache	the fact
 der	Vereine	the club, the association
 der	Nachwuchsspier	the young player
@@ -266,7 +265,7 @@ die	Absprache	the agreement
 der	Fehltritt	the misstep
 der	Vertrag	the contract
 die	Verwaltung	the administration
-die	Beziehung (partner- schaftliches Verhдltnis)	the relationship
+die	Beziehung (partner- schaftliches Verhältnis)	the relationship
 der	Vorgang	the operation
 der	Gegensatz	the contrast
 das	Taschengeld	the pocket money
@@ -278,11 +277,11 @@ die	Werkstattn	the workshop
 die	Leistung	the performance
 der	Termin steht	the date is fix
 die	Sitzung	session
-die	Pubertдt	puberty
+die	Pubertät	puberty
 die	Sorge	sprrow
 dir Anschlusszug	connecting train
 die	gegebene Situation	the given situation
-das	Verhдltnis	the ratio
+das	Verhältnis	the ratio
 die	Belegschaft	the workforce
 der	Aggressor	the aggressor
 die	Belastung	the load
@@ -299,30 +298,30 @@ die	Voraussetzung	the condition
 die	Betreuung	the care
 die	Regeneration	the regeneration
 die	Bedingung	the condition
-die	Vermutung дuяern	venture a guess
+die	Vermutung äußern	venture a guess
 das	Verhalten	the behavior
 die	Rennstrecke	the race track
 der	Kirschbaum	the cherry tree
 die	Nacht durchmachen	pull an all-nighter
-die	Bevцlkerung	the population
+die	Bevölkerung	the population
 die	Ernte	the harvest
 die	Wirtschaft	the economy
-das	Gefдngnisse	the prison
+das	Gefängnisse	the prison
 der	Anwalt	the lawyer
 der	Makler	the broker
 die	Immobilie	the real estate
 die	Drohung	the threat
 die	Haushaltshilfe	the household help
 die	Kreuzung	the crossing
-der	Bьrgermeister	the mayor
-der	Gesprдchsanlass	the occasion for talking
+der	Bürgermeister	the mayor
+der	Gesprächsanlass	the occasion for talking
 der	Stadtrat	the city council
 die	Abschiedsrede	the farewell speech
 die	Autobahnanbindung	the freeway access
 der	Feinstaub	the fine dust
 der	Grenzwerte	the limit
-der	Grьngьrtel	the green belt
-der	Lдrm	the noise
+der	Grüngürtel	the green belt
+der	Lärm	the noise
 die	Belastung	the burden
 die	Hochschule	the college
 die	Geisteswissenschaften	the humanities
@@ -331,7 +330,7 @@ die	Feuerwehr	the fire brigade
 die	Neuausrichtung	the realignment
 die	Investition	the investment
 das	Wasserwerke	the waterworks
-die	Ringstraяe	the circular road
+die	Ringstraße	the circular road
 die	Neuausstattung	the new equipment
 das	Gewerbegebiete	the industrial area
 der	Hafen	the port
@@ -340,7 +339,7 @@ der	Schmutzpartikel	the dirt particles
 die	Niederlassung	the branch
 die	Zweigstelle	the branch
 das	Gewerbe	the industry
-der	Bьrger	the citizen
+der	Bürger	the citizen
 die	Regierung	the government
 der	Zustand	the state
 die	Handlung	the action
@@ -348,15 +347,15 @@ der	Zwecke	the purpose
 die	DNA	the DNA
 die	Spur	the track
 die	Analyse	the analysis
-der	Mцrder	the murderer
+der	Mörder	the murderer
 der	Einbrecher	the burglar
 der	Beweise	the proof
 der	Weizen	the wheat
-die	Bьroeinrichtung	the office equipment
+die	Büroeinrichtung	the office equipment
 den Inhalt wiedergeben	describe the content
-der	ьberwiegende Teil	the vast majority
+der	Überwiegende Teil	the vast majority
 der	Indikativ	the indicative
-die	Wдhrungskrise	the currency crisis
+die	Währungskrise	the currency crisis
 die	Steuerlast tragen	burden the tax load
 die	Rettung	the rescue
 der	Richter	the judge
@@ -364,11 +363,11 @@ das	Urteile	the ruling
 die	Geburtenrate	the birth rate
 die	Elternschaft	the parenthood
 der	Wohlstand	the prosperity
-die	Unterstьtzung	the support
+die	Unterstützung	the support
 der	Antrag	the application
 der	Rettungswagen	the ambulance
 das	Erdbeben	the earthquake
-das	Gefдngnisse	the prison
+das	Gefängnis	the prison
 die	Haftstrafe	the prison sentence
 die	Sucht	the addiction
 der	Aufwand	the effort
@@ -379,19 +378,19 @@ der	Zusatz	the addition
 das	Gesetze	the law
 der	Eindruck	the impression
 die	Gegenwart	the present
-der	Rьckgang	decline, reduction
+der	Rückgang	decline, reduction
 die	Spitze	pole position
 das	Schlusslicht	to be bottom of the table
 die	Zunahme	increase
 der	Anteil	share, portion
 die	Bedienungsanleitung	the operating instructions
 der	Finanzvorstand	the finance executive committee
-die	Prдsentation erstellen	create a presentation
+die	Präsentation presentation
 die	Unterseite	the bottom
-der	÷ltanks	the oil tank
+der	Öltanks	the oil tank
 der	Tresor	the safe
-der	Rдuber	the robber
-der	Tдter	the perpetrator
+der	Räuber	the robber
+der	Täter	the perpetrator
 das	Diebesgut	the stolen goods
 der	Abnehmer	the customer
 der	Zeuge	the witness
@@ -424,32 +423,32 @@ der	Angeklagte	the defendant
 die	Kooperation	the cooperation
 der	Regierungssprecher	the government spokesman
 die	Mitteilung	the report
-die	Schцntuerei	flattery
+die	Schöntuerei	flattery
 der	Vorwurf	accusation
 die	Waffe	weapon
 der	Patzer	goof, blunder
 der	Bitterstoffe	bitter principle
 der	Misserfolge	the failure
 der	Aufschub	the delay
-das	Prдsidentenamt	the presidential office
-die	Auffьhrung	the performance
+das	Präsidentenamt	the presidential office
+die	Aufführung	the performance
 die	Kundenakquise	the customer acquisition
-der	Flьchtlinge	the fugitive
+der	Flüchtlinge	the fugitive
 das	Notwendigste	the essentials
 der	Kontrollanrufe	the control call
 der	Passant	the passer-by
-der	Kдlteeinbruch	the cold snap
+der	Kälteeinbruch	the cold snap
 der	Einbruch	the burglary
 die	Schlagfertigkeit	the repartee
 der	Gesundheitszustand	the state of health
-das	Gerьchte	the rumor
+das	Gerüchte	the rumor
 der	Forscher	the researcher
 die	Drohung	the threat
 die	Konkurrenz	the competition
-der	Straftдter	the offender
+der	Straftäter	the offender
 der	Winterreifen	the winter tires
 die	Meckerei	the nagging
-das	Vermцgen	the assets
+das	Vermögen	the assets
 der	Vertriebsleiter	the sales director
 das	Umfeld	the environment
 der	Vertragsinhalte	the subject terms of contract
@@ -467,11 +466,11 @@ die	Ausstattung	equipment
 die	Bewilligung	permission
 die	Biogasanlage	biogas plant
 die	Funktionsweise	function, method
-die	Gьlle	manure
+die	Gülle	manure
 der	Mist	waste
 der	Kompost	compost
 der	Vorgang	procedure
-der	Nдhrstoffe	nutrients
+der	Nährstoffe	nutrients
 die	Biomasse	biomass
 die	Grube	pit
 die	Fermentierung	fermentation
@@ -481,7 +480,7 @@ das	Stromkraftwerk	electrical power plant
 der	Gemeinderat	city council
 der	Zugang	access
 die	Haube	cover
-die	Vergдrung	fermentation
+die	Vergärung	fermentation
 die	Stromleistung	electrical power plant
 die	Weltgemeinschaft	international community
 das	Korallenriffe	coral reef
@@ -491,7 +490,7 @@ die	Ursache ausmachen	to find the cause
 die	Alge	algae
 die	Spur	trace
 die	Infektion	infection
-die	Bewдhrungsprobe	practical test
+die	Bewährungsprobe	practical test
 der	Schadstoffe	contaminant, toxin
 der	Bestand	population, stock
 die	Richtlinie	regulation, stipulation
