@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
@@ -20,6 +21,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.app.ActivityManager;
 
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -33,11 +35,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.BufferedInputStream;
-import java.net.URI;
-import java.net.URL;
-import java.net.URLConnection;
 
 /**
  * Created by ripka on 9/28/16.
@@ -89,6 +86,10 @@ public class NavActivity extends AppCompatActivity
         if (!setLoggedUser()) {
             callLoginActivity();
         }
+        Bitmap recentsIcon = BitmapFactory.decodeResource(res, R.mipmap.ic_launcher);
+        int colorPrimary = res.getColor(R.color.colorWhite);
+        ActivityManager.TaskDescription description = new ActivityManager.TaskDescription(null, recentsIcon, colorPrimary);
+        this.setTaskDescription(description);
     }
     @Override
     protected void onResume() {
