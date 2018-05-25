@@ -31,7 +31,7 @@
                 android:title="Grammatik" />
         </menu>
     </item>
-    <item android:title="Stufe A2" >
+    <item android:title="Stufe A2">
         <menu>
             <item
                 android:id="@+id/nav_nouns_a2"
@@ -47,7 +47,7 @@
                 android:title="Grammatik" />
         </menu>
     </item>
-    <item android:title="Stufe B1" >
+    <item android:title="Stufe B1">
         <menu>
             <item
                 android:id="@+id/nav_nouns_b1"
@@ -55,7 +55,7 @@
                 android:title="Nomen" />
         </menu>
     </item>
-    <item android:title="Stufe B2" >
+    <item android:title="Stufe B2">
         <menu>
             <item
                 android:id="@+id/nav_nouns_b2"
