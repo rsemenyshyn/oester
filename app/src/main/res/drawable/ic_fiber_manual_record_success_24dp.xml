@@ -2,8 +2,8 @@
 android:alpha="0.8"
 android:width="48dp"
 android:height="48dp"
-    android:viewportWidth="20.0"
-    android:viewportHeight="20.0">
+    android:viewportWidth="22.0"
+    android:viewportHeight="22.0">
 <group
     android:scaleX="0.3"
     android:scaleY="0.3"

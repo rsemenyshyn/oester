@@ -87,7 +87,7 @@ public class NavActivity extends AppCompatActivity
             callLoginActivity();
         }
         Bitmap recentsIcon = BitmapFactory.decodeResource(res, R.mipmap.ic_launcher);
-        int colorPrimary = res.getColor(R.color.colorWhite);
+        int colorPrimary = res.getColor(R.color.colorPrimary);
         ActivityManager.TaskDescription description = new ActivityManager.TaskDescription(null, recentsIcon, colorPrimary);
         this.setTaskDescription(description);
     }
