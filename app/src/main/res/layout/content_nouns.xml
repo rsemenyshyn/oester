@@ -105,6 +105,22 @@
             android:layout_gravity="center"
             android:indeterminateDrawable="@drawable/progress"
             android:id="@+id/progress" />
+        <TextView
+            android:id="@+id/progress_blur_left"
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="100dp"
+            android:background="#CCFFFFFF"
+            android:text=""/>
+        <TextView
+            android:id="@+id/progress_blur_right"
+            android:layout_width="20dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="100dp"
+            android:background="#CCFFFFFF"
+            android:text=""/>
 
         <TextView
             android:id="@+id/word_of_test"
