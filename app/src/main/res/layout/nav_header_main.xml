@@ -44,11 +44,11 @@
                 android:id="@+id/user_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/user_name"
                 android:text="semenyshyn.r@gmail.com" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/user_email"
                 android:text="@string/pref_default_display_name"
                 android:id="@+id/user_name"
                 android:textStyle="bold"
