@@ -17,6 +17,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -26,12 +27,17 @@ import android.util.Log;
 
 import com.facebook.login.LoginManager;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
+import com.squareup.picasso.Picasso;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.BufferedInputStream;
+import java.net.URI;
+import java.net.URL;
+import java.net.URLConnection;
 
 /**
  * Created by ripka on 9/28/16.
@@ -43,7 +49,6 @@ public class NavActivity extends AppCompatActivity
     protected Integer VIEW_NOUNS = 0;
     protected Integer VIEW_VERBS = 1;
     protected Integer VIEW_GRAMM = 2;
-    protected NavActivity mInstanceNavActivity = null;
     protected ProgressBar mProgressMain;
 
     @Override
@@ -105,6 +110,17 @@ public class NavActivity extends AppCompatActivity
                 String userEmail = shPref.getString(getString(R.string.contact_email), "");
                 txtUserEmail.setText(userEmail);
             }
+            ImageView imgUserPhoto = (ImageView) header.findViewById(R.id.image_user);
+            if (imgUserPhoto != null) {
+                //imgUserPhoto.setVisibility(View.INVISIBLE);
+                String photoSetting = shPref.getString(getString(R.string.user_photo), "");
+                String demoLink = "https://www.xing.com/assets/frontend_minified/img/users/nobody_m.256x256.jpg";
+                String photo = photoSetting.isEmpty() ? demoLink : photoSetting;
+                if (!photo.isEmpty()) {
+                    Picasso.with(this).load(photo).into(imgUserPhoto);
+                    imgUserPhoto.setVisibility(View.VISIBLE);
+                }
+            }
         }
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         Boolean enableFab = shPref.getBoolean(getString(R.string.email_switcher), false);
@@ -117,8 +133,10 @@ public class NavActivity extends AppCompatActivity
         boolean isLoggedUser = (auth.getCurrentUser() != null) || (fb_login != null);
         if (auth.getCurrentUser() != null) {
             isLoggedUser = true;
+            Uri userPhoto = auth.getCurrentUser().getPhotoUrl();
             String userEmail = auth.getCurrentUser().getEmail();
             String userName = auth.getCurrentUser().getDisplayName();
+            String userPicture = (userPhoto == null || userPhoto.getPath() == null) ? "" : userPhoto.toString();
             if (userName == null || userName.isEmpty()) {
                 String[] parts = userEmail.split("@");
                 userName = parts[0].trim();
@@ -128,6 +146,7 @@ public class NavActivity extends AppCompatActivity
             SharedPreferences.Editor editor = shPref.edit();
             editor.putString(getString(R.string.display_name), userName);
             editor.putString(getString(R.string.contact_email), userEmail);
+            editor.putString(getString(R.string.user_photo), userPicture);
             editor.apply();
         }
         return isLoggedUser;

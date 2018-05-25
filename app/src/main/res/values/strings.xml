@@ -11,6 +11,7 @@
     <!-- Strings related to preferences -->
     <string name="display_name"><xliff:g id="preferance_key">display_name</xliff:g></string>
     <string name="contact_email"><xliff:g id="preferance_key">contact_email</xliff:g></string>
+    <string name="user_photo"><xliff:g id="preferance_key">user_photo</xliff:g></string>
     <string name="email_switcher"><xliff:g id="preferance_key">email_switcher</xliff:g></string>
     <string name="nouns_plural"><xliff:g id="preferance_key">nouns_plural</xliff:g></string>
 
