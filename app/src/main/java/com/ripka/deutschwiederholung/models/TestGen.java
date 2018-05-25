@@ -30,7 +30,10 @@ public class TestGen {
             int index = rand.nextInt(words.size());
 
             List<String> record = words.get(index);
-            int articleNo = rand.nextInt(record.size() - 2);
+            int articleNo = 0;//rand.nextInt(record.size() - 2);
+            if (record.size() < 3) {
+                continue;
+            }
             /* OLD WAY TO GET TEST CHOISES
             List<String> acticles = new ArrayList<String>();
             for (int i=0; i<words.size(); i++) {
