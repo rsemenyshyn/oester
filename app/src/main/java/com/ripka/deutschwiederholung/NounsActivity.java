@@ -180,6 +180,7 @@ public class NounsActivity extends NavActivity {
             txtWord.setPadding(0,0,0,0);
             ivVectorImage.setImageResource(R.mipmap.ic_translate);
         }
+        setProggressBarBlur();
     }
     public void onEasyToggle(View view) {
         if (!isEasyMode) {
@@ -298,16 +299,31 @@ public class NounsActivity extends NavActivity {
                 option.setTextColor( this.getResources().getColor(R.color.colorBlackLight));
             }
         }
-
         TextView txtWordCurrent = (TextView) findViewById(R.id.word_of_test);
         TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
-
         txtWordCurrent.setText( test.getWord() );
         txtWordTranslation.setText( test.getTranslation() );
-
+        setProggressBarBlur();
         isTimeOut = false;
-
         startProgresBar();
+    }
+
+    protected void setProggressBarBlur() {
+        TextView txtWordCurrent = (TextView) findViewById(R.id.word_of_test);
+        TextView txtWordTranslation = (TextView)findViewById(R.id.word_translate);
+        txtWordCurrent.measure(0,0);
+        txtWordTranslation.measure(0,0);
+        int widthWord = txtWordCurrent.getMeasuredWidth();
+        int widthTranslate = txtWordTranslation.getMeasuredWidth();
+        int width = (txtWordTranslation.getVisibility() != View.VISIBLE) ? widthWord : Math.max(widthWord, widthTranslate);
+        TextView txtBlurLeft = (TextView) findViewById(R.id.progress_blur_left);
+        TextView txtBlurRight = (TextView) findViewById(R.id.progress_blur_right);
+        txtBlurLeft.setVisibility(View.INVISIBLE);
+        txtBlurRight.setVisibility(View.INVISIBLE);
+        if(width > 375 ) { //simply found param of 375 by checking
+            txtBlurLeft.setVisibility(View.VISIBLE);
+            txtBlurRight.setVisibility(View.VISIBLE);
+        }
     }
 
     protected void stopProgressBar() {
