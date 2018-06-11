@@ -122,6 +122,9 @@ public class NounsActivity extends NavActivity {
         afterCreate( savedInstanceState != null );
     }
     protected void afterCreate(boolean isRestored) {
+        TextView txtTitle = (TextView) findViewById(R.id.name_activity);
+        txtTitle.setText( getResources().getString(R.string.title_activity_nouns_all) );
+
         List<Integer> filesToParse = new ArrayList<>(
             Arrays.asList(R.raw.nouns_a1)
         );

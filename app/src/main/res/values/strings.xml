@@ -19,13 +19,16 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="action_search">Suche</string>
     <string name="title_activity_login">Sign in</string>
-    <string name="title_activity_nouns_all">Nomen</string>
+    <string name="title_activity_nouns">Nomen</string>
+    <string name="title_activity_nouns_all">Alle Nomen</string>
     <string name="title_activity_nouns_a1">Nomen A1</string>
     <string name="title_activity_nouns_a2">Nomen A2</string>
     <string name="title_activity_nouns_b1">Nomen B1</string>
     <string name="title_activity_nouns_b2">Nomen B2</string>
-    <string name="title_activity_verbs_all">Verben</string>
+    <string name="title_activity_verbs">Verben</string>
+    <string name="title_activity_verbs_all">Alle Verben</string>
     <string name="title_activity_grammatik">Grammatik</string>
 
     <string name="btn_ok">OK</string>
@@ -56,6 +59,7 @@
     <string name="error_auth_failed">Oops, something is wrong with login.</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
     <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_search">Search</string>
     <string name="title_activity_logout">Log out</string>
     <string name="action_facebook">FACEBOOK</string>
     <string name="action_google">GOOGLE</string>
