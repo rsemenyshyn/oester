@@ -18,6 +18,7 @@
         <include layout="@layout/content_nouns" />
         <include layout="@layout/content_verbs" />
         <include layout="@layout/content_grammatik" />
+        <include layout="@layout/content_search" />
 
     </ViewFlipper>
 
