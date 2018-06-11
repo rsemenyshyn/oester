@@ -3,64 +3,76 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_nouns_all"
-            android:icon="@mipmap/ic_empty"
-            android:title="Alle nomen"/>
-        <item
-            android:id="@+id/nav_verbs_all"
-            android:icon="@mipmap/ic_empty"
-            android:title="Alle verben" />
-        <item
-            android:id="@+id/nav_nouns_custom"
-            android:icon="@mipmap/ic_empty"
-            android:title="Starke Verben" />
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_round_search_primary_24px"
+            android:title="@string/title_activity_search"/>
     </group>
-    <item android:title="Stufe A1">
-        <menu>
-            <item
-                android:id="@+id/nav_nouns_a1"
-                android:icon="@drawable/ic_fiber_manual_record_primary_24dp"
-                android:title="Nomen" />
-            <item
-                android:id="@+id/nav_verbs_a1"
-                android:icon="@drawable/ic_fiber_manual_record_primary_24dp"
-                android:title="Verben" />
-            <item
-                android:id="@+id/nav_grammar_a1"
-                android:icon="@drawable/ic_fiber_manual_record_primary_24dp"
-                android:title="Grammatik" />
-        </menu>
-    </item>
-    <item android:title="Stufe A2">
-        <menu>
-            <item
-                android:id="@+id/nav_nouns_a2"
-                android:icon="@drawable/ic_fiber_manual_record_success_24dp"
-                android:title="Nomen" />
-            <item
-                android:id="@+id/nav_verbs_a2"
-                android:icon="@drawable/ic_fiber_manual_record_success_24dp"
-                android:title="Verben" />
-            <item
-                android:id="@+id/nav_grammar_a2"
-                android:icon="@drawable/ic_fiber_manual_record_success_24dp"
-                android:title="Grammatik" />
-        </menu>
-    </item>
-    <item android:title="Stufe B1">
-        <menu>
-            <item
-                android:id="@+id/nav_nouns_b1"
-                android:icon="@drawable/ic_fiber_manual_record_warning_24dp"
-                android:title="Nomen" />
-        </menu>
-    </item>
-    <item android:title="Stufe B2">
-        <menu>
-            <item
-                android:id="@+id/nav_nouns_b2"
-                android:icon="@drawable/ic_fiber_manual_record_warning_24dp"
-                android:title="Nomen" />
-        </menu>
-    </item>
+    <group android:checkableBehavior="single">
+        <item android:title="Wiederholung">
+            <menu>
+                <item
+                    android:id="@+id/nav_nouns_all"
+                    android:icon="@mipmap/ic_empty"
+                    android:title="@string/title_activity_nouns_all"/>
+                <item
+                    android:id="@+id/nav_verbs_all"
+                    android:icon="@mipmap/ic_empty"
+                    android:title="@string/title_activity_verbs_all" />
+                <item
+                    android:id="@+id/nav_nouns_custom"
+                    android:icon="@mipmap/ic_empty"
+                    android:title="Starke Verben" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Stufe A1">
+            <menu>
+                <item
+                    android:id="@+id/nav_nouns_a1"
+                    android:icon="@drawable/ic_fiber_manual_record_primary_24dp"
+                    android:title="@string/title_activity_nouns" />
+                <item
+                    android:id="@+id/nav_verbs_a1"
+                    android:icon="@drawable/ic_fiber_manual_record_primary_24dp"
+                    android:title="@string/title_activity_verbs" />
+                <item
+                    android:id="@+id/nav_grammar_a1"
+                    android:icon="@drawable/ic_fiber_manual_record_primary_24dp"
+                    android:title="Grammatik" />
+            </menu>
+        </item>
+        <item android:title="Stufe A2">
+            <menu>
+                <item
+                    android:id="@+id/nav_nouns_a2"
+                    android:icon="@drawable/ic_fiber_manual_record_success_24dp"
+                    android:title="@string/title_activity_nouns" />
+                <item
+                    android:id="@+id/nav_verbs_a2"
+                    android:icon="@drawable/ic_fiber_manual_record_success_24dp"
+                    android:title="@string/title_activity_verbs" />
+                <item
+                    android:id="@+id/nav_grammar_a2"
+                    android:icon="@drawable/ic_fiber_manual_record_success_24dp"
+                    android:title="Grammatik" />
+            </menu>
+        </item>
+        <item android:title="Stufe B1">
+            <menu>
+                <item
+                    android:id="@+id/nav_nouns_b1"
+                    android:icon="@drawable/ic_fiber_manual_record_warning_24dp"
+                    android:title="@string/title_activity_nouns" />
+            </menu>
+        </item>
+        <item android:title="Stufe B2">
+            <menu>
+                <item
+                    android:id="@+id/nav_nouns_b2"
+                    android:icon="@drawable/ic_fiber_manual_record_warning_24dp"
+                    android:title="@string/title_activity_nouns" />
+            </menu>
+        </item>
+    </group>
 </menu>

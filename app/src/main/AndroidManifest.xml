@@ -69,6 +69,10 @@
             android:name="com.ripka.deutschwiederholung.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.ripka.deutschwiederholung.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- facebook -->
         <activity
