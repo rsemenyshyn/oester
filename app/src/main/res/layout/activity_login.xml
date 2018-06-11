@@ -66,6 +66,7 @@
                     android:fontFamily="sans-serif-light"/>
 
                 <android.support.design.widget.TextInputLayout
+                    android:theme="@style/EditTextHint"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -82,6 +83,7 @@
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
+                    android:theme="@style/EditTextHint"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -96,9 +98,6 @@
                         android:inputType="textPassword"
                         android:textColor="@color/colorWhite"
                         android:maxLines="1"
-                        android:backgroundTint="@color/colorWhite"
-                        android:textColorHint="@color/colorWhite"
-                        android:drawableTint="@color/colorWhite"
                         android:paddingTop="25dp" />
 
                 </android.support.design.widget.TextInputLayout>
