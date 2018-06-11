@@ -2,10 +2,12 @@ package com.ripka.deutschwiederholung;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.graphics.Typeface;
 import android.annotation.TargetApi;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -13,7 +15,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
 import android.widget.AutoCompleteTextView;
@@ -75,7 +76,7 @@ public class LoginActivity extends AppCompatActivity implements
     private View mProgressView;
     private View mLoginFormView;
     private View mLoginSocialView;
-    private LoginButton mLacebookButtonLogin;
+    private LoginButton mFacebookButtonLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -123,9 +124,9 @@ public class LoginActivity extends AppCompatActivity implements
     // Firebase login Facebook
         mCallbackManager = CallbackManager.Factory.create();
         Button facebookButton = (Button)findViewById(R.id.facebook_btn) ;
-        mLacebookButtonLogin = new LoginButton( facebookButton.getContext() );
-        mLacebookButtonLogin.setReadPermissions("email", "public_profile");
-        mLacebookButtonLogin.registerCallback(mCallbackManager, new FacebookCallback<LoginResult>() {
+        mFacebookButtonLogin = new LoginButton( facebookButton.getContext() );
+        mFacebookButtonLogin.setReadPermissions("email", "public_profile");
+        mFacebookButtonLogin.registerCallback(mCallbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 Log.d(TAG, "facebook:onSuccess" + loginResult);
@@ -155,12 +156,26 @@ public class LoginActivity extends AppCompatActivity implements
                 .enableAutoManage(this, this)
                 .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
                 .build();
+
+    // Set text Font
+        Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/Montserrat-Light.ttf");
+        Button googleButton = (Button)findViewById(R.id.google_btn) ;
+        Button submitButton = (Button)findViewById(R.id.email_sign_in_button) ;
+        Button resetButton = (Button)findViewById(R.id.reset_pass_button) ;
+        mEmailView.setTypeface(typeface);
+        mPasswordView.setTypeface(typeface);
+        ((TextInputLayout) findViewById(R.id.password_text_input)).setTypeface(typeface);
+        ((TextInputLayout) findViewById(R.id.email_text_input)).setTypeface(typeface);
+        facebookButton.setTypeface(typeface);
+        googleButton.setTypeface(typeface);
+        submitButton.setTypeface(typeface);
+        resetButton.setTypeface(typeface);
     }
 
 // calls for Sign-In with social services
     public void facebookClick(View view) {
         showProgress(true);
-        mLacebookButtonLogin.callOnClick();
+        mFacebookButtonLogin.callOnClick();
     }
 
     public void googleClick(View view) {
