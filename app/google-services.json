@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "898206023130",
+    "firebase_url": "https://oester-901de.firebaseio.com",
+    "project_id": "oester-901de",
+    "storage_bucket": "oester-901de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898206023130:android:dc786b85ed55e1ec",
+        "android_client_info": {
+          "package_name": "com.ripka.deutschwiederholung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898206023130-8tqphplvbghd9ff7paqb8gt3v58l8s9q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ripka.deutschwiederholung",
+            "certificate_hash": "8498bebe586785eca0ffca1bf788b6b735d1b8d7"
+          }
+        },
+        {
+          "client_id": "898206023130-1f6q8npcjd8ggk0n0ccsko8t88eqkuq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTSuEpsGNeWBpYxnM-3Ipxli-b5J695dM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898206023130-1f6q8npcjd8ggk0n0ccsko8t88eqkuq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
