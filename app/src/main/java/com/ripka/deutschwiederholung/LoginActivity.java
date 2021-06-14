@@ -6,9 +6,9 @@ import android.graphics.Typeface;
 import android.annotation.TargetApi;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
-import android.support.design.widget.TextInputLayout;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.textfield.TextInputLayout;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -513,7 +513,12 @@ public class LoginActivity extends AppCompatActivity implements
 
         @Override
         protected Boolean doInBackground(Void... params) {
-            signInWithEmail(mEmail, mPassword);
+            try {
+                signInWithEmail(mEmail, mPassword);
+            } catch (Exception e) {
+                mSignInRunning = false;
+                Log.w(TAG, "doInBackground|signInWithEmail:failed", e);
+            }
             while (mSignInRunning) {
                 try {
                     Thread.sleep(500);
@@ -543,8 +548,8 @@ public class LoginActivity extends AppCompatActivity implements
                 Intent intent = new Intent(RipkaApp.getAppContext(), NounsActivity.class);
                 startActivity(intent);
             } else {
-                mPasswordView.setError(getString(R.string.error_incorrect_password));
                 mPasswordView.requestFocus();
+                mPasswordView.setError(getText(R.string.error_incorrect_password));
             }
         }
 
