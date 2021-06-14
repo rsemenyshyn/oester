@@ -55,9 +55,7 @@ captures/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-google-services.json
-<<<<<<< HEAD
 
+# files of config
+google-services.json
 cloud_messaging.conf
-=======
->>>>>>> BitBucket
